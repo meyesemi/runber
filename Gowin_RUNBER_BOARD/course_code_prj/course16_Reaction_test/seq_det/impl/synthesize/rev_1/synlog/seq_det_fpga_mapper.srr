@@ -1,0 +1,544 @@
+# Fri Jul 10 11:33:23 2020
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys Generic Technology Mapper, Version mapgw, Build 1450R, Built Sep 25 2019 09:35:08
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 136MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 136MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 137MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 150MB peak: 152MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 232MB peak: 232MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@W: FA239 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_control.v":57:1:57:4|ROM seq_control_3.smg_1[7:0] (in view: work.seq_display(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_control.v":57:1:57:4|ROM seq_control_2.smg_1[7:0] (in view: work.seq_display(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_control.v":57:1:57:4|ROM seq_control_1.smg_1[7:0] (in view: work.seq_display(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_control.v":57:1:57:4|ROM seq_control_0.smg_1[7:0] (in view: work.seq_display(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_control.v":57:1:57:4|ROM seq_control_3.smg_1[7:0] (in view: work.seq_display(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_control.v":57:1:57:4|Found ROM seq_control_3.smg_1[7:0] (in view: work.seq_display(verilog)) with 11 words by 8 bits.
+@W: FA239 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_control.v":57:1:57:4|ROM seq_control_2.smg_1[7:0] (in view: work.seq_display(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_control.v":57:1:57:4|Found ROM seq_control_2.smg_1[7:0] (in view: work.seq_display(verilog)) with 11 words by 8 bits.
+@W: FA239 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_control.v":57:1:57:4|ROM seq_control_1.smg_1[7:0] (in view: work.seq_display(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_control.v":57:1:57:4|Found ROM seq_control_1.smg_1[7:0] (in view: work.seq_display(verilog)) with 11 words by 8 bits.
+@W: FA239 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_control.v":57:1:57:4|ROM seq_control_0.smg_1[7:0] (in view: work.seq_display(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_control.v":57:1:57:4|Found ROM seq_control_0.smg_1[7:0] (in view: work.seq_display(verilog)) with 11 words by 8 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 236MB peak: 236MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 237MB peak: 237MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 241MB peak: 241MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 241MB peak: 241MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 242MB peak: 242MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 242MB peak: 242MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 242MB peak: 242MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 242MB peak: 242MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 243MB peak: 243MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     2.73ns		 292 /       170
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 243MB peak: 243MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to output port. Because it's a pure output port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+@W:|Converting bidirection inout port to inpure port. Because it's a pure input port
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 243MB peak: 243MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 169MB peak: 243MB)
+
+Writing Analyst data base J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\synwork\seq_det_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 243MB peak: 243MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:04s; Memory used current: 244MB peak: 244MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@A: BN540 |No min timing constraints supplied; adding min timing constraints
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 244MB peak: 244MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 242MB peak: 244MB)
+
+@W: MT420 |Found inferred clock lock_top|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+@N: MT615 |Found clock div_clk|flag_derived_clock with period 10.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri Jul 10 11:33:28 2020
+#
+
+
+Top view:               lock_top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.295
+
+                               Requested     Estimated     Requested     Estimated                Clock                           Clock                
+Starting Clock                 Frequency     Frequency     Period        Period        Slack      Type                            Group                
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+div_clk|flag_derived_clock     100.0 MHz     169.2 MHz     10.000        5.911         16.154     derived (from lock_top|clk)     Autoconstr_clkgroup_0
+lock_top|clk                   100.0 MHz     103.0 MHz     10.000        9.705         0.295      inferred                        Autoconstr_clkgroup_0
+System                         100.0 MHz     866.6 MHz     10.000        1.154         8.846      system                          system_clkgroup      
+=======================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Starting                    Ending                      |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------
+System                      lock_top|clk                |  10.000      8.846   |  No paths    -      |  No paths    -      |  No paths    -    
+System                      div_clk|flag_derived_clock  |  10.000      8.846   |  No paths    -      |  No paths    -      |  No paths    -    
+lock_top|clk                System                      |  10.000      8.612   |  No paths    -      |  No paths    -      |  No paths    -    
+lock_top|clk                lock_top|clk                |  10.000      0.295   |  No paths    -      |  No paths    -      |  No paths    -    
+lock_top|clk                div_clk|flag_derived_clock  |  10.000      4.089   |  No paths    -      |  No paths    -      |  No paths    -    
+div_clk|flag_derived_clock  System                      |  10.000      8.490   |  No paths    -      |  No paths    -      |  No paths    -    
+div_clk|flag_derived_clock  div_clk|flag_derived_clock  |  10.000      16.154  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: div_clk|flag_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                   Arrival          
+Instance               Reference                      Type     Pin     Net        Time        Slack
+                       Clock                                                                       
+---------------------------------------------------------------------------------------------------
+seq_display.sel[1]     div_clk|flag_derived_clock     DFFE     Q       sel[1]     0.367       8.490
+seq_display.sel[0]     div_clk|flag_derived_clock     DFF      Q       CO0        0.367       8.551
+===================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                     Required           
+Instance                   Reference                      Type     Pin     Net          Time         Slack 
+                           Clock                                                                           
+-----------------------------------------------------------------------------------------------------------
+seq_display.SUM[1]         div_clk|flag_derived_clock     INV      I       sel[1]       10.000       8.490 
+seq_display.sel_l[1]       div_clk|flag_derived_clock     INV      I       sel[1]       10.000       8.490 
+seq_display.sel_l_0[1]     div_clk|flag_derived_clock     INV      I       sel[1]       10.000       8.490 
+seq_display.CO0_i          div_clk|flag_derived_clock     INV      I       CO0          10.000       8.551 
+seq_display.smg[2]         div_clk|flag_derived_clock     DFF      D       smg_6[2]     19.867       16.154
+seq_display.smg[0]         div_clk|flag_derived_clock     DFF      D       smg_6[0]     19.867       16.364
+seq_display.smg[1]         div_clk|flag_derived_clock     DFF      D       smg_6[1]     19.867       16.364
+seq_display.smg[7]         div_clk|flag_derived_clock     DFF      D       smg_6[7]     19.867       16.364
+seq_display.smg[3]         div_clk|flag_derived_clock     DFF      D       smg_6[3]     19.867       16.687
+seq_display.smg[4]         div_clk|flag_derived_clock     DFF      D       smg_6[4]     19.867       16.687
+===========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      1.510
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.490
+
+    Number of logic level(s):                0
+    Starting point:                          seq_display.sel[1] / Q
+    Ending point:                            seq_display.SUM[1] / I
+    The start point is clocked by            div_clk|flag_derived_clock [rising] on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name                   Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+seq_display.sel[1]     DFFE     Q        Out     0.367     0.367       -         
+sel[1]                 Net      -        -       1.143     -           21        
+seq_display.SUM[1]     INV      I        In      -         1.510       -         
+=================================================================================
+Total path delay (propagation time + setup) of 1.510 is 0.367(24.3%) logic and 1.143(75.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: lock_top|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                            Starting                                               Arrival          
+Instance                    Reference        Type      Pin     Net                 Time        Slack
+                            Clock                                                                   
+----------------------------------------------------------------------------------------------------
+compare.time_ms_cnt[9]      lock_top|clk     DFFR      Q       time_ms_cnt[9]      0.367       0.295
+compare.time_ms_cnt[7]      lock_top|clk     DFFR      Q       time_ms_cnt[7]      0.367       0.362
+compare.time_ms_cnt[1]      lock_top|clk     DFFR      Q       time_ms_cnt[1]      0.367       0.701
+compare.time_ms_cnt[0]      lock_top|clk     DFFR      Q       time_ms_cnt[0]      0.367       0.768
+compare.time_ms_cnt[2]      lock_top|clk     DFFR      Q       time_ms_cnt[2]      0.367       0.978
+compare.time_ms_cnt[3]      lock_top|clk     DFFR      Q       time_ms_cnt[3]      0.367       1.174
+led_ctl.time_1s_cnt[10]     lock_top|clk     DFF       Q       time_1s_cnt[10]     0.367       1.214
+compare.flow                lock_top|clk     DFFRE     Q       flow                0.367       1.236
+led_ctl.time_1s_cnt[7]      lock_top|clk     DFF       Q       time_1s_cnt[7]      0.367       1.281
+led_ctl.time_1s_cnt[8]      lock_top|clk     DFF       Q       time_1s_cnt[8]      0.367       1.281
+====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                            Starting                                        Required          
+Instance                    Reference        Type      Pin     Net          Time         Slack
+                            Clock                                                             
+----------------------------------------------------------------------------------------------
+compare.single.dec[0]       lock_top|clk     DFFR      D       dec_4[0]     9.867        0.295
+led_ctl.second_cnt[1]       lock_top|clk     DFFRE     D       N_18_0       9.867        1.214
+compare.hundred.dec[2]      lock_top|clk     DFFR      D       dec_4[2]     9.867        1.236
+compare.single.dec[1]       lock_top|clk     DFFR      D       dec_4[1]     9.867        1.409
+compare.time_ms_cnt[5]      lock_top|clk     DFFR      D       N_24_0       9.867        1.409
+compare.time_ms_cnt[6]      lock_top|clk     DFFR      D       N_26_0       9.867        1.409
+compare.time_ms_cnt[7]      lock_top|clk     DFFR      D       N_28_0       9.867        1.409
+compare.time_ms_cnt[9]      lock_top|clk     DFFR      D       N_32_0       9.867        1.409
+compare.time_ms_cnt[10]     lock_top|clk     DFFR      D       N_34_0       9.867        1.409
+compare.time_ms_cnt[11]     lock_top|clk     DFFR      D       N_36_0       9.867        1.409
+==============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.867
+
+    - Propagation time:                      9.572
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.295
+
+    Number of logic level(s):                5
+    Starting point:                          compare.time_ms_cnt[9] / Q
+    Ending point:                            compare.single.dec[0] / D
+    The start point is clocked by            lock_top|clk [rising] on pin CLK
+    The end   point is clocked by            lock_top|clk [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                           Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+compare.time_ms_cnt[9]         DFFR     Q        Out     0.367     0.367       -         
+time_ms_cnt[9]                 Net      -        -       1.021     -           2         
+compare.single.carryc_12_0     LUT2     I1       In      -         1.388       -         
+compare.single.carryc_12_0     LUT2     F        Out     1.099     2.487       -         
+carryc_12_0                    Net      -        -       0.766     -           1         
+compare.single.carryc_0        LUT4     I0       In      -         3.253       -         
+compare.single.carryc_0        LUT4     F        Out     1.032     4.285       -         
+un2_dec_sigle_trg_0            Net      -        -       1.021     -           3         
+compare.un2_dec_sigle_trg      LUT3     I0       In      -         5.306       -         
+compare.un2_dec_sigle_trg      LUT3     F        Out     1.032     6.338       -         
+un2_dec_sigle_trg              Net      -        -       1.021     -           10        
+compare.single.dec_4_1[0]      LUT4     I3       In      -         7.359       -         
+compare.single.dec_4_1[0]      LUT4     F        Out     0.626     7.984       -         
+dec_4_1[0]                     Net      -        -       0.766     -           1         
+compare.single.dec_4[0]        LUT4     I2       In      -         8.750       -         
+compare.single.dec_4[0]        LUT4     F        Out     0.822     9.572       -         
+dec_4[0]                       Net      -        -       0.000     -           1         
+compare.single.dec[0]          DFFR     D        In      -         9.572       -         
+=========================================================================================
+Total path delay (propagation time + setup) of 9.705 is 5.111(52.7%) logic and 4.594(47.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                            Starting                                           Arrival          
+Instance                    Reference     Type     Pin     Net                 Time        Slack
+                            Clock                                                               
+------------------------------------------------------------------------------------------------
+seq_display.CO0_i           System        INV      O       CO0_i               0.000       8.846
+seq_display.SUM[1]          System        INV      O       sel_1[1]            0.000       8.846
+compare.counter_en_i        System        INV      O       counter_en_i        0.000       8.846
+led_ctl.second_cnt_i[0]     System        INV      O       second_cnt_i[0]     0.000       8.846
+seq_display.sel_l[1]        System        INV      O       sel_l[1]            0.000       8.846
+seq_display.sel_l_0[1]      System        INV      O       sel_l_0[1]          0.000       8.846
+================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                             Required          
+Instance                 Reference     Type     Pin       Net                 Time         Slack
+                         Clock                                                                  
+------------------------------------------------------------------------------------------------
+compare.single.carry     System        DFFR     RESET     counter_en_i        9.867        8.846
+led_ctl.det_start        System        DFFR     RESET     second_cnt_i[0]     9.867        8.846
+seq_display.dig[0]       System        DFFS     D         CO0_i               9.867        8.846
+seq_display.dig[0]       System        DFFS     SET       sel_l_0[1]          9.867        8.846
+seq_display.dig[1]       System        DFFS     SET       sel_l[1]            9.867        8.846
+seq_display.dig[2]       System        DFFS     D         CO0_i               9.867        8.846
+seq_display.sel[0]       System        DFF      D         CO0_i               9.867        8.846
+seq_display.sel[1]       System        DFFE     D         sel_1[1]            9.867        8.846
+================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.867
+
+    - Propagation time:                      1.021
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 8.846
+
+    Number of logic level(s):                0
+    Starting point:                          seq_display.CO0_i / O
+    Ending point:                            seq_display.dig[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            div_clk|flag_derived_clock [rising] on pin CLK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name                   Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+seq_display.CO0_i      INV      O        Out     0.000     0.000       -         
+CO0_i                  Net      -        -       1.021     -           3         
+seq_display.dig[0]     DFFS     D        In      -         1.021       -         
+=================================================================================
+Total path delay (propagation time + setup) of 1.154 is 0.133(11.5%) logic and 1.021(88.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 243MB peak: 244MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 243MB peak: 244MB)
+
+---------------------------------------
+Resource Usage Report for lock_top 
+
+Mapping to part: gw1n_4lqfp144-6
+Cell usage:
+ALU             88 uses
+DFF             80 uses
+DFFE            16 uses
+DFFR            41 uses
+DFFRE           28 uses
+DFFS            4 uses
+DFFSE           1 use
+GSR             1 use
+INV             6 uses
+MUX2_LUT5       12 uses
+MUX2_LUT6       4 uses
+LUT2            21 uses
+LUT3            35 uses
+LUT4            102 uses
+
+I/O ports: 29
+I/O primitives: 29
+IBUF           9 uses
+OBUF           20 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   170 of 3456 (4%)
+Total load per clock:
+   lock_top|clk: 156
+
+@S |Mapping Summary:
+Total  LUTs: 158 (3%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:05s; Memory used current: 92MB peak: 244MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+# Fri Jul 10 11:33:28 2020
+
+###########################################################]

@@ -1,0 +1,17 @@
+@P:  Worst Slack : -1.196
+@P:  led_light|clk - Estimated Frequency : 125.4 MHz
+@P:  led_light|clk - Requested Frequency : 147.5 MHz
+@P:  led_light|clk - Estimated Period : 7.975
+@P:  led_light|clk - Requested Period : 6.779
+@P:  led_light|clk - Slack : -1.196
+@P:  System - Estimated Frequency : 228.5 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 4.375
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 5.625
+@P: led_light Part : gw1n_4lqfp144-6
+@P: led_light I/O primitives : 10
+@P: led_light I/O Register bits : 0
+@P: led_light Register bits (Non I/O) : 33 (0%)
+@P: led_light Total Luts : 45 of 800 (0%)
+@P:  CPU Time : 0h:00m:08s

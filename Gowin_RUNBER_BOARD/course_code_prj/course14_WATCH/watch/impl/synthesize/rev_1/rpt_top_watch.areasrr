@@ -1,0 +1,157 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+
+#### START OF AREA REPORT #####[
+
+Part:			GW1N_4LQFP144-6 (GoWin)
+
+-------------------------------------------------------------------------
+########   Utilization report for  Top level view:   top_watch   ########
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     142                100 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block top_watch:	142 (28.12 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          247                100 %                
+MUX2_LUT5     13                 100 %                
+MUX2_LUT6     5                  100 %                
+ALU           55                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block top_watch:	320 (63.37 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   div_clk_12000000_120   ########
+Instance path:   top_watch.div_clk_12000000_120                           
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     10                 7.04 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block top_watch.div_clk_12000000_120:	10 (1.98 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     5                  2.02 %               
+ALU      9                  16.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_watch.div_clk_12000000_120:	14 (2.77 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   seq_control_0   ########
+Instance path:   top_watch.seq_control_0                           
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     9                  3.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_watch.seq_control_0:	9 (1.78 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   seq_control_1   ########
+Instance path:   top_watch.seq_control_1                           
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     8                  3.24 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_watch.seq_control_1:	8 (1.58 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   seq_control_2   ########
+Instance path:   top_watch.seq_control_2                           
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     9                  3.64 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_watch.seq_control_2:	9 (1.78 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   seq_control_3   ########
+Instance path:   top_watch.seq_control_3                           
+===================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          13                 5.26 %               
+MUX2_LUT5     13                 100 %                
+MUX2_LUT6     5                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block top_watch.seq_control_3:	31 (6.14 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   watch_data_gen_12000000   ########
+Instance path:   top_watch.watch_data_gen_12000000                           
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     113                79.6 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block top_watch.watch_data_gen_12000000:	113 (22.38 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     196                79.4 %               
+ALU      46                 83.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_watch.watch_data_gen_12000000:	242 (47.92 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   btn_deb_3_12000000_240000   ########
+Instance path:   watch_data_gen_12000000.btn_deb_3_12000000_240000             
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     23                 16.2 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block watch_data_gen_12000000.btn_deb_3_12000000_240000:	23 (4.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     20                 8.1 %                
+ALU      20                 36.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block watch_data_gen_12000000.btn_deb_3_12000000_240000:	40 (7.92 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

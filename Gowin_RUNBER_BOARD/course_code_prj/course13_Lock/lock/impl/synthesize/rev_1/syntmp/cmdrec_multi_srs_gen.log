@@ -1,0 +1,7 @@
+C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\impl\synthesize\rev_1\synwork\lock_comp.srs  -osyn  D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\impl\synthesize\rev_1\synwork\lock_mult.srs  -log  D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\impl\synthesize\rev_1\synlog\lock_multi_srs_gen.srr 
+relcom:C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\lock_comp.srs -osyn ..\synwork\lock_mult.srs -log ..\synlog\lock_multi_srs_gen.srr
+rc:0 success:1 runtime:2
+file:..\synwork\lock_comp.srs|io:i|time:1589341016|size:9007|exec:0|csum:142FA7131A575E4BA0EBD38C07712352
+file:..\synwork\lock_mult.srs|io:o|time:1589341021|size:2367|exec:0|csum:
+file:..\synlog\lock_multi_srs_gen.srr|io:o|time:1589341021|size:1552|exec:0|csum:
+file:C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1582920966|size:8866304|exec:1|csum:C0E54C14713AD408F6EDCA9338632815

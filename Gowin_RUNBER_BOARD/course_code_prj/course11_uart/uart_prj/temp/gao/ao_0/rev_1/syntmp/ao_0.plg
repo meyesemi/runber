@@ -1,0 +1,23 @@
+@P:  Worst Slack : -1.621
+@P:  ao_top|clk_i - Estimated Frequency : 163.1 MHz
+@P:  ao_top|clk_i - Requested Frequency : 191.9 MHz
+@P:  ao_top|clk_i - Estimated Period : 6.132
+@P:  ao_top|clk_i - Requested Period : 5.212
+@P:  ao_top|clk_i - Slack : -0.920
+@P:  ao_top|control[0] - Estimated Frequency : 92.5 MHz
+@P:  ao_top|control[0] - Requested Frequency : 108.8 MHz
+@P:  ao_top|control[0] - Estimated Period : 10.809
+@P:  ao_top|control[0] - Requested Period : 9.188
+@P:  ao_top|control[0] - Slack : -1.621
+@P:  System - Estimated Frequency : 143.4 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 6.974
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 3.026
+@P: ao_top Part : gw1n_4blqfp144-6
+@P: ao_top I/O primitives : 24
+@P: ao_top I/O Register bits : 0
+@P: ao_top Register bits (Non I/O) : 141 (4%)
+@P: ao_top Block Rams : 2 of 10 (20%)
+@P: ao_top Total Luts : 146 of 800 (3%)
+@P:  CPU Time : 0h:00m:05s

@@ -1,0 +1,9 @@
+@N: CG364 :"E:\Gowin\Gowin_V1.9.1.01Beta\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_parameter.v":1:1:1:9|Synthesizing module work_E:\Gowin\Gowin_V1.9.1.01Beta\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_parameter.v_unit in library work.
+Selecting top level module gw_con_top
+Running optimization stage 1 on gw_con_top .......
+Running optimization stage 2 on gw_con_top .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: H:\Eye_Image_Transmit\trunk\HardWare\Gowin_board\cource\Verilog\uart_gowin_prj\temp\gao\ao_control\rev_1\synwork\layer0.rt.csv
+

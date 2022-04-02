@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top_seq2" Register="14" Alu="1" Lut="52">
+    <SubModule name="pll"/>
+    <SubModule name="u_btn_deb" Register="22" Alu="17" Lut="7"/>
+    <SubModule name="key0" Register="5" Alu="3" Lut="3"/>
+    <SubModule name="key1" Register="5" Alu="3" Lut="4"/>
+    <SubModule name="key2" Register="5" Alu="3" Lut="4"/>
+    <SubModule name="key3" Register="5" Alu="3" Lut="4"/>
+    <SubModule name="div_clk" Register="8" Alu="6" Lut="5"/>
+    <SubModule name="seq_control_0" Lut="2"/>
+    <SubModule name="seq_control_1" Lut="1"/>
+</Module>

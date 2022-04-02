@@ -1,0 +1,9 @@
+Selecting top level module led_light
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course6_water_led\led_light\src\led_light.v":24:7:24:15|Synthesizing module led_light in library work.
+Running optimization stage 1 on led_light .......
+Running optimization stage 2 on led_light .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course6_water_led\led_light\impl\synthesize\rev_1\synwork\layer0.rt.csv
+

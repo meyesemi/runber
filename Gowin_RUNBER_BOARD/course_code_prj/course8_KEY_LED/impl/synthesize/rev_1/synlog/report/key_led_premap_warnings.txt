@@ -1,0 +1,2 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT529 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\course8_key_led\src\btn_deb.v":35:4:35:9|Found inferred clock key_led_top|clk which controls 57 sequential elements including key_ctl.U_btn_deb.time_cnt[17]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

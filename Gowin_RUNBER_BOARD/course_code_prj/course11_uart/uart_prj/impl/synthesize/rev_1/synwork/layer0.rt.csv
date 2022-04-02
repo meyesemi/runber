@@ -1,0 +1,6 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, uart_top, 0h:00m:00s,    107 MB
+work, uart_rx_104_0_1_2_3_4, 0h:00m:00s,    107 MB
+work, uart_tx_104_0_1_2_3_4, 0h:00m:00s,    107 MB
+work, uart_data_gen, 0h:00m:00s,    107 MB
+work, BUFG, 0h:00m:00s,    107 MB

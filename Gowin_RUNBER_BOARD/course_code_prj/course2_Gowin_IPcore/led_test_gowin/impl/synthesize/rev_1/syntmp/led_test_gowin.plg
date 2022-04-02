@@ -1,0 +1,17 @@
+@P:  Worst Slack : -1.168
+@P:  clk_gen|clkout_inferred_clock - Estimated Frequency : 128.5 MHz
+@P:  clk_gen|clkout_inferred_clock - Requested Frequency : 151.1 MHz
+@P:  clk_gen|clkout_inferred_clock - Estimated Period : 7.785
+@P:  clk_gen|clkout_inferred_clock - Requested Period : 6.617
+@P:  clk_gen|clkout_inferred_clock - Slack : -1.168
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : NA
+@P: led_test Part : gw1n_4lqfp144-6
+@P: led_test I/O primitives : 4
+@P: led_test I/O Register bits : 0
+@P: led_test Register bits (Non I/O) : 35 (1%)
+@P: led_test Total Luts : 32 of 800 (0%)
+@P:  CPU Time : 0h:00m:07s

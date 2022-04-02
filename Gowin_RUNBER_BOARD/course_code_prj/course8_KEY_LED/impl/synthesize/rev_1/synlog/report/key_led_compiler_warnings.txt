@@ -1,0 +1,2 @@
+@W: CL169 :"F:\gowin_cource_prj\key_led\src\led.v":43:4:43:9|Pruning unused register ctrl_1d[1:0]. Make sure that there are no unused intermediate registers.
+

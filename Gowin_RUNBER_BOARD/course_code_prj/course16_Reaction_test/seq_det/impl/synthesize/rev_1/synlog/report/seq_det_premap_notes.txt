@@ -1,0 +1,22 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "000000000000000000" on instance time_cnt[17:0].
+@N: FX493 |Applying initial value "00000001" on instance led_temp[7:0].
+@N: FX493 |Applying initial value "000000000" on instance time_cnt[8:0].
+@N: FX493 |Applying initial value "0000000000" on instance time_led_cnt[9:0].
+@N: FX493 |Applying initial value "00000000000000000000000000" on instance time_1s_cnt[25:0].
+@N: FX493 |Applying initial value "00" on instance second_cnt[1:0].
+@N: FX493 |Applying initial value "0" on instance start_cnt.
+@N: FX493 |Applying initial value "0" on instance counter_en_1d.
+@N: FX493 |Applying initial value "0" on instance counter_en.
+@N: FX493 |Applying initial value "0000000000000000" on instance time_ms_cnt[15:0].
+@N: FX493 |Applying initial value "0" on instance flow.
+@N: FX493 |Applying initial value "0" on instance flag.
+@N: FX493 |Applying initial value "0000" on instance key0_cnt[3:0].
+@N: FX493 |Applying initial value "0000" on instance key1_cnt[3:0].
+@N: FX493 |Applying initial value "0000" on instance key2_cnt[3:0].
+@N: FX493 |Applying initial value "0000" on instance key3_cnt[3:0].
+@N: FX493 |Applying initial value "00" on instance sel[1:0].
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\seq_det.sap.

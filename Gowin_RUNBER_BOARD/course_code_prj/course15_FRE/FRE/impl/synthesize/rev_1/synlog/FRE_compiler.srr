@@ -1,0 +1,137 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\generic\gw1n.v" (library work)
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\top_freq.v" (library work)
+@I::"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\btn_deb.v" (library work)
+@I::"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\freq_test.v" (library work)
+@I::"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\key_cnt.v" (library work)
+@I::"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\seq_control.v" (library work)
+@I::"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\div_clk.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module top_freq
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+
+	BT_WIDTH=4'b0001
+	CLK_FRE=26'b00101101110001101100000000
+	CLK_DIV=32'b00000000000000111010100110000000
+   Generated name = btn_deb_1_12000000_240000
+Running optimization stage 1 on btn_deb_1_12000000_240000 .......
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\key_cnt.v":29:7:29:13|Synthesizing module key_cnt in library work.
+Running optimization stage 1 on key_cnt .......
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\freq_test.v":21:7:21:15|Synthesizing module freq_test in library work.
+@W: CG1340 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\freq_test.v":41:27:41:39|Index into variable clk_gen could be out of range ; a simulation mismatch is possible.
+Running optimization stage 1 on freq_test .......
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\div_clk.v":21:7:21:13|Synthesizing module div_clk in library work.
+
+	CLK_FRE=26'b00101101110001101100000000
+	CLK_DIV_10US=32'b00000000000000000000000001111000
+   Generated name = div_clk_12000000_120
+Running optimization stage 1 on div_clk_12000000_120 .......
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\seq_control.v":21:7:21:17|Synthesizing module seq_control in library work.
+Running optimization stage 1 on seq_control .......
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\top_freq.v":21:7:21:14|Synthesizing module top_freq in library work.
+Running optimization stage 1 on top_freq .......
+Running optimization stage 2 on top_freq .......
+Running optimization stage 2 on seq_control .......
+Running optimization stage 2 on div_clk_12000000_120 .......
+Running optimization stage 2 on freq_test .......
+Running optimization stage 2 on key_cnt .......
+Running optimization stage 2 on btn_deb_1_12000000_240000 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\impl\synthesize\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 106MB peak: 107MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul 10 10:18:07 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 102MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jul 10 10:18:08 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\impl\synthesize\rev_1\synwork\FRE_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 35MB peak: 44MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Fri Jul 10 10:18:08 2020
+
+###########################################################]

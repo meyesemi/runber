@@ -1,0 +1,18 @@
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>Beta</Version>
+    <Device id="GW1N-4" package="LQFP144" speed="6" partNumber="GW1N-UV4LQ144C6/I5"/>
+    <FileList>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\src\btn_deb.v"/>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\src\key_ctl.v"/>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\src\led.v"/>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\src\key_led_top.v"/>
+    </FileList>
+    <OptionList>
+        <Option type="top_module"  value="key_led_top"/>
+        <Option type="disable_insert_pad"  value="0"/>
+        <Option type="ram_rw_check"  value="1"/>
+        <Option type="looplimit"  value="2000"/>
+        <Option type="output_file"  value="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\impl\gwsynthesis\key_led.vg"/>
+    </OptionList>
+</Project>

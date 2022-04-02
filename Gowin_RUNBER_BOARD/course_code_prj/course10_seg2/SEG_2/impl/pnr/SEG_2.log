@@ -1,0 +1,19 @@
+Info    (PA0001) : "D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\impl\synthesize\rev_1\SEG_2.vm" | Reading netlist file.
+Info    (PA0004) : Parsing netlist file 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\impl\synthesize\rev_1\SEG_2.vm' completed.
+Warning (PA1003) : Invalid parameterized value 'GW1N-4B'(DEVICE) specified for instance 'pll_inst'.
+Info    (PA0006) : Processing netlist completed.
+Info    (CT0002) : Physical Constraint parsed completed.
+Info    (PR0001) : Placement in progress......
+Info    (PR0005) : Routing in progress......
+Info    (PR0002) : Placement and routing completed.
+Info    (TA0001) : Timing analysis completed.
+Info    (FS0001) : Bitstream generation in progress......
+Info    (FS0002) : Bitstream generation completed.
+Info    (PW0001) : Power analysis completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\impl\pnr\SEG_2.power.html' file completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\impl\pnr\SEG_2.pin.html' file completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\impl\pnr\SEG_2.rpt.html' file completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\impl\pnr\SEG_2.rpt.txt' file completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\impl\pnr\SEG_2.tr.html' file completed.
+Info    (CM0001) : Wed May 13 11:27:01 2020
+

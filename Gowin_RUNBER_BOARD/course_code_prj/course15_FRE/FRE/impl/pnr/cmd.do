@@ -1,0 +1,9 @@
+-d J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\impl\synthesize\rev_1\FRE.vm
+-p GW1N-4B-LQFP144-6
+-pn GW1N-UV4LQ144C6/I5
+-cst J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\top_freq.cst
+-cfg J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing

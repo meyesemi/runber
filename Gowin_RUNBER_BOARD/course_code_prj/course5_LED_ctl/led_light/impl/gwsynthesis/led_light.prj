@@ -1,0 +1,14 @@
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>Beta</Version>
+    <Device id="GW1N-4" package="LQFP144" speed="6" partNumber="GW1N-UV4LQ144C6/I5"/>
+    <FileList>
+        <File type="verilog"  path="Z:\runber\course5_LED_ctl\led_light\src\led_light.v"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad"  value="0"/>
+        <Option type="ram_rw_check"  value="1"/>
+        <Option type="looplimit"  value="2000"/>
+        <Option type="output_file"  value="Z:\runber\course5_LED_ctl\led_light\impl\gwsynthesis\led_light.vg"/>
+    </OptionList>
+</Project>

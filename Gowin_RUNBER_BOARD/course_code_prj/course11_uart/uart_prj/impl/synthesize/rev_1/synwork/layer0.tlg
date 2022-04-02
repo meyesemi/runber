@@ -1,0 +1,42 @@
+Selecting top level module uart_top
+@N: CG364 :"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\generic\gw1n.v":1846:7:1846:10|Synthesizing module BUFG in library work.
+Running optimization stage 1 on BUFG .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_data_gen.v":23:7:23:19|Synthesizing module uart_data_gen in library work.
+Running optimization stage 1 on uart_data_gen .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_tx.v":24:7:24:13|Synthesizing module uart_tx in library work.
+
+	BPS_NUM=16'b0000000001101000
+	IDLE=4'b0000
+	SEND_START=4'b0001
+	SEND_DATA=4'b0010
+	SEND_STOP=4'b0011
+	SEND_END=4'b0100
+   Generated name = uart_tx_104_0_1_2_3_4
+@N: CG179 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_tx.v":101:33:101:42|Removing redundant assignment.
+Running optimization stage 1 on uart_tx_104_0_1_2_3_4 .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_rx.v":25:7:25:13|Synthesizing module uart_rx in library work.
+
+	BPS_NUM=16'b0000000001101000
+	IDLE=4'b0000
+	RECEIV_START=4'b0001
+	RECEIV_DATA=4'b0010
+	RECEIV_STOP=4'b0011
+	RECEIV_END=4'b0100
+   Generated name = uart_rx_104_0_1_2_3_4
+@N: CG179 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_rx.v":97:30:97:39|Removing redundant assignment.
+Running optimization stage 1 on uart_rx_104_0_1_2_3_4 .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_top.v":24:7:24:14|Synthesizing module uart_top in library work.
+Running optimization stage 1 on uart_top .......
+Running optimization stage 2 on uart_top .......
+Running optimization stage 2 on uart_rx_104_0_1_2_3_4 .......
+@N: CL201 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_rx.v":104:4:104:9|Trying to extract state machine for register rx_state.
+@N: CL159 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_rx.v":34:24:34:27|Input rstn is unused.
+Running optimization stage 2 on uart_tx_104_0_1_2_3_4 .......
+@N: CL201 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_tx.v":109:4:109:9|Trying to extract state machine for register tx_state.
+Running optimization stage 2 on uart_data_gen .......
+Running optimization stage 2 on BUFG .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\impl\synthesize\rev_1\synwork\layer0.rt.csv
+

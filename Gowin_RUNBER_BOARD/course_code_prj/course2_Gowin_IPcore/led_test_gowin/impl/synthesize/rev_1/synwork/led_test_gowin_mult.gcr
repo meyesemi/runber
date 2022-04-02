@@ -1,0 +1,8 @@
+i clk_50m_gen.clkout_i
+m 0 0
+u 2 28
+p {t:clk_50m_gen.pll_inst.CLKOUT}{t:clk_50m_gen.clkout_inferred_clock.I[0]}{t:clk_50m_gen.clkout_inferred_clock.OUT[0]}{p:clk_50m_gen.clkout}{t:clk_50m_gen.clkout}{t:cnt[1:0].C}
+e ckid0_0 {t:cnt[1:0].C} dff
+c ckid0_0 {t:clk_50m_gen.pll_inst.CLKOUT} PLL Unsupported/too complex instance on clock path
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

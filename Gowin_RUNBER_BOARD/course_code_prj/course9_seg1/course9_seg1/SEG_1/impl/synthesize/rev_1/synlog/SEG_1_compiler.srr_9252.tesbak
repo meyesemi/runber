@@ -1,0 +1,96 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2019q3p1, Build 286R, Built Feb 28 2020 09:59:15
+
+@N|Running in 64-bit mode
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course9_seg1\course9_seg1\SEG_1\impl\synthesize\rev_1\synwork\SEG_1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:04s; Memory used current: 33MB peak: 42MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:04s cputime
+
+Process completed successfully.
+# Wed May 13 09:34:27 2020
+
+###########################################################]
+$ Start of Compile
+#Wed May 13 09:47:49 2020
+
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2019q3p1, Build 286R, Built Feb 28 2020 09:59:15
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\generic\gw1n.v" (library work)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course9_seg1\course9_seg1\SEG_1\src\top_seq.v" (library work)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course9_seg1\course9_seg1\SEG_1\src\div_clk.v" (library work)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course9_seg1\course9_seg1\SEG_1\src\pll\pll.v" (library work)
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module top_seq
+@N: CG364 :"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\generic\gw1n.v":2313:7:2313:9|Synthesizing module PLL in library work.
+Running optimization stage 1 on PLL .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course9_seg1\course9_seg1\SEG_1\src\pll\pll.v":8:7:8:9|Synthesizing module pll in library work.
+Running optimization stage 1 on pll .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course9_seg1\course9_seg1\SEG_1\src\div_clk.v":22:7:22:13|Synthesizing module div_clk in library work.
+Running optimization stage 1 on div_clk .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course9_seg1\course9_seg1\SEG_1\src\top_seq.v":22:7:22:13|Synthesizing module top_seq in library work.
+Running optimization stage 1 on top_seq .......
+Running optimization stage 2 on top_seq .......
+Running optimization stage 2 on div_clk .......
+Running optimization stage 2 on pll .......
+Running optimization stage 2 on PLL .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course9_seg1\course9_seg1\SEG_1\impl\synthesize\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 100MB peak: 101MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed May 13 09:47:52 2020
+
+###########################################################]

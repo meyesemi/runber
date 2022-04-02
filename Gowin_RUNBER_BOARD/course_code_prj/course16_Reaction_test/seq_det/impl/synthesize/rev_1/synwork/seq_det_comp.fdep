@@ -1,0 +1,50 @@
+#OPTIONS:"|-layerid|0|-orig_srs|J:\\Source_bac\\Gowin_RUNBER_BOARD\\course_code_prj\\course16_Reaction_test\\seq_det\\impl\\synthesize\\rev_1\\synwork\\seq_det_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-nram|-divnmod|-nostructver|-gowin|-infer_seqShift|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-I|J:\\Source_bac\\Gowin_RUNBER_BOARD\\course_code_prj\\course16_Reaction_test\\seq_det\\impl\\synthesize\\|-I|C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib\\generic\\gw1n.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\bin64\\c_ver.exe":1569428574
+#CUR:"C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib\\generic\\gw1n.v":1569433952
+#CUR:"C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib\\vlog\\hypermods.v":1569428306
+#CUR:"C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib\\vlog\\umr_capim.v":1569428306
+#CUR:"C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1569428306
+#CUR:"C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1569428306
+#CUR:"J:\\Source_bac\\Gowin_RUNBER_BOARD\\course_code_prj\\course16_Reaction_test\\seq_det\\src\\btn_deb.v":1594351464
+#CUR:"J:\\Source_bac\\Gowin_RUNBER_BOARD\\course_code_prj\\course16_Reaction_test\\seq_det\\src\\compare.v":1594351987
+#CUR:"J:\\Source_bac\\Gowin_RUNBER_BOARD\\course_code_prj\\course16_Reaction_test\\seq_det\\src\\div_clk.v":1594347677
+#CUR:"J:\\Source_bac\\Gowin_RUNBER_BOARD\\course_code_prj\\course16_Reaction_test\\seq_det\\src\\seq_control.v":1594350405
+#CUR:"J:\\Source_bac\\Gowin_RUNBER_BOARD\\course_code_prj\\course16_Reaction_test\\seq_det\\src\\seq_display.v":1569331237
+#CUR:"J:\\Source_bac\\Gowin_RUNBER_BOARD\\course_code_prj\\course16_Reaction_test\\seq_det\\src\\seq_det.v":1569410249
+#CUR:"J:\\Source_bac\\Gowin_RUNBER_BOARD\\course_code_prj\\course16_Reaction_test\\seq_det\\src\\led_ctl.v":1594351175
+#CUR:"J:\\Source_bac\\Gowin_RUNBER_BOARD\\course_code_prj\\course16_Reaction_test\\seq_det\\src\\dec_counter.v":1569410249
+0			"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\btn_deb.v" verilog
+1			"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\compare.v" verilog
+2			"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\div_clk.v" verilog
+3			"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\seq_control.v" verilog
+4			"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\seq_display.v" verilog
+5			"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\seq_det.v" verilog
+6			"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\led_ctl.v" verilog
+7			"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\dec_counter.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 7
+2 -1
+3 -1
+4 3 2
+5 4 1 6 0
+6 -1
+7 -1
+#Dependency Lists(Users Of)
+0 5
+1 5
+2 4
+3 4
+4 5
+5 -1
+6 5
+7 1
+#Design Unit to File Association
+module work lock_top 5
+module work led_ctl 6
+module work seq_display 4
+module work seq_control 3
+module work div_clk 2
+module work compare 1
+module work dec_counter 7
+module work btn_deb 0

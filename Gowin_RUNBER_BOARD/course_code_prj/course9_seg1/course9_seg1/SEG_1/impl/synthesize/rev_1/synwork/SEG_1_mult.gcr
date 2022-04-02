@@ -1,0 +1,15 @@
+i your_instance_name.clkout_i
+m 0 0
+u 25 25
+p {t:your_instance_name.pll_inst.CLKOUT}{t:your_instance_name.clkout_inferred_clock.I[0]}{t:your_instance_name.clkout_inferred_clock.OUT[0]}{p:your_instance_name.clkout}{t:your_instance_name.clkout}{t:u_div_clk.clk}{p:u_div_clk.clk}{t:u_div_clk.times_cnt[23].C}
+e ckid0_0 {t:u_div_clk.times_cnt[23].C} dffr
+c ckid0_0 {t:your_instance_name.pll_inst.CLKOUT} PLL Unsupported/too complex instance on clock path
+i u_div_clk.flag_i
+m 0 0
+u 4 4
+n ckid0_1 {t:counter[3].C} Derived clock on input (not legal for GCC)
+p {t:u_div_clk.flag.Q[0]}{t:u_div_clk.flag_derived_clock.I[0]}{t:u_div_clk.flag_derived_clock.OUT[0]}{p:u_div_clk.clk_1hz}{t:u_div_clk.clk_1hz}{t:counter[3].C}
+e ckid0_1 {t:counter[3].C} dffr
+d ckid0_2 {t:u_div_clk.flag.Q[0]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

@@ -1,0 +1,7 @@
+C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\impl\synthesize\rev_1\synwork\uart_gowin_prj_comp.srs  -osyn  E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\impl\synthesize\rev_1\synwork\uart_gowin_prj_mult.srs  -log  E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\impl\synthesize\rev_1\synlog\uart_gowin_prj_multi_srs_gen.srr 
+relcom:C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\uart_gowin_prj_comp.srs -osyn ..\synwork\uart_gowin_prj_mult.srs -log ..\synlog\uart_gowin_prj_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\uart_gowin_prj_comp.srs|io:i|time:1578381084|size:12908|exec:0|csum:A935BDDA24F8C280CD05152743F446DE
+file:..\synwork\uart_gowin_prj_mult.srs|io:o|time:1578381085|size:3522|exec:0|csum:
+file:..\synlog\uart_gowin_prj_multi_srs_gen.srr|io:o|time:1578381085|size:1568|exec:0|csum:
+file:C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1569428746|size:8840192|exec:1|csum:53D4B99CD3CB87F879FC8DA558113E33

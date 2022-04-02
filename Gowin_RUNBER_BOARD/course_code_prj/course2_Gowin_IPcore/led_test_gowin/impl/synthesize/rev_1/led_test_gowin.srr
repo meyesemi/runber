@@ -1,0 +1,809 @@
+#Build: Synplify Pro (R) P-2019.09G, Build 284R, Feb 28 2020
+#install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: EYE-06
+
+# Wed May 13 13:52:04 2020
+
+#Implementation: rev_1
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2019q3p1, Build 286R, Built Feb 28 2020 09:59:15
+
+@N|Running in 64-bit mode
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\synwork\led_test_gowin_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:03s; Memory used current: 33MB peak: 42MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Wed May 13 13:52:12 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2019q3p1, Build 286R, Built Feb 28 2020 09:59:15
+
+@N|Running in 64-bit mode
+File D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\bin64\syn_nfilter.exe changed - recompiling
+File F:\Gowin_course\led_test_gowin\led_test_gowin\impl\synthesize\rev_1\synwork\led_test_gowin_comp.srs changed - recompiling
+@N: NF107 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\led_test.v":25:7:25:14|Selected library: work cell: led_test view verilog as top level
+@N: NF107 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\led_test.v":25:7:25:14|Selected library: work cell: led_test view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed May 13 13:52:16 2020
+
+###########################################################]
+Premap Report
+
+# Wed May 13 13:52:18 2020
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys Generic Technology Pre-mapping, Version mapgw, Build 1564R, Built Mar  4 2020 10:56:38
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 131MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin_scck.rpt 
+See clock summary report "D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 142MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 142MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 154MB)
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 233MB peak: 233MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 234MB peak: 234MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 234MB peak: 234MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 234MB peak: 234MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 234MB peak: 234MB)
+
+
+
+Clock Summary
+******************
+
+          Start                             Requested     Requested     Clock        Clock                     Clock
+Level     Clock                             Frequency     Period        Type         Group                     Load 
+--------------------------------------------------------------------------------------------------------------------
+0 -       clk_gen|clkout_inferred_clock     175.4 MHz     5.701         inferred     Autoconstr_clkgroup_0     28   
+====================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                  Clock     Source                               Clock Pin            Non-clock Pin     Non-clock Pin
+Clock                             Load      Pin                                  Seq Example          Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------------------------------------------
+clk_gen|clkout_inferred_clock     28        clk_50m_gen.pll_inst.CLKOUT(PLL)     time_cnt[25:0].C     -                 -            
+=====================================================================================================================================
+
+@W: MT529 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\led_test.v":52:0:52:5|Found inferred clock clk_gen|clkout_inferred_clock which controls 28 sequential elements including cnt[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 28 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+================================= Non-Gated/Non-Generated Clocks ==================================
+Clock Tree ID     Driving Element                 Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------------------
+@KP:ckid0_0       clk_50m_gen.pll_inst.CLKOUT     PLL                    28         cnt[1:0]       
+===================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:04s; Memory used current: 235MB peak: 235MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:04s; Memory used current: 235MB peak: 235MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:05s; Memory used current: 235MB peak: 235MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:05s; Memory used current: 157MB peak: 237MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:05s cputime
+# Wed May 13 13:52:27 2020
+
+###########################################################]
+Map & Optimize Report
+
+# Wed May 13 13:52:30 2020
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys Generic Technology Mapper, Version mapgw, Build 1564R, Built Mar  4 2020 10:56:38
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 131MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 142MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 142MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 142MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 149MB peak: 150MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 231MB peak: 231MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 234MB peak: 234MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 235MB peak: 235MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 235MB peak: 236MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 236MB peak: 236MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 236MB peak: 236MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 237MB peak: 237MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 237MB peak: 237MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 237MB peak: 237MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 237MB peak: 237MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		    -1.47ns		  58 /        28
+   2		0h:00m:03s		    -1.47ns		  58 /        28
+@N: FX271 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\led_test.v":43:0:43:5|Replicating instance time_cnt[2] (in view: work.led_test(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\led_test.v":43:0:43:5|Replicating instance time_cnt[3] (in view: work.led_test(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\led_test.v":43:0:43:5|Replicating instance time_cnt[0] (in view: work.led_test(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\led_test.v":43:0:43:5|Replicating instance time_cnt[1] (in view: work.led_test(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\led_test.v":43:0:43:5|Replicating instance time_cnt[4] (in view: work.led_test(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\led_test.v":43:0:43:5|Replicating instance time_cnt[5] (in view: work.led_test(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\led_test.v":43:0:43:5|Replicating instance time_cnt[6] (in view: work.led_test(verilog)) with 4 loads 1 time to improve timing.
+Timing driven replication report
+Added 7 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+   3		0h:00m:03s		    -1.52ns		  58 /        35
+
+
+   4		0h:00m:03s		    -1.52ns		  58 /        35
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 238MB peak: 238MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 238MB peak: 238MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 165MB peak: 238MB)
+
+Writing Analyst data base D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\synwork\led_test_gowin_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 238MB peak: 238MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 239MB peak: 239MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:05s; Memory used current: 239MB peak: 239MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 238MB peak: 240MB)
+
+@W: MT246 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\gowin_pll\gowin_pll.v":21:4:21:11|Blackbox PLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock clk_gen|clkout_inferred_clock with period 6.62ns. Please declare a user-defined clock on net clk_50m_gen.clk_out.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed May 13 13:52:38 2020
+#
+
+
+Top view:               led_test
+Requested Frequency:    151.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.168
+
+                                  Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                    Frequency     Frequency     Period        Period        Slack      Type         Group                
+---------------------------------------------------------------------------------------------------------------------------------------
+clk_gen|clkout_inferred_clock     151.1 MHz     128.5 MHz     6.617         7.785         -1.168     inferred     Autoconstr_clkgroup_0
+System                            100.0 MHz     NA            10.000        NA            NA         system       system_clkgroup      
+=======================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                       Ending                         |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+clk_gen|clkout_inferred_clock  clk_gen|clkout_inferred_clock  |  6.617       -1.168  |  No paths    -      |  No paths    -      |  No paths    -    
+=====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clk_gen|clkout_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                                Arrival           
+Instance             Reference                         Type     Pin     Net                  Time        Slack 
+                     Clock                                                                                     
+---------------------------------------------------------------------------------------------------------------
+time_cnt_fast[1]     clk_gen|clkout_inferred_clock     DFF      Q       time_cnt_fast[1]     0.367       -1.168
+time_cnt_fast[4]     clk_gen|clkout_inferred_clock     DFF      Q       time_cnt_fast[4]     0.367       -1.111
+time_cnt[0]          clk_gen|clkout_inferred_clock     DFF      Q       time_cnt[0]          0.367       -1.101
+time_cnt_fast[0]     clk_gen|clkout_inferred_clock     DFF      Q       time_cnt_fast[0]     0.367       -1.101
+time_cnt[9]          clk_gen|clkout_inferred_clock     DFF      Q       time_cnt[9]          0.367       -1.054
+time_cnt[7]          clk_gen|clkout_inferred_clock     DFF      Q       time_cnt[7]          0.367       -1.044
+time_cnt[13]         clk_gen|clkout_inferred_clock     DFF      Q       time_cnt[13]         0.367       -0.997
+time_cnt[8]          clk_gen|clkout_inferred_clock     DFF      Q       time_cnt[8]          0.367       -0.987
+time_cnt[17]         clk_gen|clkout_inferred_clock     DFF      Q       time_cnt[17]         0.367       -0.940
+time_cnt[12]         clk_gen|clkout_inferred_clock     DFF      Q       time_cnt[12]         0.367       -0.930
+===============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                                              Required           
+Instance         Reference                         Type     Pin     Net                Time         Slack 
+                 Clock                                                                                    
+----------------------------------------------------------------------------------------------------------
+time_cnt[17]     clk_gen|clkout_inferred_clock     DFF      D       time_cnt_3[17]     6.484        -1.168
+time_cnt[25]     clk_gen|clkout_inferred_clock     DFF      D       time_cnt_3[25]     6.484        -1.168
+time_cnt[15]     clk_gen|clkout_inferred_clock     DFF      D       time_cnt_3[15]     6.484        -1.054
+time_cnt[23]     clk_gen|clkout_inferred_clock     DFF      D       time_cnt_3[23]     6.484        -1.054
+time_cnt[14]     clk_gen|clkout_inferred_clock     DFF      D       time_cnt_3[14]     6.484        -0.997
+time_cnt[22]     clk_gen|clkout_inferred_clock     DFF      D       time_cnt_3[22]     6.484        -0.997
+time_cnt[13]     clk_gen|clkout_inferred_clock     DFF      D       time_cnt_3[13]     6.484        -0.940
+time_cnt[21]     clk_gen|clkout_inferred_clock     DFF      D       time_cnt_3[21]     6.484        -0.940
+time_cnt[12]     clk_gen|clkout_inferred_clock     DFF      D       time_cnt_3[12]     6.484        -0.883
+time_cnt[20]     clk_gen|clkout_inferred_clock     DFF      D       time_cnt_3[20]     6.484        -0.883
+==========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.617
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.484
+
+    - Propagation time:                      7.652
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.168
+
+    Number of logic level(s):                14
+    Starting point:                          time_cnt_fast[1] / Q
+    Ending point:                            time_cnt[17] / D
+    The start point is clocked by            clk_gen|clkout_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clk_gen|clkout_inferred_clock [rising] on pin CLK
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                              Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+time_cnt_fast[1]                  DFF      Q        Out     0.367     0.367       -         
+time_cnt_fast[1]                  Net      -        -       1.021     -           2         
+un2_time_cnt_axb_0_par_0          LUT4     I1       In      -         1.388       -         
+un2_time_cnt_axb_0_par_0          LUT4     F        Out     1.099     2.487       -         
+un2_time_cnt_axb_0_par_0          Net      -        -       1.021     -           1         
+un2_time_cnt_axb_0_par_1          ALU      I0       In      -         3.508       -         
+un2_time_cnt_axb_0_par_1          ALU      COUT     Out     0.958     4.466       -         
+un2_time_cnt_axb_0_par_1_COUT     Net      -        -       0.000     -           1         
+un2_time_cnt_axb_4_par_1          ALU      CIN      In      -         4.466       -         
+un2_time_cnt_axb_4_par_1          ALU      COUT     Out     0.057     4.523       -         
+un2_time_cnt_axb_4_par_1_COUT     Net      -        -       0.000     -           1         
+un2_time_cnt_cry_8_0              ALU      CIN      In      -         4.523       -         
+un2_time_cnt_cry_8_0              ALU      COUT     Out     0.057     4.580       -         
+un2_time_cnt_cry_8                Net      -        -       0.000     -           1         
+un2_time_cnt_cry_9_0              ALU      CIN      In      -         4.580       -         
+un2_time_cnt_cry_9_0              ALU      COUT     Out     0.057     4.637       -         
+un2_time_cnt_cry_9                Net      -        -       0.000     -           1         
+un2_time_cnt_cry_10_0             ALU      CIN      In      -         4.637       -         
+un2_time_cnt_cry_10_0             ALU      COUT     Out     0.057     4.694       -         
+un2_time_cnt_cry_10               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_11_0             ALU      CIN      In      -         4.694       -         
+un2_time_cnt_cry_11_0             ALU      COUT     Out     0.057     4.751       -         
+un2_time_cnt_cry_11               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_12_0             ALU      CIN      In      -         4.751       -         
+un2_time_cnt_cry_12_0             ALU      COUT     Out     0.057     4.808       -         
+un2_time_cnt_cry_12               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_13_0             ALU      CIN      In      -         4.808       -         
+un2_time_cnt_cry_13_0             ALU      COUT     Out     0.057     4.865       -         
+un2_time_cnt_cry_13               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_14_0             ALU      CIN      In      -         4.865       -         
+un2_time_cnt_cry_14_0             ALU      COUT     Out     0.057     4.922       -         
+un2_time_cnt_cry_14               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_15_0             ALU      CIN      In      -         4.922       -         
+un2_time_cnt_cry_15_0             ALU      COUT     Out     0.057     4.979       -         
+un2_time_cnt_cry_15               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_16_0             ALU      CIN      In      -         4.979       -         
+un2_time_cnt_cry_16_0             ALU      COUT     Out     0.057     5.036       -         
+un2_time_cnt_cry_16               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_17_0             ALU      CIN      In      -         5.036       -         
+un2_time_cnt_cry_17_0             ALU      SUM      Out     0.563     5.599       -         
+un2_time_cnt_cry_17_0_SUM         Net      -        -       1.021     -           1         
+time_cnt_3[17]                    LUT3     I0       In      -         6.620       -         
+time_cnt_3[17]                    LUT3     F        Out     1.032     7.652       -         
+time_cnt_3[17]                    Net      -        -       0.000     -           1         
+time_cnt[17]                      DFF      D        In      -         7.652       -         
+============================================================================================
+Total path delay (propagation time + setup) of 7.785 is 4.722(60.7%) logic and 3.063(39.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      6.617
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.484
+
+    - Propagation time:                      7.652
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.168
+
+    Number of logic level(s):                14
+    Starting point:                          time_cnt_fast[1] / Q
+    Ending point:                            time_cnt[25] / D
+    The start point is clocked by            clk_gen|clkout_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clk_gen|clkout_inferred_clock [rising] on pin CLK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+time_cnt_fast[1]                     DFF      Q        Out     0.367     0.367       -         
+time_cnt_fast[1]                     Net      -        -       1.021     -           2         
+un2_time_cnt_axb_0_par_0_cp          LUT4     I1       In      -         1.388       -         
+un2_time_cnt_axb_0_par_0_cp          LUT4     F        Out     1.099     2.487       -         
+un2_time_cnt_axb_0_par_0_cp          Net      -        -       1.021     -           1         
+un2_time_cnt_axb_0_par_cp_0          ALU      I0       In      -         3.508       -         
+un2_time_cnt_axb_0_par_cp_0          ALU      COUT     Out     0.958     4.466       -         
+un2_time_cnt_axb_0_par_cp_0_COUT     Net      -        -       0.000     -           1         
+un2_time_cnt_axb_4_par_cp_0          ALU      CIN      In      -         4.466       -         
+un2_time_cnt_axb_4_par_cp_0          ALU      COUT     Out     0.057     4.523       -         
+un2_time_cnt_axb_4_par_cp_0_COUT     Net      -        -       0.000     -           1         
+un2_time_cnt_axb_8_par_1             ALU      CIN      In      -         4.523       -         
+un2_time_cnt_axb_8_par_1             ALU      COUT     Out     0.057     4.580       -         
+un2_time_cnt_axb_8_par_1_COUT        Net      -        -       0.000     -           1         
+un2_time_cnt_axb_12_par_1            ALU      CIN      In      -         4.580       -         
+un2_time_cnt_axb_12_par_1            ALU      COUT     Out     0.057     4.637       -         
+un2_time_cnt_axb_12_par_1_COUT       Net      -        -       0.000     -           1         
+un2_time_cnt_axb_16_par_1            ALU      CIN      In      -         4.637       -         
+un2_time_cnt_axb_16_par_1            ALU      COUT     Out     0.057     4.694       -         
+un2_time_cnt_axb_16_par_1_COUT       Net      -        -       0.000     -           1         
+un2_time_cnt_cry_19_0                ALU      CIN      In      -         4.694       -         
+un2_time_cnt_cry_19_0                ALU      COUT     Out     0.057     4.751       -         
+un2_time_cnt_cry_19                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_20_0                ALU      CIN      In      -         4.751       -         
+un2_time_cnt_cry_20_0                ALU      COUT     Out     0.057     4.808       -         
+un2_time_cnt_cry_20                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_21_0                ALU      CIN      In      -         4.808       -         
+un2_time_cnt_cry_21_0                ALU      COUT     Out     0.057     4.865       -         
+un2_time_cnt_cry_21                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_22_0                ALU      CIN      In      -         4.865       -         
+un2_time_cnt_cry_22_0                ALU      COUT     Out     0.057     4.922       -         
+un2_time_cnt_cry_22                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_23_0                ALU      CIN      In      -         4.922       -         
+un2_time_cnt_cry_23_0                ALU      COUT     Out     0.057     4.979       -         
+un2_time_cnt_cry_23                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_24_0                ALU      CIN      In      -         4.979       -         
+un2_time_cnt_cry_24_0                ALU      COUT     Out     0.057     5.036       -         
+un2_time_cnt_cry_24                  Net      -        -       0.000     -           1         
+un2_time_cnt_s_25_0                  ALU      CIN      In      -         5.036       -         
+un2_time_cnt_s_25_0                  ALU      SUM      Out     0.563     5.599       -         
+un2_time_cnt_s_25_0_SUM              Net      -        -       1.021     -           1         
+time_cnt_3[25]                       LUT3     I0       In      -         6.620       -         
+time_cnt_3[25]                       LUT3     F        Out     1.032     7.652       -         
+time_cnt_3[25]                       Net      -        -       0.000     -           1         
+time_cnt[25]                         DFF      D        In      -         7.652       -         
+===============================================================================================
+Total path delay (propagation time + setup) of 7.785 is 4.722(60.7%) logic and 3.063(39.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      6.617
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.484
+
+    - Propagation time:                      7.595
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.111
+
+    Number of logic level(s):                13
+    Starting point:                          time_cnt_fast[4] / Q
+    Ending point:                            time_cnt[17] / D
+    The start point is clocked by            clk_gen|clkout_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clk_gen|clkout_inferred_clock [rising] on pin CLK
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                              Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+time_cnt_fast[4]                  DFF      Q        Out     0.367     0.367       -         
+time_cnt_fast[4]                  Net      -        -       1.021     -           2         
+un2_time_cnt_axb_4_par_0          LUT4     I1       In      -         1.388       -         
+un2_time_cnt_axb_4_par_0          LUT4     F        Out     1.099     2.487       -         
+un2_time_cnt_axb_4_par_0          Net      -        -       1.021     -           1         
+un2_time_cnt_axb_4_par_1          ALU      I0       In      -         3.508       -         
+un2_time_cnt_axb_4_par_1          ALU      COUT     Out     0.958     4.466       -         
+un2_time_cnt_axb_4_par_1_COUT     Net      -        -       0.000     -           1         
+un2_time_cnt_cry_8_0              ALU      CIN      In      -         4.466       -         
+un2_time_cnt_cry_8_0              ALU      COUT     Out     0.057     4.523       -         
+un2_time_cnt_cry_8                Net      -        -       0.000     -           1         
+un2_time_cnt_cry_9_0              ALU      CIN      In      -         4.523       -         
+un2_time_cnt_cry_9_0              ALU      COUT     Out     0.057     4.580       -         
+un2_time_cnt_cry_9                Net      -        -       0.000     -           1         
+un2_time_cnt_cry_10_0             ALU      CIN      In      -         4.580       -         
+un2_time_cnt_cry_10_0             ALU      COUT     Out     0.057     4.637       -         
+un2_time_cnt_cry_10               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_11_0             ALU      CIN      In      -         4.637       -         
+un2_time_cnt_cry_11_0             ALU      COUT     Out     0.057     4.694       -         
+un2_time_cnt_cry_11               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_12_0             ALU      CIN      In      -         4.694       -         
+un2_time_cnt_cry_12_0             ALU      COUT     Out     0.057     4.751       -         
+un2_time_cnt_cry_12               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_13_0             ALU      CIN      In      -         4.751       -         
+un2_time_cnt_cry_13_0             ALU      COUT     Out     0.057     4.808       -         
+un2_time_cnt_cry_13               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_14_0             ALU      CIN      In      -         4.808       -         
+un2_time_cnt_cry_14_0             ALU      COUT     Out     0.057     4.865       -         
+un2_time_cnt_cry_14               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_15_0             ALU      CIN      In      -         4.865       -         
+un2_time_cnt_cry_15_0             ALU      COUT     Out     0.057     4.922       -         
+un2_time_cnt_cry_15               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_16_0             ALU      CIN      In      -         4.922       -         
+un2_time_cnt_cry_16_0             ALU      COUT     Out     0.057     4.979       -         
+un2_time_cnt_cry_16               Net      -        -       0.000     -           1         
+un2_time_cnt_cry_17_0             ALU      CIN      In      -         4.979       -         
+un2_time_cnt_cry_17_0             ALU      SUM      Out     0.563     5.542       -         
+un2_time_cnt_cry_17_0_SUM         Net      -        -       1.021     -           1         
+time_cnt_3[17]                    LUT3     I0       In      -         6.563       -         
+time_cnt_3[17]                    LUT3     F        Out     1.032     7.595       -         
+time_cnt_3[17]                    Net      -        -       0.000     -           1         
+time_cnt[17]                      DFF      D        In      -         7.595       -         
+============================================================================================
+Total path delay (propagation time + setup) of 7.728 is 4.665(60.4%) logic and 3.063(39.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      6.617
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.484
+
+    - Propagation time:                      7.595
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.111
+
+    Number of logic level(s):                13
+    Starting point:                          time_cnt_fast[4] / Q
+    Ending point:                            time_cnt[25] / D
+    The start point is clocked by            clk_gen|clkout_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clk_gen|clkout_inferred_clock [rising] on pin CLK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+time_cnt_fast[4]                     DFF      Q        Out     0.367     0.367       -         
+time_cnt_fast[4]                     Net      -        -       1.021     -           2         
+un2_time_cnt_axb_4_par_0_cp          LUT4     I1       In      -         1.388       -         
+un2_time_cnt_axb_4_par_0_cp          LUT4     F        Out     1.099     2.487       -         
+un2_time_cnt_axb_4_par_0_cp          Net      -        -       1.021     -           1         
+un2_time_cnt_axb_4_par_cp_0          ALU      I0       In      -         3.508       -         
+un2_time_cnt_axb_4_par_cp_0          ALU      COUT     Out     0.958     4.466       -         
+un2_time_cnt_axb_4_par_cp_0_COUT     Net      -        -       0.000     -           1         
+un2_time_cnt_axb_8_par_1             ALU      CIN      In      -         4.466       -         
+un2_time_cnt_axb_8_par_1             ALU      COUT     Out     0.057     4.523       -         
+un2_time_cnt_axb_8_par_1_COUT        Net      -        -       0.000     -           1         
+un2_time_cnt_axb_12_par_1            ALU      CIN      In      -         4.523       -         
+un2_time_cnt_axb_12_par_1            ALU      COUT     Out     0.057     4.580       -         
+un2_time_cnt_axb_12_par_1_COUT       Net      -        -       0.000     -           1         
+un2_time_cnt_axb_16_par_1            ALU      CIN      In      -         4.580       -         
+un2_time_cnt_axb_16_par_1            ALU      COUT     Out     0.057     4.637       -         
+un2_time_cnt_axb_16_par_1_COUT       Net      -        -       0.000     -           1         
+un2_time_cnt_cry_19_0                ALU      CIN      In      -         4.637       -         
+un2_time_cnt_cry_19_0                ALU      COUT     Out     0.057     4.694       -         
+un2_time_cnt_cry_19                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_20_0                ALU      CIN      In      -         4.694       -         
+un2_time_cnt_cry_20_0                ALU      COUT     Out     0.057     4.751       -         
+un2_time_cnt_cry_20                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_21_0                ALU      CIN      In      -         4.751       -         
+un2_time_cnt_cry_21_0                ALU      COUT     Out     0.057     4.808       -         
+un2_time_cnt_cry_21                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_22_0                ALU      CIN      In      -         4.808       -         
+un2_time_cnt_cry_22_0                ALU      COUT     Out     0.057     4.865       -         
+un2_time_cnt_cry_22                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_23_0                ALU      CIN      In      -         4.865       -         
+un2_time_cnt_cry_23_0                ALU      COUT     Out     0.057     4.922       -         
+un2_time_cnt_cry_23                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_24_0                ALU      CIN      In      -         4.922       -         
+un2_time_cnt_cry_24_0                ALU      COUT     Out     0.057     4.979       -         
+un2_time_cnt_cry_24                  Net      -        -       0.000     -           1         
+un2_time_cnt_s_25_0                  ALU      CIN      In      -         4.979       -         
+un2_time_cnt_s_25_0                  ALU      SUM      Out     0.563     5.542       -         
+un2_time_cnt_s_25_0_SUM              Net      -        -       1.021     -           1         
+time_cnt_3[25]                       LUT3     I0       In      -         6.563       -         
+time_cnt_3[25]                       LUT3     F        Out     1.032     7.595       -         
+time_cnt_3[25]                       Net      -        -       0.000     -           1         
+time_cnt[25]                         DFF      D        In      -         7.595       -         
+===============================================================================================
+Total path delay (propagation time + setup) of 7.728 is 4.665(60.4%) logic and 3.063(39.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      6.617
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.484
+
+    - Propagation time:                      7.585
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.101
+
+    Number of logic level(s):                14
+    Starting point:                          time_cnt[0] / Q
+    Ending point:                            time_cnt[25] / D
+    The start point is clocked by            clk_gen|clkout_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            clk_gen|clkout_inferred_clock [rising] on pin CLK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+time_cnt[0]                          DFF      Q        Out     0.367     0.367       -         
+time_cnt[0]                          Net      -        -       1.021     -           2         
+un2_time_cnt_axb_0_par_0_cp          LUT4     I0       In      -         1.388       -         
+un2_time_cnt_axb_0_par_0_cp          LUT4     F        Out     1.032     2.420       -         
+un2_time_cnt_axb_0_par_0_cp          Net      -        -       1.021     -           1         
+un2_time_cnt_axb_0_par_cp_0          ALU      I0       In      -         3.441       -         
+un2_time_cnt_axb_0_par_cp_0          ALU      COUT     Out     0.958     4.399       -         
+un2_time_cnt_axb_0_par_cp_0_COUT     Net      -        -       0.000     -           1         
+un2_time_cnt_axb_4_par_cp_0          ALU      CIN      In      -         4.399       -         
+un2_time_cnt_axb_4_par_cp_0          ALU      COUT     Out     0.057     4.456       -         
+un2_time_cnt_axb_4_par_cp_0_COUT     Net      -        -       0.000     -           1         
+un2_time_cnt_axb_8_par_1             ALU      CIN      In      -         4.456       -         
+un2_time_cnt_axb_8_par_1             ALU      COUT     Out     0.057     4.513       -         
+un2_time_cnt_axb_8_par_1_COUT        Net      -        -       0.000     -           1         
+un2_time_cnt_axb_12_par_1            ALU      CIN      In      -         4.513       -         
+un2_time_cnt_axb_12_par_1            ALU      COUT     Out     0.057     4.570       -         
+un2_time_cnt_axb_12_par_1_COUT       Net      -        -       0.000     -           1         
+un2_time_cnt_axb_16_par_1            ALU      CIN      In      -         4.570       -         
+un2_time_cnt_axb_16_par_1            ALU      COUT     Out     0.057     4.627       -         
+un2_time_cnt_axb_16_par_1_COUT       Net      -        -       0.000     -           1         
+un2_time_cnt_cry_19_0                ALU      CIN      In      -         4.627       -         
+un2_time_cnt_cry_19_0                ALU      COUT     Out     0.057     4.684       -         
+un2_time_cnt_cry_19                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_20_0                ALU      CIN      In      -         4.684       -         
+un2_time_cnt_cry_20_0                ALU      COUT     Out     0.057     4.741       -         
+un2_time_cnt_cry_20                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_21_0                ALU      CIN      In      -         4.741       -         
+un2_time_cnt_cry_21_0                ALU      COUT     Out     0.057     4.798       -         
+un2_time_cnt_cry_21                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_22_0                ALU      CIN      In      -         4.798       -         
+un2_time_cnt_cry_22_0                ALU      COUT     Out     0.057     4.855       -         
+un2_time_cnt_cry_22                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_23_0                ALU      CIN      In      -         4.855       -         
+un2_time_cnt_cry_23_0                ALU      COUT     Out     0.057     4.912       -         
+un2_time_cnt_cry_23                  Net      -        -       0.000     -           1         
+un2_time_cnt_cry_24_0                ALU      CIN      In      -         4.912       -         
+un2_time_cnt_cry_24_0                ALU      COUT     Out     0.057     4.969       -         
+un2_time_cnt_cry_24                  Net      -        -       0.000     -           1         
+un2_time_cnt_s_25_0                  ALU      CIN      In      -         4.969       -         
+un2_time_cnt_s_25_0                  ALU      SUM      Out     0.563     5.532       -         
+un2_time_cnt_s_25_0_SUM              Net      -        -       1.021     -           1         
+time_cnt_3[25]                       LUT3     I0       In      -         6.553       -         
+time_cnt_3[25]                       LUT3     F        Out     1.032     7.585       -         
+time_cnt_3[25]                       Net      -        -       0.000     -           1         
+time_cnt[25]                         DFF      D        In      -         7.585       -         
+===============================================================================================
+Total path delay (propagation time + setup) of 7.718 is 4.655(60.3%) logic and 3.063(39.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:06s; Memory used current: 239MB peak: 240MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 239MB peak: 240MB)
+
+---------------------------------------
+Resource Usage Report for led_test 
+
+Mapping to part: gw1n_4lqfp144-6
+Cell usage:
+ALU             33 uses
+DFF             33 uses
+DFFE            2 uses
+GSR             1 use
+PLL             1 use
+LUT2            3 uses
+LUT3            15 uses
+LUT4            14 uses
+
+I/O ports: 4
+I/O primitives: 4
+IBUF           1 use
+OBUF           3 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   35 of 3456 (1%)
+Total load per clock:
+   clk_gen|clkout_inferred_clock: 35
+
+@S |Mapping Summary:
+Total  LUTs: 32 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 88MB peak: 241MB)
+
+Process took 0h:00m:10s realtime, 0h:00m:08s cputime
+# Wed May 13 13:52:41 2020
+
+###########################################################]

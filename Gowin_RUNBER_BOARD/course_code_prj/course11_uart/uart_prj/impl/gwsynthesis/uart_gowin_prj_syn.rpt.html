@@ -1,0 +1,1384 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>synthesis Report</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 12px; }
+div#main_wrapper{ width: 100%; }
+div#content { margin-left: 350px; margin-right: 30px; }
+div#catalog_wrapper {position: fixed; top: 30px; width: 350px; float: left; }
+div#catalog ul { list-style-type: none; }
+div#catalog li { text-align: left; list-style-type:circle; color: #0084ff; margin-top: 3px; margin-bottom: 3px; }
+div#catalog a { display:inline-block; text-decoration: none; color: #0084ff; font-weight: bold; padding: 3px; }
+div#catalog a:visited { color: #0084ff; }
+div#catalog a:hover { color: #fff; background: #0084ff; }
+hr { margin-top: 30px; margin-bottom: 30px; }
+h1, h3 { text-align: center; }
+h1 {margin-top: 50px; }
+table, th, td { border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { padding: 5px 5px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table.summary_table td.label { width: 24%; min-width: 200px; background-color: #dee8f4; }
+table.detail_table td.label { min-width: 100px; width: 8%;}
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="catalog_wrapper">
+<div id="catalog">
+<ul>
+<li><a href="#about" style=" font-size: 16px;">Synthesis Messages</a></li>
+<li><a href="#setting" style=" font-size: 16px;">Design Settings</a></li>
+<li><a href="#resource" style=" font-size: 16px;">Resource</a>
+<ul>
+<li><a href="#usage" style=" font-size: 14px;">Resource Usage Summary</a></li>
+<li><a href="#utilization" style=" font-size: 14px;">Resource Utilization Summary</a></li>
+</ul>
+</li>
+<li><a href="#timing" style=" font-size: 16px;">Timing</a>
+<ul>
+<li><a href="#clock" style=" font-size: 14px;">Clock Summary</a></li>
+<li><a href="#timing report" style=" font-size: 14px;">Timing Report</a></li>
+<li><a href="#performance" style=" font-size: 14px;">Performance Summary</a></li>
+<li><a href="#detail timing" style=" font-size: 14px;">Detail Timing Paths Informations</a></li>
+</ul>
+</li>
+<li><a href="#message" style=" font-size: 16px;">Message</a></li>
+<li><a href="#summary" style=" font-size: 16px;">Summary</a></li>
+</ul>
+</div><!-- catalog -->
+</div><!-- catalog_wrapper -->
+<div id="content">
+<h1><a name="about">Synthesis Messages</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label">Report Title</td>
+<td>GowinSynthesis Report</td>
+</tr>
+<tr>
+<td class="label">Design File</td>
+<td>D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v<br>
+D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_top.v<br>
+D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v<br>
+D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v<br>
+</td>
+</tr>
+<tr>
+<td class="label">GowinSynthesis Constraints File</td>
+<td>---</td>
+</tr>
+<tr>
+<td class="label">GowinSynthesis Verision</td>
+<td>GowinSynthesis V1.9.5Beta</td>
+</tr>
+<tr>
+<td class="label">Created Time</td>
+<td>Wed May 13 12:14:54 2020
+</td>
+</tr>
+<tr>
+<td class="label">Legal Announcement</td>
+<td>Copyright (C)2014-2020 Gowin Semiconductor Corporation. ALL rights reserved.</td>
+</tr>
+</table>
+<h1><a name="setting">Design Settings</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label">Top Level Module:</td>
+<td>uart_top</td>
+</tr>
+<tr>
+<td class="label">Part Number:</td>
+<td>GW1N-UV4LQ144C6/I5</td>
+</tr>
+</table><br/>
+<h1><a name="resource">Resource</a></h1>
+<h2><a name="usage">Resource Usage Summary</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label"><b>I/OPORT Usage:</b></td>
+<td>12</td>
+</tr>
+<tr>
+<td class="label"><b>I/OBUF Usage:</b></td>
+<td>13</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspIBUF</td>
+<td>3</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspOBUF</td>
+<td>9</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspBUFG</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label"><b>REG Usage:</b></td>
+<td>100</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFF</td>
+<td>38</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFE</td>
+<td>11</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFS</td>
+<td>8</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFR</td>
+<td>16</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFRE</td>
+<td>27</td>
+</tr>
+<tr>
+<td class="label"><b>LUT Usage:</b></td>
+<td>77</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT2</td>
+<td>11</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT3</td>
+<td>28</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT4</td>
+<td>38</td>
+</tr>
+<tr>
+<td class="label"><b>ALU Usage:</b></td>
+<td>46</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspALU</td>
+<td>46</td>
+</tr>
+<tr>
+<td class="label"><b>INV Usage:</b></td>
+<td>8</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspINV</td>
+<td>8</td>
+</tr>
+</table><br/>
+<h2><a name="utilization">Resource Utilization Summary</a></h2>
+Target Device: GW1N-4-LQFP144
+<table class="summary_table">
+<tr>
+<td class="label">CFU Logics</td>
+<td>131(85 LUTs, 46 ALUs) / 4608</td>
+<td>3%</td>
+</tr>
+<tr>
+<td class="label">Registers</td>
+<td>100 / 3756</td>
+<td>3%</td>
+</tr>
+<tr>
+<td class="label">BSRAMs</td>
+<td>0 / 10</td>
+<td>0%</td>
+</tr>
+<tr>
+<td class="label">DSP Macros</td>
+<td>0 / (4*2)</td>
+<td>0%</td>
+</tr>
+</table><br/><br/>
+<h1><a name="timing">Timing</a></h1>
+<h2><a name="clock">Clock Summary:</a></h2>
+<table class="summary_table">
+<tr>
+<th>Clock</th>
+<th>Type</th>
+<th>Frequency</th>
+<th>Period</th>
+<th>Rise</th>
+<th>Fall</th>
+<th>Source</th>
+<th>Master</th>
+<th>Object</th>
+</tr>
+<tr>
+<td>DEFAULT_CLK</td>
+<td>Base</td>
+<td>100.0 MHz</td>
+<td>10.000</td>
+<td>0.000</td>
+<td>5.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+</table><br/>
+<h2><a name="timing report">Timing Report:</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label">Top View:</td>
+<td>uart_top</td>
+</tr>
+<tr>
+<td class="label">Requested Frequency:</td>
+<td>100.0 MHz</td>
+</tr>
+<tr>
+<td class="label">Paths Requested:</td>
+<td>5</td>
+</tr>
+<tr>
+<td class="label">Constraint File(ignored):</td>
+<td></td>
+</tr>
+</table>
+<b>All time values displayed in nanoseconds(ns).</b><br/><br/>
+<h2><a name="performance">Performance Summary:</a></h2>
+Worst Slack in Design:&nbsp3.792<br/>
+<table class="summary_table">
+<tr>
+<th>Start Clock</th>
+<th>Slack</th>
+<th>Requested Frequency</th>
+<th>Estimated Frequency</th>
+<th>Requested Period</th>
+<th>Estimated Period</th>
+<th>Clock Type</th>
+</tr>
+<tr>
+<td>DEFAULT_CLK</td>
+<td>3.792</td>
+<td>100.0 MHz</td>
+<td>161.1 MHz</td>
+<td>10.000</td>
+<td>6.208</td>
+<td>Base</td>
+</tr>
+</table><br/>
+<h2><a name="detail timing">Detail Timing Paths Information</a></h2>
+<b>Path information for path number&nbsp</b>1&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(critical):</td>
+<td>3.792</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.953</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>10.745</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>uart_data_gen/data_num_6_ins671</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>uart_data_gen/write_data_4_ins899</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>bufg</td>
+<td>BUFG</td>
+<td>I</td>
+<td>In</td>
+<td>-</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>bufg</td>
+<td>BUFG</td>
+<td>O</td>
+<td>Out</td>
+<td>0.982</td>
+<td>0.982</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk_12m</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>100</td>
+</tr>
+<tr>
+<td>\uart_data_gen/data_num_6_ins671 </td>
+<td>DFFRE</td>
+<td>CLK</td>
+<td>In</td>
+<td>-</td>
+<td>1.345</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/data_num_6_ins671 </td>
+<td>DFFRE</td>
+<td>Q</td>
+<td>Out</td>
+<td>0.458</td>
+<td>1.803</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_data_num[6]</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n203_ins1059 </td>
+<td>LUT3</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>2.283</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n203_ins1059 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>3.382</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n203</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n205_ins1065 </td>
+<td>LUT3</td>
+<td>I0</td>
+<td>In</td>
+<td>-</td>
+<td>3.862</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n205_ins1065 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.032</td>
+<td>4.894</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n205</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>12</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n210_ins1011 </td>
+<td>LUT3</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>5.374</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n210_ins1011 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>6.473</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n210</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\uart_data_gen/write_data_4_ins899 </td>
+<td>DFFS</td>
+<td>D</td>
+<td>In</td>
+<td>-</td>
+<td>6.953</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.953<br/>
+<b>Logic Delay: </b>4.670(67.2%)<br/>
+<b>Route Delay: </b>2.283(32.8%)<br/>
+<br/><br/>
+<b>Path information for path number&nbsp</b>2&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(non-critical):</td>
+<td>3.792</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.953</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>10.745</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>uart_data_gen/data_num_6_ins671</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>uart_data_gen/write_data_6_ins897</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>bufg</td>
+<td>BUFG</td>
+<td>I</td>
+<td>In</td>
+<td>-</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>bufg</td>
+<td>BUFG</td>
+<td>O</td>
+<td>Out</td>
+<td>0.982</td>
+<td>0.982</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk_12m</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>100</td>
+</tr>
+<tr>
+<td>\uart_data_gen/data_num_6_ins671 </td>
+<td>DFFRE</td>
+<td>CLK</td>
+<td>In</td>
+<td>-</td>
+<td>1.345</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/data_num_6_ins671 </td>
+<td>DFFRE</td>
+<td>Q</td>
+<td>Out</td>
+<td>0.458</td>
+<td>1.803</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_data_num[6]</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n203_ins1059 </td>
+<td>LUT3</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>2.283</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n203_ins1059 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>3.382</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n203</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n205_ins1065 </td>
+<td>LUT3</td>
+<td>I0</td>
+<td>In</td>
+<td>-</td>
+<td>3.862</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n205_ins1065 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.032</td>
+<td>4.894</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n205</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>12</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n204_ins1009 </td>
+<td>LUT3</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>5.374</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n204_ins1009 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>6.473</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n204</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\uart_data_gen/write_data_6_ins897 </td>
+<td>DFFS</td>
+<td>D</td>
+<td>In</td>
+<td>-</td>
+<td>6.953</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.953<br/>
+<b>Logic Delay: </b>4.670(67.2%)<br/>
+<b>Route Delay: </b>2.283(32.8%)<br/>
+<br/><br/>
+<b>Path information for path number&nbsp</b>3&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(non-critical):</td>
+<td>3.792</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.953</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>10.745</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>uart_data_gen/data_num_6_ins671</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>uart_data_gen/write_data_3_ins900</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>bufg</td>
+<td>BUFG</td>
+<td>I</td>
+<td>In</td>
+<td>-</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>bufg</td>
+<td>BUFG</td>
+<td>O</td>
+<td>Out</td>
+<td>0.982</td>
+<td>0.982</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk_12m</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>100</td>
+</tr>
+<tr>
+<td>\uart_data_gen/data_num_6_ins671 </td>
+<td>DFFRE</td>
+<td>CLK</td>
+<td>In</td>
+<td>-</td>
+<td>1.345</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/data_num_6_ins671 </td>
+<td>DFFRE</td>
+<td>Q</td>
+<td>Out</td>
+<td>0.458</td>
+<td>1.803</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_data_num[6]</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n203_ins1059 </td>
+<td>LUT3</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>2.283</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n203_ins1059 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>3.382</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n203</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n205_ins1065 </td>
+<td>LUT3</td>
+<td>I0</td>
+<td>In</td>
+<td>-</td>
+<td>3.862</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n205_ins1065 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.032</td>
+<td>4.894</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n205</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>12</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n213_ins1012 </td>
+<td>LUT3</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>5.374</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n213_ins1012 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>6.473</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n213</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\uart_data_gen/write_data_3_ins900 </td>
+<td>DFFS</td>
+<td>D</td>
+<td>In</td>
+<td>-</td>
+<td>6.953</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.953<br/>
+<b>Logic Delay: </b>4.670(67.2%)<br/>
+<b>Route Delay: </b>2.283(32.8%)<br/>
+<br/><br/>
+<b>Path information for path number&nbsp</b>4&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(non-critical):</td>
+<td>3.792</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.953</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>10.745</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>uart_data_gen/data_num_6_ins671</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>uart_data_gen/write_data_5_ins898</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>bufg</td>
+<td>BUFG</td>
+<td>I</td>
+<td>In</td>
+<td>-</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>bufg</td>
+<td>BUFG</td>
+<td>O</td>
+<td>Out</td>
+<td>0.982</td>
+<td>0.982</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk_12m</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>100</td>
+</tr>
+<tr>
+<td>\uart_data_gen/data_num_6_ins671 </td>
+<td>DFFRE</td>
+<td>CLK</td>
+<td>In</td>
+<td>-</td>
+<td>1.345</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/data_num_6_ins671 </td>
+<td>DFFRE</td>
+<td>Q</td>
+<td>Out</td>
+<td>0.458</td>
+<td>1.803</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_data_num[6]</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n203_ins1059 </td>
+<td>LUT3</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>2.283</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n203_ins1059 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>3.382</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n203</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n205_ins1065 </td>
+<td>LUT3</td>
+<td>I0</td>
+<td>In</td>
+<td>-</td>
+<td>3.862</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n205_ins1065 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.032</td>
+<td>4.894</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n205</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>12</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n207_ins1010 </td>
+<td>LUT3</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>5.374</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n207_ins1010 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>6.473</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n207</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\uart_data_gen/write_data_5_ins898 </td>
+<td>DFFS</td>
+<td>D</td>
+<td>In</td>
+<td>-</td>
+<td>6.953</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.953<br/>
+<b>Logic Delay: </b>4.670(67.2%)<br/>
+<b>Route Delay: </b>2.283(32.8%)<br/>
+<br/><br/>
+<b>Path information for path number&nbsp</b>5&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(non-critical):</td>
+<td>3.792</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.953</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>10.745</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>uart_data_gen/data_num_6_ins671</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>uart_data_gen/write_data_1_ins902</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>bufg</td>
+<td>BUFG</td>
+<td>I</td>
+<td>In</td>
+<td>-</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>bufg</td>
+<td>BUFG</td>
+<td>O</td>
+<td>Out</td>
+<td>0.982</td>
+<td>0.982</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk_12m</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>100</td>
+</tr>
+<tr>
+<td>\uart_data_gen/data_num_6_ins671 </td>
+<td>DFFRE</td>
+<td>CLK</td>
+<td>In</td>
+<td>-</td>
+<td>1.345</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/data_num_6_ins671 </td>
+<td>DFFRE</td>
+<td>Q</td>
+<td>Out</td>
+<td>0.458</td>
+<td>1.803</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_data_num[6]</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n203_ins1059 </td>
+<td>LUT3</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>2.283</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n203_ins1059 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>3.382</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n203</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>3</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n205_ins1065 </td>
+<td>LUT3</td>
+<td>I0</td>
+<td>In</td>
+<td>-</td>
+<td>3.862</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n205_ins1065 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.032</td>
+<td>4.894</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n205</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>12</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n219_ins1014 </td>
+<td>LUT3</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>5.374</td>
+<td>-</td>
+</tr>
+<tr>
+<td>\uart_data_gen/n219_ins1014 </td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>6.473</td>
+<td>-</td>
+</tr>
+<tr>
+<td>uart_data_gen_n219</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>\uart_data_gen/write_data_1_ins902 </td>
+<td>DFFS</td>
+<td>D</td>
+<td>In</td>
+<td>-</td>
+<td>6.953</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.953<br/>
+<b>Logic Delay: </b>4.670(67.2%)<br/>
+<b>Route Delay: </b>2.283(32.8%)<br/>
+<br/><br/>
+<h1><a name="message">Message</a></h1>
+<big>Info    (EXT0100) : Run analyzation & elaboration</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_top.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v'</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v'</big><br/>
+<big>Info    (EXT1018) : Compiling module 'uart_top'(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_top.v:24)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'uart_data_gen'(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:23)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:39)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:48)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:50)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:55)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:61)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:70)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:74)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:76)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:79)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:85)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:94)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:105)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:106)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:107)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:108)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:109)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:110)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:111)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:112)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:113)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:114)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:115)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:116)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:119)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:120)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:121)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_data_gen.v:122)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'uart_tx(BPS_NUM=16'b01101000)'(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:24)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:70)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:86)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:88)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:95)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:97)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:99)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:101)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:157)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:158)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:162)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:163)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:164)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:165)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:166)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:167)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:168)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:169)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:173)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:174)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_tx.v:178)</big><br/>
+<big>Info    (EXT1018) : Compiling module 'uart_rx(BPS_NUM=16'b01101000)'(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:25)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:68)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:69)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:80)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:82)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:91)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:93)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:95)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:97)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:159)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:160)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:165)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:169)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:170)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:174)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_rx.v:176)</big><br/>
+<big>Info    (EXT0101) : Current top module is "uart_top"</big><br/>
+<big>Info    (CVT0001) : Run conversion</big><br/>
+<big>Info    (DIO0001) : Run device independent optimization</big><br/>
+<big>Info    (DIO0006) : Register and gate optimizing before inferencing</big><br/>
+<big>Info    (DSP0001) : DSP inferencing</big><br/>
+<big>Info    (RAM0001) : RAM inferencing</big><br/>
+<big>Info    (ATO0001) : Adder tree reduction</big><br/>
+<big>Info    (ATO0002) : Rebuild ALU instances from adder tree nodes</big><br/>
+<big>Info    (DIO0001) : Run device independent optimization</big><br/>
+<big>Info    (DIO0007) : Register and gate optimizing before mapping</big><br/>
+<big>Info    (MAP0001) : Run tech-mapping</big><br/>
+<big>Info    (MAP0003) : Run logic optimization</big><br/>
+<big>Info    (DIO0001) : Run device independent optimization</big><br/>
+<big>Info    (SYN0009) : Write post-map netlist to file: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\impl\gwsynthesis\uart_gowin_prj.vg</big><br/>
+<br/>
+<h1><a name="summary">Summary</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label"><b>Total Warnings:</b></td> 
+<td>62</td>
+</tr>
+<tr>
+<td class="label"><b>Total Informations:</b></td> 
+<td>23</td>
+</tr>
+</table><br/>
+<b>Synthesis completed successfully!</b><br/>
+Process took 0h:0m:1s realtime, 0h:0m:1s cputime
+<br/>
+Memory peak: 85.2MB
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>

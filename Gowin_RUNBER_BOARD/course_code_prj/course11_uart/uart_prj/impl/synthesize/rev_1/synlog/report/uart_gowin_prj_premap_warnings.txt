@@ -1,0 +1,2 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT531 :"e:\project_manager\mini_eye_board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_data_gen.v":45:4:45:9|Found signal identified as System clock which controls 118 sequential elements including uart_data_gen.work_en.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 

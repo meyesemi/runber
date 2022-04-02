@@ -1,0 +1,17 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\led_ctl.v":23:7:23:13|Synthesizing module led_ctl in library work.
+@N: CG179 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\led_ctl.v":49:34:49:43|Removing redundant assignment.
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\dec_counter.v":23:7:23:17|Synthesizing module dec_counter in library work.
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\compare.v":23:7:23:13|Synthesizing module compare in library work.
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\div_clk.v":21:7:21:13|Synthesizing module div_clk in library work.
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\seq_control.v":21:7:21:17|Synthesizing module seq_control in library work.
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\seq_display.v":23:7:23:17|Synthesizing module seq_display in library work.
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\seq_det.v":23:7:23:14|Synthesizing module lock_top in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_det.v":23:7:23:14|Selected library: work cell: lock_top view verilog as top level
+@N: NF107 :"j:\source_bac\gowin_runber_board\course_code_prj\course16_reaction_test\seq_det\src\seq_det.v":23:7:23:14|Selected library: work cell: lock_top view verilog as top level
+

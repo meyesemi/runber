@@ -1,0 +1,12 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\key_cnt.v":29:7:29:13|Synthesizing module key_cnt in library work.
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\freq_test.v":21:7:21:15|Synthesizing module freq_test in library work.
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\div_clk.v":21:7:21:13|Synthesizing module div_clk in library work.
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\seq_control.v":21:7:21:17|Synthesizing module seq_control in library work.
+@N: CG364 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\top_freq.v":21:7:21:14|Synthesizing module top_freq in library work.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,177 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: Myminieye
+// Engineer: Nill
+// 
+// Create Date: 2019-08-20 14:36
+// Design Name: 
+// Module Name: uart_rx
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+`define UD #1
+
+module uart_rx # (
+    parameter            BPS_NUM     =    16'd433   //16'd4166  //    //clk cycle:50MHz set 5208   40MHz set 4167
+//  parameter            BPS_4800    =    16'd10416 //16'd8332  //    //clk cycle:50MHz set 10417  40MHz set 8333
+//  parameter            BPS_9600    =    16'd5207  //16'd4166  //    //clk cycle:50MHz set 5208   40MHz set 4167
+//  parameter            BPS_115200  =    16'd433   //16'd346   //    //clk cycle:50MHz set 434    40MHz set 347
+)
+(
+	  //input ports
+	  input             clk,
+	  input             rstn,
+	  input             uart_rx,
+    
+	  //output ports
+	  output reg [7:0]  rx_data,
+	  output reg        rx_en,
+	  output            rx_finish
+);
+
+    // uart tx state machine's state
+    parameter  IDLE	        = 4'h0;	//tx state machine's state.
+    parameter  RECEIV_START = 4'h1;	//tx state machine's state.
+    parameter  RECEIV_DATA  = 4'h2;	//tx state machine's state.
+    parameter  RECEIV_STOP  = 4'h3;	//tx state machine's state.
+    parameter  RECEIV_END   = 4'h4;	//tx state machine's state.
+
+//==========================================================================
+//wire and reg in the module
+//==========================================================================
+    reg	[2:0]	  rx_state=0;		//current state of tx state machine.
+    reg	[2:0]	  rx_state_n=0;	//next state of tx state machine.
+    reg [7:0]     rx_data_reg;
+    reg	          uart_rx_reg;	//save uart_rx one cycle.
+    reg	          uart_rx_reg_n;	//save uart_rx one cycle.
+    wire          start;		//active when start a byte receive.
+
+
+//==========================================================================
+//logic
+//==========================================================================
+    reg	[8:0]	  clk_div_cnt;	//count for division the clock.
+
+//some control single.
+    always @ (posedge clk) uart_rx_reg <= `UD uart_rx;
+    always @ (posedge clk) uart_rx_reg_n <= `UD uart_rx_reg;
+    assign	start	    = (!uart_rx) && (uart_rx_reg || uart_rx_reg_n);
+    assign	rx_finish   = (rx_state == RECEIV_END);
+
+
+//division the clock to satisfy baud rate.
+    always @ (posedge clk)
+    begin
+        if(rx_state == IDLE || clk_div_cnt == BPS_NUM)
+            clk_div_cnt   <= `UD 16'h0;
+        else
+            clk_div_cnt   <= `UD clk_div_cnt + 16'h1;
+    end
+    
+    // receive bit data numbers
+    reg	[2:0]	  rx_bit_cnt=0;	//the bits number has transmited.
+    always @ (posedge clk)
+    begin
+        if(rx_state == IDLE)
+            rx_bit_cnt    <= `UD 3'h0;
+        else if((rx_bit_cnt == 3'h7) && (clk_div_cnt == BPS_NUM))
+            rx_bit_cnt    <= `UD 3'h0;
+        else if((rx_state == RECEIV_DATA) && (clk_div_cnt == BPS_NUM))
+            rx_bit_cnt    <= `UD rx_bit_cnt + 3'h1;
+        else 
+            rx_bit_cnt    <= `UD rx_bit_cnt;
+    end
+
+//==========================================================================
+//receive state machine
+//==========================================================================
+    always @(posedge clk)
+    begin
+        rx_state <= rx_state_n;
+    end
+
+    always @ (*)
+    begin
+      case(rx_state)
+        IDLE   	:  
+        begin
+            if(start)// && clk_div_cnt == BPS_NUM)
+    	        rx_state_n <= `UD RECEIV_START;
+    	    else
+    	        rx_state_n <= `UD rx_state;
+    	end
+        RECEIV_START	:  
+        begin
+            if(clk_div_cnt == BPS_NUM)
+    	        rx_state_n <= `UD RECEIV_DATA;
+    	    else
+    		    rx_state_n <= `UD rx_state;
+    	end
+        RECEIV_DATA	:  
+        begin
+            if(rx_bit_cnt == 3'h7 && clk_div_cnt == BPS_NUM)
+    	        rx_state_n <= `UD RECEIV_STOP;
+    	    else
+    		    rx_state_n <= `UD rx_state;
+    	end
+        RECEIV_STOP	:  
+        begin
+            if(clk_div_cnt == BPS_NUM)
+    	        rx_state_n <= `UD RECEIV_END;
+    	    else
+    		    rx_state_n <= `UD rx_state;
+        end
+        RECEIV_END	:  
+        begin
+            if(!uart_rx_reg)
+                rx_state_n <= `UD RECEIV_START;
+            else
+                rx_state_n <= `UD IDLE;
+        end
+        default	:  rx_state_n <= `UD IDLE;
+      endcase
+    end
+    
+    always @ (posedge clk)
+    begin
+        case(rx_state)
+            IDLE         ,
+            RECEIV_START :  
+            begin
+                rx_en    <= `UD 1'b0;
+                rx_data_reg  <= `UD 8'h0;
+            end
+            RECEIV_DATA  :  
+            begin
+                if(clk_div_cnt == BPS_NUM[8:1])
+                    rx_data_reg  <= `UD {uart_rx , rx_data_reg[7:1]};
+            end
+            RECEIV_STOP  : 
+            begin
+                rx_en    <= `UD 1'b1;
+                rx_data  <= `UD ~rx_data_reg;
+            end
+            RECEIV_END	:  
+            begin
+                rx_data_reg  <= `UD 8'h0;
+            end
+            default:    rx_en    <= `UD 1'b0;
+        endcase
+    end
+
+endmodule
+
+
+
+

@@ -1,0 +1,2 @@
+ckid0_0:@|S:your_instance_name.pll_inst.CLKOUT@|E:u_div_clk.times_cnt[23]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_1:@|S:u_div_clk.flag.Q[0]@|E:counter[3]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1

@@ -1,0 +1,2 @@
+ckid0_0:@|S:clk@|E:seq_display.key3_cnt[3]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_1:@|S:seq_display.div_clk.flag.Q[0]@|E:seq_display.sel[1]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1

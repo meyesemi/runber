@@ -1,0 +1,7 @@
+E:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  H:\Eye_Image_Transmit\trunk\HardWare\Gowin_board\cource\Verilog\uart_gowin_prj\temp\gao\ao_control\rev_1\synwork\ao_control_comp.srs  -osyn  H:\Eye_Image_Transmit\trunk\HardWare\Gowin_board\cource\Verilog\uart_gowin_prj\temp\gao\ao_control\rev_1\synwork\ao_control_mult.srs  -log  H:\Eye_Image_Transmit\trunk\HardWare\Gowin_board\cource\Verilog\uart_gowin_prj\temp\gao\ao_control\rev_1\synlog\ao_control_multi_srs_gen.srr 
+relcom:E:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\ao_control_comp.srs -osyn ..\synwork\ao_control_mult.srs -log ..\synlog\ao_control_multi_srs_gen.srr
+rc:0 success:1 runtime:2
+file:..\synwork\ao_control_comp.srs|io:i|time:1566817151|size:9326|exec:0|csum:A8848295D214727844ABDBE85DD6ECAB
+file:..\synwork\ao_control_mult.srs|io:o|time:1566817154|size:9092|exec:0|csum:
+file:..\synlog\ao_control_multi_srs_gen.srr|io:o|time:1566817154|size:1047|exec:0|csum:
+file:E:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1552407354|size:8810496|exec:1|csum:F052DADC0B944B3FC13DEB1D4FAB2C93

@@ -1,0 +1,101 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+
+# Written on Wed May 13 11:37:11 2020
+
+##### DESIGN INFO #######################################################
+
+Top View:                "lock_top"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                       Ending                         |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+lock_top|clk                   lock_top|clk                   |     10.000           |     No paths         |     No paths         |     No paths                         
+lock_top|clk                   div_clk|flag_derived_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
+div_clk|flag_derived_clock     div_clk|flag_derived_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
+=========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:dig[0]
+p:dig[1]
+p:dig[2]
+p:dig[3]
+p:enter
+p:init
+p:key[0]
+p:key[1]
+p:key[2]
+p:key[3]
+p:smg[0]
+p:smg[1]
+p:smg[2]
+p:smg[3]
+p:smg[4]
+p:smg[5]
+p:smg[6]
+p:smg[7]
+p:sw[0]
+p:sw[1]
+p:sw[2]
+p:sw[3]
+p:sw[4]
+p:sw[5]
+p:sw[6]
+p:sw[7]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

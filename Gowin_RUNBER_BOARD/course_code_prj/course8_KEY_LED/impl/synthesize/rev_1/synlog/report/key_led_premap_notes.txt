@@ -1,0 +1,9 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "000000000000000000" on instance time_cnt[17:0].
+@N: FX493 |Applying initial value "00" on instance key_push_cnt[1:0].
+@N: FX493 |Applying initial value "0000000000000000000000000" on instance led_light_cnt[24:0].
+@N: FX493 |Applying initial value "10000000" on instance led_status[7:0].
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\impl\synthesize\rev_1\key_led.sap.

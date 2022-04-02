@@ -1,0 +1,20 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\key_control.v":21:7:21:17|Synthesizing module key_control in library work.
+@N: CG179 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\key_control.v":76:20:76:29|Removing redundant assignment.
+@N: CG179 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\key_control.v":92:21:92:32|Removing redundant assignment.
+@N: CG179 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\key_control.v":102:21:102:32|Removing redundant assignment.
+@N: CG179 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\key_control.v":112:21:112:32|Removing redundant assignment.
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\seq_det.v":21:7:21:13|Synthesizing module seq_det in library work.
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\div_clk.v":21:7:21:13|Synthesizing module div_clk in library work.
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\seq_control.v":21:7:21:17|Synthesizing module seq_control in library work.
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\top_seq_det.v":21:7:21:17|Synthesizing module top_seq_det in library work.
+@N: CL189 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\seq_det.v":80:0:80:5|Register bit data[3] is always 0.
+@N|Running in 64-bit mode
+@N: NF107 :"e:\project_manager\mini_eye_board\gowin\course\course12_seq_det\seq_det\src\top_seq_det.v":21:7:21:17|Selected library: work cell: top_seq_det view verilog as top level
+@N: NF107 :"e:\project_manager\mini_eye_board\gowin\course\course12_seq_det\seq_det\src\top_seq_det.v":21:7:21:17|Selected library: work cell: top_seq_det view verilog as top level
+

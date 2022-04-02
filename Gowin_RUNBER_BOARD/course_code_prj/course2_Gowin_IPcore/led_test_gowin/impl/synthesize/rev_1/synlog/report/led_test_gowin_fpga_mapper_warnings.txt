@@ -1,0 +1,2 @@
+@W: MT246 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\gowin_pll\gowin_pll.v":21:4:21:11|Blackbox PLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock clk_gen|clkout_inferred_clock with period 6.62ns. Please declare a user-defined clock on net clk_50m_gen.clk_out.

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\impl\synthesize\rev_1\synlog\FRE_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>div_clk_12000000_120|flag_derived_clock</data>
+<data>100.0 MHz</data>
+<data>166.1 MHz</data>
+<data>16.087</data>
+</row>
+<row>
+<data>freq_test|flag_derived_clock</data>
+<data>100.0 MHz</data>
+<data>111.4 MHz</data>
+<data>1.020</data>
+</row>
+<row>
+<data>top_freq|clk</data>
+<data>100.0 MHz</data>
+<data>88.0 MHz</data>
+<data>-1.360</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>866.6 MHz</data>
+<data>8.846</data>
+</row>
+</report_table>

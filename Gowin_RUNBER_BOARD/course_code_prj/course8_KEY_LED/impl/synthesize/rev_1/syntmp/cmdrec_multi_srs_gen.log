@@ -1,0 +1,7 @@
+C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  key_led_top  -multisrs  D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\impl\synthesize\rev_1\synwork\key_led_comp.srs  -osyn  D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\impl\synthesize\rev_1\synwork\key_led_mult.srs  -log  D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\impl\synthesize\rev_1\synlog\key_led_multi_srs_gen.srr 
+relcom:C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\bin64\syn_nfilter.exe -link -top key_led_top -multisrs ..\synwork\key_led_comp.srs -osyn ..\synwork\key_led_mult.srs -log ..\synlog\key_led_multi_srs_gen.srr
+rc:0 success:1 runtime:2
+file:..\synwork\key_led_comp.srs|io:i|time:1589333377|size:6501|exec:0|csum:74EE839B5ACF67A3408AB1FD028D568A
+file:..\synwork\key_led_mult.srs|io:o|time:1589333382|size:1833|exec:0|csum:
+file:..\synlog\key_led_multi_srs_gen.srr|io:o|time:1589333382|size:1184|exec:0|csum:
+file:C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1582920966|size:8866304|exec:1|csum:C0E54C14713AD408F6EDCA9338632815

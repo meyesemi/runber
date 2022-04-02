@@ -1,0 +1,44 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp2019q3p1, Build 286R, Built Feb 28 2020 09:59:15
+
+Modified Files: 12
+FID:  path (prevtimestamp, timestamp)
+0        C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\generic\gw1n.v (2019-03-21 13:46:02, N/A)
+1        C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\hypermods.v (2019-03-13 00:06:40, N/A)
+2        C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\scemi_objects.v (2019-03-13 00:06:40, N/A)
+3        C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (2019-03-13 00:06:40, N/A)
+4        C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\umr_capim.v (2019-03-13 00:06:40, N/A)
+6        C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\generic\gw1n.v (N/A, 2020-02-29 04:17:12)
+7        C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\hypermods.v (N/A, 2020-02-29 04:19:08)
+8        C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2020-02-29 04:19:08)
+9        C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2020-02-29 04:19:08)
+10       C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2020-02-29 04:19:08)
+11       D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course5_LED_ctl\led_light\src\led_light.v (N/A, 2020-01-07 11:18:58)
+5        F:\gowin_cource_prj\led_light\led_light\src\led_light.v (2019-09-04 20:32:02, N/A)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+0        work.led_light.verilog may have changed because the following files changed:
+                        D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course5_LED_ctl\led_light\src\led_light.v (N/A, 2020-01-07 11:18:58) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

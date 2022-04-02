@@ -1,0 +1,19 @@
+Info    (PA0001) : "D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin.vm" | Reading netlist file.
+Info    (PA0004) : Parsing netlist file 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin.vm' completed.
+Warning (PA1003) : Invalid parameterized value 'GW1N-4B'(DEVICE) specified for instance 'pll_inst'.
+Info    (PA0006) : Processing netlist completed.
+Info    (CT0002) : Physical Constraint parsed completed.
+Info    (PR0001) : Placement in progress......
+Info    (PR0005) : Routing in progress......
+Info    (PR0002) : Placement and routing completed.
+Info    (TA0001) : Timing analysis completed.
+Info    (FS0001) : Bitstream generation in progress......
+Info    (FS0002) : Bitstream generation completed.
+Info    (PW0001) : Power analysis completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\pnr\led_test_gowin.power.html' file completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\pnr\led_test_gowin.pin.html' file completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\pnr\led_test_gowin.rpt.html' file completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\pnr\led_test_gowin.rpt.txt' file completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\pnr\led_test_gowin.tr.html' file completed.
+Info    (CM0001) : Wed May 13 13:52:56 2020
+

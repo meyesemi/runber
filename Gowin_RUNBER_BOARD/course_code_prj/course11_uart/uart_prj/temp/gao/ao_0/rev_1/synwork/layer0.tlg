@@ -1,0 +1,19 @@
+@N: CG364 :"H:\Eye_Image_Transmit\trunk\HardWare\Gowin_board\cource\Verilog\uart_gowin_prj\temp\gao\ao_0\gw_ao_parameter.v":1:0:1:8|Synthesizing module work_H:\Eye_Image_Transmit\trunk\HardWare\Gowin_board\cource\Verilog\uart_gowin_prj\temp\gao\ao_0\gw_ao_parameter.v_unit in library work.
+Selecting top level module ao_top
+Running optimization stage 1 on ao_mem_ctrl_2048s_13s_11s .......
+Running optimization stage 1 on ao_top .......
+Running optimization stage 2 on ao_top .......
+Extracted state machine for register module_state
+State machine has 6 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+Running optimization stage 2 on ao_mem_ctrl_2048s_13s_11s .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: H:\Eye_Image_Transmit\trunk\HardWare\Gowin_board\cource\Verilog\uart_gowin_prj\temp\gao\ao_0\rev_1\synwork\layer0.rt.csv
+

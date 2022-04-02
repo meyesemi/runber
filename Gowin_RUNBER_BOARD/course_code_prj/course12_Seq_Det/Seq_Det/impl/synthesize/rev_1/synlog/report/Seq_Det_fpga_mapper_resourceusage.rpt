@@ -1,0 +1,27 @@
+---------------------------------------
+Resource Usage Report for top_seq_det 
+
+Mapping to part: gw1n_4blqfp144-6
+Cell usage:
+ALU             43 uses
+DFF             55 uses
+DFFE            9 uses
+DFFR            11 uses
+DFFS            10 uses
+GSR             1 use
+INV             5 uses
+LUT2            8 uses
+LUT3            21 uses
+LUT4            23 uses
+
+I/O ports: 33
+I/O primitives: 33
+IBUF           13 uses
+OBUF           20 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   85 of 3456 (2%)
+
+@S |Mapping Summary:
+Total  LUTs: 52 (1%)
+

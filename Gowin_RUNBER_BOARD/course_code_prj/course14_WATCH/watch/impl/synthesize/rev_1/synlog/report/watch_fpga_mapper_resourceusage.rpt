@@ -1,0 +1,31 @@
+---------------------------------------
+Resource Usage Report for top_watch 
+
+Mapping to part: gw1n_4lqfp144-6
+Cell usage:
+ALU             55 uses
+DFF             89 uses
+DFFE            9 uses
+DFFR            35 uses
+DFFRE           4 uses
+DFFS            4 uses
+DFFSE           1 use
+GSR             1 use
+INV             8 uses
+MUX2_LUT5       13 uses
+MUX2_LUT6       5 uses
+LUT2            31 uses
+LUT3            64 uses
+LUT4            152 uses
+
+I/O ports: 17
+I/O primitives: 17
+IBUF           4 uses
+OBUF           13 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   142 of 3456 (4%)
+
+@S |Mapping Summary:
+Total  LUTs: 247 (5%)
+

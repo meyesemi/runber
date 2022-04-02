@@ -1,0 +1,193 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: Myminieye
+// Engineer: Nill
+// 
+// Create Date: 2019-08-20 14:36
+// Design Name: 
+// Module Name: uart_tx
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+`define UD #1
+
+module uart_tx #(
+    parameter            BPS_NUM  =    16'd434   //14'd347  ;//
+//    parameter            BPS_4800    =    14'd10417;//14'd8333 ;//
+//    parameter            BPS_9600    =    13'd5208 ;//14'd4167 ;//
+//   parameter            BPS_115200  =    9'd434  ;//14'd347  ;//
+)
+(
+    input          clk,
+    input [7:0]    tx_data,
+    input          tx_pluse,    // uart tx enable signal,rising is active;
+                   
+    output reg     uart_tx,  // uart tx transmit data line
+    output         tx_busy   // uart tx module work states,high is busy;
+);
+
+    //==========================================================================
+    //wire and reg in the module
+    //==========================================================================
+    reg           tx_pluse_reg =0;
+    
+    reg	[2:0]	  tx_bit_cnt=0;	//the bits number has transmited.
+    
+    reg	[2:0]	  tx_state=0;		//current state of tx state machine.
+    reg	[2:0]	  tx_state_n=0;	//next state of tx state machine.
+    
+    reg	[3:0]	  pluse_delay_cnt=0;
+    reg           tx_en = 0;
+    
+    wire          tx_finish;// uart send one byte data finish flag
+
+    // uart tx state machine's state
+    localparam  IDLE	      = 4'h0;	//tx state machine's state.
+    localparam  SEND_START = 4'h1;	//tx state machine's state.
+    localparam  SEND_DATA  = 4'h2;	//tx state machine's state.
+    localparam  SEND_STOP  = 4'h3;	//tx state machine's state.
+    localparam  SEND_END   = 4'h4;	//tx state machine's state.
+    
+    // uart bps set  the clk's frequency is 50MHz
+    reg	[15:0]	  clk_div_cnt=0;	//count for division the clock.
+
+    //==========================================================================
+    //logic
+    //==========================================================================
+    assign tx_busy = ~tx_finish;
+    //some control single.
+    assign tx_finish   = (tx_state == IDLE);
+    
+    
+    always @(posedge clk)
+    begin
+        tx_pluse_reg <= `UD tx_pluse;
+    end
+    
+    always @(posedge clk)
+    begin
+        if(~tx_pluse_reg & tx_pluse)
+            tx_en <= 1'b1;
+        else if(tx_state == SEND_END)
+            tx_en <= 1'b0;
+    end
+    
+    //division the clock to satisfy baud rate.
+    always @ (posedge clk)
+    begin
+        if(clk_div_cnt == BPS_NUM)
+            clk_div_cnt   <= `UD 16'h0;
+        else
+            clk_div_cnt   <= `UD clk_div_cnt + 16'h1;
+    end
+    
+    //count the number has transmited.
+    always @ (posedge clk)
+    begin
+        if(!tx_en)
+            tx_bit_cnt    <= `UD 3'h0;
+        else if((tx_bit_cnt == 3'h7) && (clk_div_cnt == BPS_NUM))
+            tx_bit_cnt    <= `UD 3'h0;
+        else if((tx_state == SEND_DATA) && (clk_div_cnt == BPS_NUM))
+            tx_bit_cnt    <= `UD tx_bit_cnt + 3'h1;
+        else 
+            tx_bit_cnt    <= `UD tx_bit_cnt;
+    end
+    
+    //time count.
+    always @ (posedge clk)
+    begin
+      if(tx_state != IDLE)
+          pluse_delay_cnt   <= `UD 4'h0;
+      else
+          pluse_delay_cnt   <= `UD pluse_delay_cnt + 4'h1;
+    end
+    
+    //==========================================================================
+    //transmitter state machine
+    //==========================================================================
+    
+    //   state change
+    always @(posedge clk)
+    begin
+        tx_state <= tx_state_n;
+    end
+    
+    //   state change condition
+    always @ (*)
+    begin
+      case(tx_state)
+        IDLE   	:  
+        begin
+            if((tx_en)&&(pluse_delay_cnt == 4'hf))// && clk_div_cnt == bps_num)
+    	        tx_state_n = SEND_START;
+    	    else
+    	        tx_state_n = tx_state;
+    	end
+        SEND_START	:  
+        begin
+            if(clk_div_cnt == BPS_NUM)
+    	        tx_state_n = SEND_DATA;
+    	    else
+    		    tx_state_n = tx_state;
+    	end
+        SEND_DATA	:  
+        begin
+            if(tx_bit_cnt == 3'h7 && clk_div_cnt == BPS_NUM)
+    	        tx_state_n = SEND_STOP;
+    	    else
+    		    tx_state_n = tx_state;
+    	end
+        SEND_STOP	:  
+        begin
+            if(clk_div_cnt == BPS_NUM)
+    	        tx_state_n = SEND_END;
+    	    else
+    		    tx_state_n = tx_state;
+        end
+        SEND_END	:  tx_state_n = IDLE;
+        default	:  tx_state_n = IDLE;
+      endcase
+    end
+    
+    //   logical ouput
+    always @ (posedge clk)
+    begin
+      if(tx_en)
+      begin
+          case(tx_state)
+              IDLE       :  uart_tx  <= `UD 1'h1;
+              SEND_START :  uart_tx  <= `UD 1'h0;
+              SEND_DATA  :  
+              begin
+                  case(tx_bit_cnt)
+                      3'h0  :  uart_tx  <= `UD tx_data[0];
+                      3'h1  :  uart_tx  <= `UD tx_data[1];
+                      3'h2  :  uart_tx  <= `UD tx_data[2];
+                      3'h3  :  uart_tx  <= `UD tx_data[3];
+                      3'h4  :  uart_tx  <= `UD tx_data[4];
+                      3'h5  :  uart_tx  <= `UD tx_data[5];
+                      3'h6  :  uart_tx  <= `UD tx_data[6];
+                      3'h7  :  uart_tx  <= `UD tx_data[7];
+                      default: uart_tx  <= `UD 1'h1;
+                  endcase
+              end
+              SEND_STOP  :  uart_tx  <= `UD 1'h1;
+              default    :  uart_tx  <= `UD 1'h1;
+          endcase
+      end
+      else
+          uart_tx <= `UD 1'h1;
+    end
+    
+    endmodule

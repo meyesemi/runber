@@ -1,0 +1,31 @@
+---------------------------------------
+Resource Usage Report for uart_top 
+
+Mapping to part: gw1n_4blqfp144-6
+Cell usage:
+ALU             64 uses
+BUFG            1 use
+DFF             59 uses
+DFFE            9 uses
+DFFR            35 uses
+DFFRE           17 uses
+DFFS            1 use
+GSR             1 use
+INV             2 uses
+MUX2_LUT5       10 uses
+MUX2_LUT6       3 uses
+LUT2            20 uses
+LUT3            34 uses
+LUT4            94 uses
+
+I/O ports: 12
+I/O primitives: 12
+IBUF           3 uses
+OBUF           9 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   121 of 3456 (3%)
+
+@S |Mapping Summary:
+Total  LUTs: 148 (3%)
+

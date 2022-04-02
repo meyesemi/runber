@@ -1,0 +1,736 @@
+#Build: Synplify Pro (R) O-2018.09G-SP1-1-Beta1, Build 141R, Mar 12 2019
+#install: C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+#OS: Windows 7 6.1
+#Hostname: ADMIN-PC
+
+# Mon Sep 16 21:00:05 2019
+
+#Implementation: rev_1
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: ADMIN-PC
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2018q4p1, Build 157R, Built Mar 12 2019 09:11:06
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: ADMIN-PC
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2018q4p1, Build 157R, Built Mar 12 2019 09:11:06
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\generic\gw1n.v" (library work)
+@I::"C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"F:\gowin_cource_prj\key_led\src\btn_deb.v" (library work)
+@I::"F:\gowin_cource_prj\key_led\src\key_ctl.v" (library work)
+@I::"F:\gowin_cource_prj\key_led\src\led.v" (library work)
+@I::"F:\gowin_cource_prj\key_led\src\key_led_top.v" (library work)
+@W: CG978 :"F:\gowin_cource_prj\key_led\src\key_led_top.v":39:3:39:5|An instance name was not specified - using generated name II_1
+Verilog syntax check successful!
+Selecting top level module key_led_top
+@N: CG364 :"F:\gowin_cource_prj\key_led\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+
+	BTN_WIDTH=4'b0001
+   Generated name = btn_deb_1
+Running optimization stage 1 on btn_deb_1 .......
+@N: CG364 :"F:\gowin_cource_prj\key_led\src\key_ctl.v":23:7:23:13|Synthesizing module key_ctl in library work.
+Running optimization stage 1 on key_ctl .......
+@N: CG364 :"F:\gowin_cource_prj\key_led\src\led.v":23:7:23:9|Synthesizing module led in library work.
+Running optimization stage 1 on led .......
+@W: CL169 :"F:\gowin_cource_prj\key_led\src\led.v":43:4:43:9|Pruning unused register ctrl_1d[1:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"F:\gowin_cource_prj\key_led\src\key_led_top.v":23:7:23:17|Synthesizing module key_led_top in library work.
+Running optimization stage 1 on key_led_top .......
+Running optimization stage 2 on key_led_top .......
+Running optimization stage 2 on led .......
+@N: CL159 :"F:\gowin_cource_prj\key_led\src\led.v":25:18:25:21|Input ctrl is unused.
+Running optimization stage 2 on key_ctl .......
+Running optimization stage 2 on btn_deb_1 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\gowin_cource_prj\key_led\impl\synthesize\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep 16 21:00:06 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: ADMIN-PC
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2018q4p1, Build 157R, Built Mar 12 2019 09:11:06
+
+@N|Running in 64-bit mode
+@N: NF107 :"f:\gowin_cource_prj\key_led\src\key_led_top.v":23:7:23:17|Selected library: work cell: key_led_top view verilog as top level
+@N: NF107 :"f:\gowin_cource_prj\key_led\src\key_led_top.v":23:7:23:17|Selected library: work cell: key_led_top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep 16 21:00:06 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep 16 21:00:06 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: ADMIN-PC
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2018q4p1, Build 157R, Built Mar 12 2019 09:11:06
+
+@N|Running in 64-bit mode
+@N: NF107 :"f:\gowin_cource_prj\key_led\src\key_led_top.v":23:7:23:17|Selected library: work cell: key_led_top view verilog as top level
+@N: NF107 :"f:\gowin_cource_prj\key_led\src\key_led_top.v":23:7:23:17|Selected library: work cell: key_led_top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Sep 16 21:00:08 2019
+
+###########################################################]
+Premap Report
+
+# Mon Sep 16 21:00:08 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: ADMIN-PC
+
+Implementation : rev_1
+Synopsys Generic Technology Pre-mapping, Version mapgw2018q4p1, Build 001R, Built Mar 29 2019 09:46:38
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: F:\gowin_cource_prj\key_led\impl\synthesize\rev_1\key_led_scck.rpt 
+Printing clock  summary report in "F:\gowin_cource_prj\key_led\impl\synthesize\rev_1\key_led_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN115 :"f:\gowin_cource_prj\key_led\src\key_led_top.v":32:11:32:17|Removing instance key_ctl (in view: work.key_led_top(verilog)) of type view:work.key_ctl(verilog) because it does not drive other instances.
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 191MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 191MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 191MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 191MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 191MB)
+
+
+
+Clock Summary
+******************
+
+          Start               Requested     Requested     Clock        Clock                     Clock
+Level     Clock               Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------------------------
+0 -       key_led_top|clk     251.0 MHz     3.984         inferred     Autoconstr_clkgroup_0     33   
+======================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                    Clock     Source        Clock Pin                Non-clock Pin     Non-clock Pin
+Clock               Load      Pin           Seq Example              Seq Example       Comb Example 
+----------------------------------------------------------------------------------------------------
+key_led_top|clk     33        clk(port)     II_1.led_status[7].C     -                 -            
+====================================================================================================
+
+@W: MT529 :"f:\gowin_cource_prj\key_led\src\led.v":34:4:34:9|Found inferred clock key_led_top|clk which controls 33 sequential elements including II_1.led_light_cnt[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 33 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================== Non-Gated/Non-Generated Clocks ===============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance      
+---------------------------------------------------------------------------------------------
+@KP:ckid0_0       clk                 Unconstrained_port     33         II_1.led_light_cnt[0]
+=============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file F:\gowin_cource_prj\key_led\impl\synthesize\rev_1\key_led.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 189MB peak: 191MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 189MB peak: 191MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 189MB peak: 191MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 104MB peak: 191MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Sep 16 21:00:10 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Sep 16 21:00:10 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: C:\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: ADMIN-PC
+
+Implementation : rev_1
+Synopsys Generic Technology Mapper, Version mapgw2018q4p1, Build 001R, Built Mar 29 2019 09:46:38
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 190MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX493 |Applying initial value "0000000000000000000000000" on instance II_1.led_light_cnt[24:0].
+@N: FX493 |Applying initial value "00000000" on instance II_1.led_status[7:0].
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 190MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 190MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 190MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 190MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 190MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 190MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 190MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.16ns		  46 /        33
+   2		0h:00m:00s		    -2.16ns		  46 /        33
+
+   3		0h:00m:00s		    -2.16ns		  46 /        33
+
+
+   4		0h:00m:00s		    -2.10ns		  48 /        33
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 190MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 190MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 118MB peak: 190MB)
+
+Writing Analyst data base F:\gowin_cource_prj\key_led\impl\synthesize\rev_1\synwork\key_led_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 187MB peak: 190MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 189MB peak: 190MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 187MB peak: 190MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 189MB peak: 190MB)
+
+@W: MT420 |Found inferred clock key_led_top|clk with period 6.48ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Sep 16 21:00:13 2019
+#
+
+
+Top view:               key_led_top
+Requested Frequency:    154.3 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.144
+
+                    Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock      Frequency     Frequency     Period        Period        Slack      Type         Group                
+-------------------------------------------------------------------------------------------------------------------------
+key_led_top|clk     154.3 MHz     131.1 MHz     6.482         7.626         -1.144     inferred     Autoconstr_clkgroup_0
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------
+key_led_top|clk  key_led_top|clk  |  6.482       -1.144  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: key_led_top|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                   Arrival           
+Instance                   Reference           Type     Pin     Net                   Time        Slack 
+                           Clock                                                                        
+--------------------------------------------------------------------------------------------------------
+II_1.led_light_cnt[7]      key_led_top|clk     DFF      Q       led_light_cnt[7]      0.367       -1.144
+II_1.led_light_cnt[6]      key_led_top|clk     DFF      Q       led_light_cnt[6]      0.367       -1.077
+II_1.led_light_cnt[15]     key_led_top|clk     DFF      Q       led_light_cnt[15]     0.367       -1.077
+II_1.led_light_cnt[10]     key_led_top|clk     DFF      Q       led_light_cnt[10]     0.367       -1.010
+II_1.led_light_cnt[8]      key_led_top|clk     DFF      Q       led_light_cnt[8]      0.367       -0.867
+II_1.led_light_cnt[21]     key_led_top|clk     DFF      Q       led_light_cnt[21]     0.367       -0.867
+II_1.led_light_cnt[17]     key_led_top|clk     DFF      Q       led_light_cnt[17]     0.367       -0.800
+II_1.led_light_cnt[20]     key_led_top|clk     DFF      Q       led_light_cnt[20]     0.367       -0.800
+II_1.led_light_cnt[9]      key_led_top|clk     DFF      Q       led_light_cnt[9]      0.367       -0.671
+II_1.led_light_cnt[16]     key_led_top|clk     DFF      Q       led_light_cnt[16]     0.367       -0.671
+========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                     Required           
+Instance                   Reference           Type     Pin     Net                     Time         Slack 
+                           Clock                                                                           
+-----------------------------------------------------------------------------------------------------------
+II_1.led_status[0]         key_led_top|clk     DFFE     CE      led_light_cnt6          6.349        -1.144
+II_1.led_status[1]         key_led_top|clk     DFFE     CE      led_light_cnt6          6.349        -1.144
+II_1.led_status[2]         key_led_top|clk     DFFE     CE      led_light_cnt6          6.349        -1.144
+II_1.led_status[3]         key_led_top|clk     DFFE     CE      led_light_cnt6          6.349        -1.144
+II_1.led_status[4]         key_led_top|clk     DFFE     CE      led_light_cnt6          6.349        -1.144
+II_1.led_status[5]         key_led_top|clk     DFFE     CE      led_light_cnt6          6.349        -1.144
+II_1.led_status[6]         key_led_top|clk     DFFE     CE      led_light_cnt6          6.349        -1.144
+II_1.led_status[7]         key_led_top|clk     DFFE     CE      led_light_cnt6          6.349        -1.144
+II_1.led_light_cnt[6]      key_led_top|clk     DFF      D       led_light_cnt_3[6]      6.349        -0.372
+II_1.led_light_cnt[11]     key_led_top|clk     DFF      D       led_light_cnt_3[11]     6.349        -0.372
+===========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.482
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.349
+
+    - Propagation time:                      7.493
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.144
+
+    Number of logic level(s):                3
+    Starting point:                          II_1.led_light_cnt[7] / Q
+    Ending point:                            II_1.led_status[0] / CE
+    The start point is clocked by            key_led_top|clk [rising] on pin CLK
+    The end   point is clocked by            key_led_top|clk [rising] on pin CLK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+II_1.led_light_cnt[7]      DFF      Q        Out     0.367     0.367       -         
+led_light_cnt[7]           Net      -        -       1.021     -           2         
+II_1.led_light_cnt6_14     LUT4     I1       In      -         1.388       -         
+II_1.led_light_cnt6_14     LUT4     F        Out     1.099     2.487       -         
+led_light_cnt6_14          Net      -        -       1.021     -           2         
+II_1.led_light_cnt6_sx     LUT4     I1       In      -         3.508       -         
+II_1.led_light_cnt6_sx     LUT4     F        Out     1.099     4.607       -         
+led_light_cnt6_1           Net      -        -       0.766     -           1         
+II_1.led_light_cnt6        LUT4     I1       In      -         5.373       -         
+II_1.led_light_cnt6        LUT4     F        Out     1.099     6.472       -         
+led_light_cnt6             Net      -        -       1.021     -           8         
+II_1.led_status[0]         DFFE     CE       In      -         7.493       -         
+=====================================================================================
+Total path delay (propagation time + setup) of 7.626 is 3.797(49.8%) logic and 3.829(50.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      6.482
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.349
+
+    - Propagation time:                      7.493
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.144
+
+    Number of logic level(s):                3
+    Starting point:                          II_1.led_light_cnt[7] / Q
+    Ending point:                            II_1.led_status[1] / CE
+    The start point is clocked by            key_led_top|clk [rising] on pin CLK
+    The end   point is clocked by            key_led_top|clk [rising] on pin CLK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+II_1.led_light_cnt[7]      DFF      Q        Out     0.367     0.367       -         
+led_light_cnt[7]           Net      -        -       1.021     -           2         
+II_1.led_light_cnt6_14     LUT4     I1       In      -         1.388       -         
+II_1.led_light_cnt6_14     LUT4     F        Out     1.099     2.487       -         
+led_light_cnt6_14          Net      -        -       1.021     -           2         
+II_1.led_light_cnt6_sx     LUT4     I1       In      -         3.508       -         
+II_1.led_light_cnt6_sx     LUT4     F        Out     1.099     4.607       -         
+led_light_cnt6_1           Net      -        -       0.766     -           1         
+II_1.led_light_cnt6        LUT4     I1       In      -         5.373       -         
+II_1.led_light_cnt6        LUT4     F        Out     1.099     6.472       -         
+led_light_cnt6             Net      -        -       1.021     -           8         
+II_1.led_status[1]         DFFE     CE       In      -         7.493       -         
+=====================================================================================
+Total path delay (propagation time + setup) of 7.626 is 3.797(49.8%) logic and 3.829(50.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      6.482
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.349
+
+    - Propagation time:                      7.493
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.144
+
+    Number of logic level(s):                3
+    Starting point:                          II_1.led_light_cnt[7] / Q
+    Ending point:                            II_1.led_status[2] / CE
+    The start point is clocked by            key_led_top|clk [rising] on pin CLK
+    The end   point is clocked by            key_led_top|clk [rising] on pin CLK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+II_1.led_light_cnt[7]      DFF      Q        Out     0.367     0.367       -         
+led_light_cnt[7]           Net      -        -       1.021     -           2         
+II_1.led_light_cnt6_14     LUT4     I1       In      -         1.388       -         
+II_1.led_light_cnt6_14     LUT4     F        Out     1.099     2.487       -         
+led_light_cnt6_14          Net      -        -       1.021     -           2         
+II_1.led_light_cnt6_sx     LUT4     I1       In      -         3.508       -         
+II_1.led_light_cnt6_sx     LUT4     F        Out     1.099     4.607       -         
+led_light_cnt6_1           Net      -        -       0.766     -           1         
+II_1.led_light_cnt6        LUT4     I1       In      -         5.373       -         
+II_1.led_light_cnt6        LUT4     F        Out     1.099     6.472       -         
+led_light_cnt6             Net      -        -       1.021     -           8         
+II_1.led_status[2]         DFFE     CE       In      -         7.493       -         
+=====================================================================================
+Total path delay (propagation time + setup) of 7.626 is 3.797(49.8%) logic and 3.829(50.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      6.482
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.349
+
+    - Propagation time:                      7.493
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.144
+
+    Number of logic level(s):                3
+    Starting point:                          II_1.led_light_cnt[7] / Q
+    Ending point:                            II_1.led_status[3] / CE
+    The start point is clocked by            key_led_top|clk [rising] on pin CLK
+    The end   point is clocked by            key_led_top|clk [rising] on pin CLK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+II_1.led_light_cnt[7]      DFF      Q        Out     0.367     0.367       -         
+led_light_cnt[7]           Net      -        -       1.021     -           2         
+II_1.led_light_cnt6_14     LUT4     I1       In      -         1.388       -         
+II_1.led_light_cnt6_14     LUT4     F        Out     1.099     2.487       -         
+led_light_cnt6_14          Net      -        -       1.021     -           2         
+II_1.led_light_cnt6_sx     LUT4     I1       In      -         3.508       -         
+II_1.led_light_cnt6_sx     LUT4     F        Out     1.099     4.607       -         
+led_light_cnt6_1           Net      -        -       0.766     -           1         
+II_1.led_light_cnt6        LUT4     I1       In      -         5.373       -         
+II_1.led_light_cnt6        LUT4     F        Out     1.099     6.472       -         
+led_light_cnt6             Net      -        -       1.021     -           8         
+II_1.led_status[3]         DFFE     CE       In      -         7.493       -         
+=====================================================================================
+Total path delay (propagation time + setup) of 7.626 is 3.797(49.8%) logic and 3.829(50.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      6.482
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.349
+
+    - Propagation time:                      7.493
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.144
+
+    Number of logic level(s):                3
+    Starting point:                          II_1.led_light_cnt[7] / Q
+    Ending point:                            II_1.led_status[4] / CE
+    The start point is clocked by            key_led_top|clk [rising] on pin CLK
+    The end   point is clocked by            key_led_top|clk [rising] on pin CLK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+II_1.led_light_cnt[7]      DFF      Q        Out     0.367     0.367       -         
+led_light_cnt[7]           Net      -        -       1.021     -           2         
+II_1.led_light_cnt6_14     LUT4     I1       In      -         1.388       -         
+II_1.led_light_cnt6_14     LUT4     F        Out     1.099     2.487       -         
+led_light_cnt6_14          Net      -        -       1.021     -           2         
+II_1.led_light_cnt6_sx     LUT4     I1       In      -         3.508       -         
+II_1.led_light_cnt6_sx     LUT4     F        Out     1.099     4.607       -         
+led_light_cnt6_1           Net      -        -       0.766     -           1         
+II_1.led_light_cnt6        LUT4     I1       In      -         5.373       -         
+II_1.led_light_cnt6        LUT4     F        Out     1.099     6.472       -         
+led_light_cnt6             Net      -        -       1.021     -           8         
+II_1.led_status[4]         DFFE     CE       In      -         7.493       -         
+=====================================================================================
+Total path delay (propagation time + setup) of 7.626 is 3.797(49.8%) logic and 3.829(50.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 189MB peak: 190MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 189MB peak: 190MB)
+
+---------------------------------------
+Resource Usage Report for key_led_top 
+
+Mapping to part: gw1n_4blqfp144-6
+Cell usage:
+ALU             25 uses
+DFF             25 uses
+DFFE            8 uses
+GSR             1 use
+LUT2            1 use
+LUT3            1 use
+LUT4            21 uses
+
+I/O ports: 10
+I/O primitives: 9
+IBUF           1 use
+OBUF           8 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   33 of 3456 (0%)
+Total load per clock:
+   key_led_top|clk: 33
+
+@S |Mapping Summary:
+Total  LUTs: 23 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 40MB peak: 190MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Mon Sep 16 21:00:13 2019
+
+###########################################################]

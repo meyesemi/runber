@@ -1,0 +1,10 @@
+-d D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\impl\gwsynthesis\watch.vg
+-p GW1N-4-LQFP144-6
+-pn GW1N-UV4LQ144C6/I5
+-cst D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\top_watch.cst
+-cfg D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\impl\pnr\device.cfg
+-sdc D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\watch.sdc
+-bit
+-tr
+-ph
+-timing

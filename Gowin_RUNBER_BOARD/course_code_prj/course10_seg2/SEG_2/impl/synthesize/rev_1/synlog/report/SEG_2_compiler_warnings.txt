@@ -1,0 +1,6 @@
+@W: CS141 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\pll\pll.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+@W: CG781 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\top_seq2.v":56:8:56:11|Input rstn_key on instance key0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\top_seq2.v":64:8:64:11|Input rstn_key on instance key1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\top_seq2.v":72:8:72:11|Input rstn_key on instance key2 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\top_seq2.v":80:8:80:11|Input rstn_key on instance key3 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+

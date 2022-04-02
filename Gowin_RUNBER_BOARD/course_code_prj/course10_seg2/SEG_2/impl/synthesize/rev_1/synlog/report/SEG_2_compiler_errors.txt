@@ -1,0 +1,5 @@
+@E: CG389 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\top_seq2.v":33:8:33:10|Reference to undefined module pll
+@E: MF420 |Netlist read from file E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\impl\synthesize\rev_1\synwork\layer0.srs failed
+@E: Could not find specified top level top_seq2 (library: work, cell: top_seq2)Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+@E::Error while linking, aborting.
+

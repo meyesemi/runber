@@ -1,0 +1,11 @@
+i clk_12m
+m 0 0
+u 68 118
+p {t:bufg.O}{t:receive_data[7:0].C}
+e ckid0_0 {t:receive_data[7:0].C} dff
+c ckid0_0 {t:bufg.O} BUFG Unsupported/too complex instance on clock path
+i clk
+m 0 0
+u 0 0
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

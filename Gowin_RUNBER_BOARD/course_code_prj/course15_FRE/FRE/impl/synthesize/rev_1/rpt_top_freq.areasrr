@@ -1,0 +1,179 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+
+#### START OF AREA REPORT #####[
+
+Part:			GW1N_4BLQFP144-6 (GoWin)
+
+------------------------------------------------------------------------
+########   Utilization report for  Top level view:   top_freq   ########
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     124                100 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block top_freq:	124 (30.24 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          134                100 %                
+MUX2_LUT5     19                 100 %                
+MUX2_LUT6     9                  100 %                
+ALU           82                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block top_freq:	244 (59.51 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   btn_deb_1_12000000_240000   ########
+Instance path:   top_freq.btn_deb_1_12000000_240000                            
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     21                 16.9 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block top_freq.btn_deb_1_12000000_240000:	21 (5.12 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     20                 14.9 %               
+ALU      20                 24.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_freq.btn_deb_1_12000000_240000:	40 (9.76 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   div_clk_12000000_120   ########
+Instance path:   top_freq.div_clk_12000000_120                            
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     10                 8.06 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block top_freq.div_clk_12000000_120:	10 (2.44 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     5                  3.73 %               
+ALU      9                  11 %                 
+=================================================
+Total COMBINATIONAL LOGIC in the block top_freq.div_clk_12000000_120:	14 (3.41 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   freq_test   ########
+Instance path:   top_freq.freq_test                            
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     74                 59.7 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block top_freq.freq_test:	74 (18.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          73                 54.5 %               
+MUX2_LUT5     13                 68.4 %               
+MUX2_LUT6     6                  66.7 %               
+ALU           53                 64.6 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block top_freq.freq_test:	145 (35.37 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   key_cnt   ########
+Instance path:   top_freq.key_cnt                            
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     5                  4.03 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block top_freq.key_cnt:	5 (1.22 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     4                  2.99 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_freq.key_cnt:	4 (0.98 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   seq_control_0   ########
+Instance path:   top_freq.seq_control_0                            
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     8                  5.97 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_freq.seq_control_0:	8 (1.95 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   seq_control_1   ########
+Instance path:   top_freq.seq_control_1                            
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     8                  5.97 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_freq.seq_control_1:	8 (1.95 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   seq_control_2   ########
+Instance path:   top_freq.seq_control_2                            
+===================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          8                  5.97 %               
+MUX2_LUT5     6                  31.6 %               
+MUX2_LUT6     3                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block top_freq.seq_control_2:	17 (4.15 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   seq_control_3   ########
+Instance path:   top_freq.seq_control_3                            
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     8                  5.97 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block top_freq.seq_control_3:	8 (1.95 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

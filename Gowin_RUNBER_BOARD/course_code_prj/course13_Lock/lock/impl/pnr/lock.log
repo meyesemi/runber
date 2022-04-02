@@ -1,0 +1,19 @@
+Info    (PA0001) : "D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\impl\gwsynthesis\lock.vg" | Reading netlist file.
+Info    (PA0004) : Parsing netlist file 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\impl\gwsynthesis\lock.vg' completed.
+Info    (PA0006) : Processing netlist completed.
+Info    (CT0002) : Physical Constraint parsed completed.
+Info    (PR0001) : Placement in progress......
+Info    (PR0005) : Routing in progress......
+Warning (PR1014) : Generic routing resource will be used to clock signal 'clk_3' by the specified constraint. And then it may lead to the excessive delay or skew.
+Info    (PR0002) : Placement and routing completed.
+Info    (TA0001) : Timing analysis completed.
+Info    (FS0001) : Bitstream generation in progress......
+Info    (FS0002) : Bitstream generation completed.
+Info    (PW0001) : Power analysis completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\impl\pnr\lock.power.html' file completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\impl\pnr\lock.pin.html' file completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\impl\pnr\lock.rpt.html' file completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\impl\pnr\lock.rpt.txt' file completed.
+Info    (CM0008) : Generate 'D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\impl\pnr\lock.tr.html' file completed.
+Info    (CM0001) : Wed May 13 12:13:58 2020
+

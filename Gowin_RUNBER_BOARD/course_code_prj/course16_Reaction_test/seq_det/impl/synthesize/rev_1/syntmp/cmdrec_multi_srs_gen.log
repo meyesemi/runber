@@ -1,0 +1,7 @@
+C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\synwork\seq_det_comp.srs  -osyn  J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\synwork\seq_det_mult.srs  -log  J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\synlog\seq_det_multi_srs_gen.srr 
+relcom:C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\seq_det_comp.srs -osyn ..\synwork\seq_det_mult.srs -log ..\synlog\seq_det_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\seq_det_comp.srs|io:i|time:1594351998|size:12516|exec:0|csum:6E939869CECF08AA6DB2316E5FEC69B2
+file:..\synwork\seq_det_mult.srs|io:o|time:1594352000|size:2962|exec:0|csum:
+file:..\synlog\seq_det_multi_srs_gen.srr|io:o|time:1594352000|size:1556|exec:0|csum:
+file:C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1569428746|size:8840192|exec:1|csum:53D4B99CD3CB87F879FC8DA558113E33

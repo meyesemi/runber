@@ -1,0 +1,670 @@
+#Build: Synplify Pro (R) P-2019.09G, Build 284R, Feb 28 2020
+#install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: EYE-06
+
+# Wed May 13 09:29:30 2020
+
+#Implementation: rev_1
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2019q3p1, Build 286R, Built Feb 28 2020 09:59:15
+
+@N|Running in 64-bit mode
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\impl\synthesize\rev_1\synwork\key_led_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 33MB peak: 42MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Wed May 13 09:29:38 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2019q3p1, Build 286R, Built Feb 28 2020 09:59:15
+
+@N|Running in 64-bit mode
+File D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\impl\synthesize\rev_1\synwork\key_led_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed May 13 09:29:42 2020
+
+###########################################################]
+# Wed May 13 09:29:45 2020
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys Generic Technology Pre-mapping, Version mapgw, Build 1564R, Built Mar  4 2020 10:56:38
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 131MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\impl\synthesize\rev_1\key_led_scck.rpt 
+See clock summary report "D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\impl\synthesize\rev_1\key_led_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 153MB peak: 155MB)
+
+@N: FX493 |Applying initial value "000000000000000000" on instance time_cnt[17:0].
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "00" on instance key_push_cnt[1:0].
+@N: FX493 |Applying initial value "0000000000000000000000000" on instance led_light_cnt[24:0].
+@N: FX493 |Applying initial value "10000000" on instance led_status[7:0].
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 234MB peak: 235MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 235MB peak: 235MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 235MB peak: 235MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 235MB peak: 235MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 235MB peak: 235MB)
+
+
+
+Clock Summary
+******************
+
+          Start               Requested     Requested     Clock        Clock                     Clock
+Level     Clock               Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------------------------
+0 -       key_led_top|clk     202.2 MHz     4.946         inferred     Autoconstr_clkgroup_0     57   
+======================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                    Clock     Source        Clock Pin                Non-clock Pin     Non-clock Pin
+Clock               Load      Pin           Seq Example              Seq Example       Comb Example 
+----------------------------------------------------------------------------------------------------
+key_led_top|clk     57        clk(port)     u_led.ctrl_1d[1:0].C     -                 -            
+====================================================================================================
+
+@W: MT529 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\course8_key_led\src\btn_deb.v":35:4:35:9|Found inferred clock key_led_top|clk which controls 57 sequential elements including key_ctl.U_btn_deb.time_cnt[17]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 57 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================= Non-Gated/Non-Generated Clocks ==============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance    
+-------------------------------------------------------------------------------------------
+@KP:ckid0_0       clk                 port                   57         u_led.led_status[7]
+===========================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\impl\synthesize\rev_1\key_led.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:05s; Memory used current: 236MB peak: 236MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:05s; Memory used current: 236MB peak: 236MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:06s; Memory used current: 237MB peak: 238MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:06s; Memory used current: 159MB peak: 239MB)
+
+Process took 0h:00m:10s realtime, 0h:00m:06s cputime
+# Wed May 13 09:29:56 2020
+
+###########################################################]
+# Wed May 13 09:29:59 2020
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys Generic Technology Mapper, Version mapgw, Build 1564R, Built Mar  4 2020 10:56:38
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 131MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 142MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 142MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 142MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 149MB peak: 150MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 231MB peak: 231MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 235MB peak: 235MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 236MB peak: 236MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 237MB peak: 237MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 237MB peak: 237MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 238MB peak: 238MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 238MB peak: 238MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 238MB peak: 238MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 238MB peak: 238MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 239MB peak: 239MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		    -2.07ns		 107 /        57
+   2		0h:00m:03s		    -2.07ns		 108 /        57
+   3		0h:00m:03s		    -2.07ns		 108 /        57
+   4		0h:00m:03s		    -2.07ns		 108 /        57
+   5		0h:00m:03s		    -2.07ns		 108 /        57
+   6		0h:00m:03s		    -2.07ns		 108 /        57
+@N: FX271 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\course8_key_led\src\key_ctl.v":49:4:49:9|Replicating instance key_ctl.key_push_cnt[1] (in view: work.key_led_top(verilog)) with 13 loads 1 time to improve timing.
+@N: FX271 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\course8_key_led\src\key_ctl.v":49:4:49:9|Replicating instance key_ctl.key_push_cnt[0] (in view: work.key_led_top(verilog)) with 15 loads 1 time to improve timing.
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+   7		0h:00m:03s		    -2.07ns		 110 /        59
+   8		0h:00m:03s		    -2.07ns		 111 /        59
+   9		0h:00m:03s		    -2.07ns		 111 /        59
+  10		0h:00m:03s		    -2.07ns		 111 /        59
+  11		0h:00m:03s		    -2.07ns		 111 /        59
+
+
+  12		0h:00m:03s		    -2.07ns		 111 /        59
+  13		0h:00m:03s		    -2.07ns		 111 /        59
+  14		0h:00m:03s		    -2.07ns		 111 /        59
+  15		0h:00m:03s		    -2.07ns		 112 /        59
+  16		0h:00m:04s		    -2.24ns		 112 /        59
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 239MB peak: 239MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 239MB peak: 239MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 165MB peak: 240MB)
+
+Writing Analyst data base D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\impl\synthesize\rev_1\synwork\key_led_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:05s; Memory used current: 240MB peak: 240MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:06s; Memory used current: 241MB peak: 241MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:06s; Memory used current: 241MB peak: 241MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 240MB peak: 241MB)
+
+@W: MT420 |Found inferred clock key_led_top|clk with period 7.37ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed May 13 09:30:09 2020
+#
+
+
+Top view:               key_led_top
+Requested Frequency:    135.6 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.301
+
+                    Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock      Frequency     Frequency     Period        Period        Slack      Type         Group                
+-------------------------------------------------------------------------------------------------------------------------
+key_led_top|clk     135.6 MHz     115.3 MHz     7.374         8.676         -1.301     inferred     Autoconstr_clkgroup_0
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------
+key_led_top|clk  key_led_top|clk  |  7.374       -1.301  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: key_led_top|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                 Starting                                                       Arrival           
+Instance                         Reference           Type      Pin     Net                      Time        Slack 
+                                 Clock                                                                            
+------------------------------------------------------------------------------------------------------------------
+u_led.led_status[5]              key_led_top|clk     DFFE      Q       led_c[5]                 0.367       -1.301
+u_led.led_status[4]              key_led_top|clk     DFFE      Q       led_c[4]                 0.367       -1.234
+u_led.led_status[1]              key_led_top|clk     DFFE      Q       led_c[1]                 0.367       -1.024
+u_led.led_status[6]              key_led_top|clk     DFFE      Q       led_c[6]                 0.367       -1.024
+u_led.led_status[0]              key_led_top|clk     DFFE      Q       led_c[0]                 0.367       -0.957
+u_led.led_status[7]              key_led_top|clk     DFFSE     Q       led_c[7]                 0.367       -0.828
+u_led.led_status[2]              key_led_top|clk     DFFE      Q       led_c[2]                 0.367       -0.747
+u_led.led_status[3]              key_led_top|clk     DFFE      Q       led_c[3]                 0.367       -0.551
+key_ctl.key_push_cnt_fast[1]     key_led_top|clk     DFFE      Q       key_push_cnt_fast[1]     0.367       -0.347
+key_ctl.key_push_cnt_fast[0]     key_led_top|clk     DFFE      Q       key_push_cnt_fast[0]     0.367       -0.280
+==================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                     Required           
+Instance                   Reference           Type      Pin       Net                  Time         Slack 
+                           Clock                                                                           
+-----------------------------------------------------------------------------------------------------------
+u_led.led_status[0]        key_led_top|clk     DFFE      D         led_status_10[0]     7.241        -1.301
+u_led.led_status[2]        key_led_top|clk     DFFE      D         led_status_10[2]     7.241        -1.073
+u_led.led_status[3]        key_led_top|clk     DFFE      D         led_status_10[3]     7.241        -1.073
+u_led.led_status[4]        key_led_top|clk     DFFE      D         led_status_10[4]     7.241        -1.073
+u_led.led_status[6]        key_led_top|clk     DFFE      D         led_status_10[6]     7.241        -1.073
+u_led.led_status[5]        key_led_top|clk     DFFE      D         led_status_10[5]     7.241        -0.877
+u_led.led_status[7]        key_led_top|clk     DFFSE     D         led_status_10[7]     7.241        -0.877
+u_led.led_status[1]        key_led_top|clk     DFFE      D         led_status_10[1]     7.241        -0.818
+u_led.led_light_cnt[7]     key_led_top|clk     DFFR      RESET     led_light_cnt6       7.241        -0.057
+u_led.led_light_cnt[8]     key_led_top|clk     DFFR      RESET     led_light_cnt6       7.241        -0.057
+===========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.374
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.241
+
+    - Propagation time:                      8.543
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.301
+
+    Number of logic level(s):                4
+    Starting point:                          u_led.led_status[5] / Q
+    Ending point:                            u_led.led_status[0] / D
+    The start point is clocked by            key_led_top|clk [rising] on pin CLK
+    The end   point is clocked by            key_led_top|clk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                              Type          Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+u_led.led_status[5]               DFFE          Q        Out     0.367     0.367       -         
+led_c[5]                          Net           -        -       1.021     -           5         
+u_led.un1_led_status_1_4          LUT4          I1       In      -         1.388       -         
+u_led.un1_led_status_1_4          LUT4          F        Out     1.099     2.487       -         
+un1_led_status_1_4                Net           -        -       0.766     -           1         
+u_led.led_status_1_sqmuxa_2_2     LUT3          I1       In      -         3.253       -         
+u_led.led_status_1_sqmuxa_2_2     LUT3          F        Out     1.099     4.352       -         
+led_status_1_sqmuxa_2_2           Net           -        -       1.021     -           7         
+u_led.led_status_10_N_2L1_0       LUT4          I3       In      -         5.373       -         
+u_led.led_status_10_N_2L1_0       LUT4          F        Out     0.626     5.999       -         
+led_status_10_N_2L1_0             Net           -        -       1.021     -           1         
+u_led.led_status_10[0]            MUX2_LUT6     S0       In      -         7.020       -         
+u_led.led_status_10[0]            MUX2_LUT6     O        Out     0.502     7.522       -         
+led_status_10[0]                  Net           -        -       1.021     -           1         
+u_led.led_status[0]               DFFE          D        In      -         8.543       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 8.676 is 3.826(44.1%) logic and 4.850(55.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      7.374
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.241
+
+    - Propagation time:                      8.476
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.234
+
+    Number of logic level(s):                4
+    Starting point:                          u_led.led_status[4] / Q
+    Ending point:                            u_led.led_status[0] / D
+    The start point is clocked by            key_led_top|clk [rising] on pin CLK
+    The end   point is clocked by            key_led_top|clk [rising] on pin CLK
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                              Type          Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+u_led.led_status[4]               DFFE          Q        Out     0.367     0.367       -         
+led_c[4]                          Net           -        -       1.021     -           5         
+u_led.un1_led_status_1_4          LUT4          I0       In      -         1.388       -         
+u_led.un1_led_status_1_4          LUT4          F        Out     1.032     2.420       -         
+un1_led_status_1_4                Net           -        -       0.766     -           1         
+u_led.led_status_1_sqmuxa_2_2     LUT3          I1       In      -         3.186       -         
+u_led.led_status_1_sqmuxa_2_2     LUT3          F        Out     1.099     4.285       -         
+led_status_1_sqmuxa_2_2           Net           -        -       1.021     -           7         
+u_led.led_status_10_N_2L1_0       LUT4          I3       In      -         5.306       -         
+u_led.led_status_10_N_2L1_0       LUT4          F        Out     0.626     5.932       -         
+led_status_10_N_2L1_0             Net           -        -       1.021     -           1         
+u_led.led_status_10[0]            MUX2_LUT6     S0       In      -         6.953       -         
+u_led.led_status_10[0]            MUX2_LUT6     O        Out     0.502     7.455       -         
+led_status_10[0]                  Net           -        -       1.021     -           1         
+u_led.led_status[0]               DFFE          D        In      -         8.476       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 8.608 is 3.759(43.7%) logic and 4.850(56.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      7.374
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.241
+
+    - Propagation time:                      8.315
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.073
+
+    Number of logic level(s):                4
+    Starting point:                          u_led.led_status[5] / Q
+    Ending point:                            u_led.led_status[2] / D
+    The start point is clocked by            key_led_top|clk [rising] on pin CLK
+    The end   point is clocked by            key_led_top|clk [rising] on pin CLK
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                              Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+u_led.led_status[5]               DFFE     Q        Out     0.367     0.367       -         
+led_c[5]                          Net      -        -       1.021     -           5         
+u_led.un1_led_status_1_4          LUT4     I1       In      -         1.388       -         
+u_led.un1_led_status_1_4          LUT4     F        Out     1.099     2.487       -         
+un1_led_status_1_4                Net      -        -       0.766     -           1         
+u_led.led_status_1_sqmuxa_2_2     LUT3     I1       In      -         3.253       -         
+u_led.led_status_1_sqmuxa_2_2     LUT3     F        Out     1.099     4.352       -         
+led_status_1_sqmuxa_2_2           Net      -        -       1.021     -           7         
+u_led.led_status_10_sn_m4         LUT4     I1       In      -         5.373       -         
+u_led.led_status_10_sn_m4         LUT4     F        Out     1.099     6.472       -         
+led_status_10_1[0]                Net      -        -       1.021     -           6         
+u_led.led_status_10[2]            LUT4     I2       In      -         7.493       -         
+u_led.led_status_10[2]            LUT4     F        Out     0.822     8.315       -         
+led_status_10[2]                  Net      -        -       0.000     -           1         
+u_led.led_status[2]               DFFE     D        In      -         8.315       -         
+============================================================================================
+Total path delay (propagation time + setup) of 8.448 is 4.619(54.7%) logic and 3.829(45.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      7.374
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.241
+
+    - Propagation time:                      8.315
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.073
+
+    Number of logic level(s):                4
+    Starting point:                          u_led.led_status[5] / Q
+    Ending point:                            u_led.led_status[4] / D
+    The start point is clocked by            key_led_top|clk [rising] on pin CLK
+    The end   point is clocked by            key_led_top|clk [rising] on pin CLK
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                              Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+u_led.led_status[5]               DFFE     Q        Out     0.367     0.367       -         
+led_c[5]                          Net      -        -       1.021     -           5         
+u_led.un1_led_status_1_4          LUT4     I1       In      -         1.388       -         
+u_led.un1_led_status_1_4          LUT4     F        Out     1.099     2.487       -         
+un1_led_status_1_4                Net      -        -       0.766     -           1         
+u_led.led_status_1_sqmuxa_2_2     LUT3     I1       In      -         3.253       -         
+u_led.led_status_1_sqmuxa_2_2     LUT3     F        Out     1.099     4.352       -         
+led_status_1_sqmuxa_2_2           Net      -        -       1.021     -           7         
+u_led.led_status_10_sn_m4         LUT4     I1       In      -         5.373       -         
+u_led.led_status_10_sn_m4         LUT4     F        Out     1.099     6.472       -         
+led_status_10_1[0]                Net      -        -       1.021     -           6         
+u_led.led_status_10[4]            LUT4     I2       In      -         7.493       -         
+u_led.led_status_10[4]            LUT4     F        Out     0.822     8.315       -         
+led_status_10[4]                  Net      -        -       0.000     -           1         
+u_led.led_status[4]               DFFE     D        In      -         8.315       -         
+============================================================================================
+Total path delay (propagation time + setup) of 8.448 is 4.619(54.7%) logic and 3.829(45.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      7.374
+    - Setup time:                            0.133
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.241
+
+    - Propagation time:                      8.315
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.073
+
+    Number of logic level(s):                4
+    Starting point:                          u_led.led_status[5] / Q
+    Ending point:                            u_led.led_status[6] / D
+    The start point is clocked by            key_led_top|clk [rising] on pin CLK
+    The end   point is clocked by            key_led_top|clk [rising] on pin CLK
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                              Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+u_led.led_status[5]               DFFE     Q        Out     0.367     0.367       -         
+led_c[5]                          Net      -        -       1.021     -           5         
+u_led.un1_led_status_1_4          LUT4     I1       In      -         1.388       -         
+u_led.un1_led_status_1_4          LUT4     F        Out     1.099     2.487       -         
+un1_led_status_1_4                Net      -        -       0.766     -           1         
+u_led.led_status_1_sqmuxa_2_2     LUT3     I1       In      -         3.253       -         
+u_led.led_status_1_sqmuxa_2_2     LUT3     F        Out     1.099     4.352       -         
+led_status_1_sqmuxa_2_2           Net      -        -       1.021     -           7         
+u_led.led_status_10_sn_m4         LUT4     I1       In      -         5.373       -         
+u_led.led_status_10_sn_m4         LUT4     F        Out     1.099     6.472       -         
+led_status_10_1[0]                Net      -        -       1.021     -           6         
+u_led.led_status_10[6]            LUT4     I2       In      -         7.493       -         
+u_led.led_status_10[6]            LUT4     F        Out     0.822     8.315       -         
+led_status_10[6]                  Net      -        -       0.000     -           1         
+u_led.led_status[6]               DFFE     D        In      -         8.315       -         
+============================================================================================
+Total path delay (propagation time + setup) of 8.448 is 4.619(54.7%) logic and 3.829(45.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 241MB peak: 241MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 242MB peak: 243MB)
+
+---------------------------------------
+Resource Usage Report for key_led_top 
+
+Mapping to part: gw1n_4lqfp144-6
+Cell usage:
+ALU             43 uses
+DFF             34 uses
+DFFE            14 uses
+DFFR            10 uses
+DFFSE           1 use
+GSR             1 use
+MUX2_LUT5       3 uses
+MUX2_LUT6       1 use
+LUT2            4 uses
+LUT3            7 uses
+LUT4            49 uses
+
+I/O ports: 10
+I/O primitives: 10
+IBUF           2 uses
+OBUF           8 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   59 of 3456 (1%)
+Total load per clock:
+   key_led_top|clk: 59
+
+@S |Mapping Summary:
+Total  LUTs: 60 (1%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:09s; Memory used current: 89MB peak: 243MB)
+
+Process took 0h:00m:12s realtime, 0h:00m:09s cputime
+# Wed May 13 09:30:12 2020
+
+###########################################################]

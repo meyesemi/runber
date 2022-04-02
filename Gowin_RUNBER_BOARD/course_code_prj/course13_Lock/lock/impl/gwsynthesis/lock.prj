@@ -1,0 +1,20 @@
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>Beta</Version>
+    <Device id="GW1N-4" package="LQFP144" speed="6" partNumber="GW1N-UV4LQ144C6/I5"/>
+    <FileList>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\src\btn_deb.v"/>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\src\key_ctl.v"/>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\src\div_clk.v"/>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\src\seq_control.v"/>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\src\compare.v"/>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\src\lock_top.v"/>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\src\seq_display.v"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad"  value="0"/>
+        <Option type="ram_rw_check"  value="1"/>
+        <Option type="looplimit"  value="2000"/>
+        <Option type="output_file"  value="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course13_Lock\lock\impl\gwsynthesis\lock.vg"/>
+    </OptionList>
+</Project>

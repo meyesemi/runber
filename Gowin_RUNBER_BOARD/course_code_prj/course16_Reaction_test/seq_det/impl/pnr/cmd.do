@@ -1,0 +1,9 @@
+-d J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\seq_det.vm
+-p GW1N-4-LQFP144-6
+-pn GW1N-UV4LQ144C6/I5
+-cst J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\src\seq_det.cst
+-cfg J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing

@@ -1,0 +1,109 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+
+#### START OF AREA REPORT #####[
+
+Part:			GW1N_4LQFP144-6 (GoWin)
+
+---------------------------------------------------------------------------
+########   Utilization report for  Top level view:   key_led_top   ########
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     59                 100 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block key_led_top:	59 (31.89 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          60                 100 %                
+MUX2_LUT5     3                  100 %                
+MUX2_LUT6     1                  100 %                
+ALU           43                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block key_led_top:	107 (57.84 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   key_ctl   ########
+Instance path:   key_led_top.key_ctl                         
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     24                 40.7 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block key_led_top.key_ctl:	24 (12.97 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     10                 16.7 %               
+ALU      18                 41.9 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block key_led_top.key_ctl:	28 (15.14 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   btn_deb_1   ########
+Instance path:   key_ctl.btn_deb_1                             
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     19                 32.2 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block key_ctl.btn_deb_1:	19 (10.27 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     6                  10 %                 
+ALU      18                 41.9 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block key_ctl.btn_deb_1:	24 (12.97 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   led   ########
+Instance path:   key_led_top.led                         
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     35                 59.3 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block key_led_top.led:	35 (18.92 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          50                 83.3 %               
+MUX2_LUT5     3                  100 %                
+MUX2_LUT6     1                  100 %                
+ALU           25                 58.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block key_led_top.led:	79 (42.70 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

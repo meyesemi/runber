@@ -1,0 +1,13 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "000000000000000000" on instance time_cnt[17:0].
+@N: FX493 |Applying initial value "000000000000000000" on instance time_cnt[17:0].
+@N: FX493 |Applying initial value "0" on instance key_8_flag.
+@N: FX493 |Applying initial value "0" on instance key_flag[0].
+@N: FX493 |Applying initial value "0" on instance key_flag[1].
+@N: FX493 |Applying initial value "0" on instance key_flag[2].
+@N: FX493 |Applying initial value "0" on instance flag.
+@N: FX493 |Applying initial value "00" on instance sel[1:0].
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\impl\synthesize\rev_1\Seq_Det.sap.

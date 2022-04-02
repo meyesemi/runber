@@ -1,0 +1,49 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+
+# Written on Wed May 13 11:16:12 2020
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                            Requested     Requested     Clock                                        Clock                     Clock
+Level     Clock                            Frequency     Period        Type                                         Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       pll|clkout_inferred_clock        100.0 MHz     10.000        inferred                                     Autoconstr_clkgroup_0     25   
+1 .         div_clk|flag_derived_clock     100.0 MHz     10.000        derived (from pll|clkout_inferred_clock)     Autoconstr_clkgroup_0     4    
+===================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                               Clock     Source                                      Clock Pin            Non-clock Pin     Non-clock Pin
+Clock                          Load      Pin                                         Seq Example          Seq Example       Comb Example 
+-----------------------------------------------------------------------------------------------------------------------------------------
+pll|clkout_inferred_clock      25        your_instance_name.pll_inst.CLKOUT(PLL)     u_div_clk.flag.C     -                 -            
+div_clk|flag_derived_clock     4         u_div_clk.flag.Q[0](dffr)                   counter[0].C         -                 -            
+=========================================================================================================================================

@@ -1,0 +1,15 @@
+i clk
+m 0 0
+u 47 67
+p {p:clk}{t:II_2.clk}{p:II_2.clk}{t:II_2.key3_cnt[1].C}
+e ckid0_0 {t:II_2.key3_cnt[1].C} dffr
+c ckid0_0 {p:clk} port Unsupported/too complex instance on clock path
+i II_2.div_clk.flag_i
+m 0 0
+u 4 14
+n ckid0_1 {t:II_2.sel[1].C} Derived clock on input (not legal for GCC)
+p {t:II_2.div_clk.flag.Q[0]}{t:II_2.div_clk.flag_derived_clock.I[0]}{t:II_2.div_clk.flag_derived_clock.OUT[0]}{p:II_2.div_clk.clk_100khz}{t:II_2.div_clk.clk_100khz}{t:II_2.sel[1].C}
+e ckid0_1 {t:II_2.sel[1].C} dffr
+d ckid0_2 {t:II_2.div_clk.flag.Q[0]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

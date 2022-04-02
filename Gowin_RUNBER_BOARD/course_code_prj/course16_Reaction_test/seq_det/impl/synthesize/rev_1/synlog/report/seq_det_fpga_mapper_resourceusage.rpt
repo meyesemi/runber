@@ -1,0 +1,31 @@
+---------------------------------------
+Resource Usage Report for lock_top 
+
+Mapping to part: gw1n_4lqfp144-6
+Cell usage:
+ALU             88 uses
+DFF             80 uses
+DFFE            16 uses
+DFFR            41 uses
+DFFRE           28 uses
+DFFS            4 uses
+DFFSE           1 use
+GSR             1 use
+INV             6 uses
+MUX2_LUT5       12 uses
+MUX2_LUT6       4 uses
+LUT2            21 uses
+LUT3            35 uses
+LUT4            102 uses
+
+I/O ports: 29
+I/O primitives: 29
+IBUF           9 uses
+OBUF           20 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   170 of 3456 (4%)
+
+@S |Mapping Summary:
+Total  LUTs: 158 (3%)
+

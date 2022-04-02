@@ -1,0 +1,25 @@
+---------------------------------------
+Resource Usage Report for led_light 
+
+Mapping to part: gw1n_4lqfp144-6
+Cell usage:
+ALU             25 uses
+DFFR            25 uses
+DFFRE           8 uses
+GSR             1 use
+INV             9 uses
+LUT2            1 use
+LUT3            1 use
+LUT4            19 uses
+
+I/O ports: 10
+I/O primitives: 10
+IBUF           2 uses
+OBUF           8 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   33 of 3456 (0%)
+
+@S |Mapping Summary:
+Total  LUTs: 21 (0%)
+

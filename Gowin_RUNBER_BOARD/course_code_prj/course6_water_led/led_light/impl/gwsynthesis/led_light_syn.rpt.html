@@ -1,0 +1,1306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>synthesis Report</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 12px; }
+div#main_wrapper{ width: 100%; }
+div#content { margin-left: 350px; margin-right: 30px; }
+div#catalog_wrapper {position: fixed; top: 30px; width: 350px; float: left; }
+div#catalog ul { list-style-type: none; }
+div#catalog li { text-align: left; list-style-type:circle; color: #0084ff; margin-top: 3px; margin-bottom: 3px; }
+div#catalog a { display:inline-block; text-decoration: none; color: #0084ff; font-weight: bold; padding: 3px; }
+div#catalog a:visited { color: #0084ff; }
+div#catalog a:hover { color: #fff; background: #0084ff; }
+hr { margin-top: 30px; margin-bottom: 30px; }
+h1, h3 { text-align: center; }
+h1 {margin-top: 50px; }
+table, th, td { border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { padding: 5px 5px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table.summary_table td.label { width: 24%; min-width: 200px; background-color: #dee8f4; }
+table.detail_table td.label { min-width: 100px; width: 8%;}
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="catalog_wrapper">
+<div id="catalog">
+<ul>
+<li><a href="#about" style=" font-size: 16px;">Synthesis Messages</a></li>
+<li><a href="#setting" style=" font-size: 16px;">Design Settings</a></li>
+<li><a href="#resource" style=" font-size: 16px;">Resource</a>
+<ul>
+<li><a href="#usage" style=" font-size: 14px;">Resource Usage Summary</a></li>
+<li><a href="#utilization" style=" font-size: 14px;">Resource Utilization Summary</a></li>
+</ul>
+</li>
+<li><a href="#timing" style=" font-size: 16px;">Timing</a>
+<ul>
+<li><a href="#clock" style=" font-size: 14px;">Clock Summary</a></li>
+<li><a href="#timing report" style=" font-size: 14px;">Timing Report</a></li>
+<li><a href="#performance" style=" font-size: 14px;">Performance Summary</a></li>
+<li><a href="#detail timing" style=" font-size: 14px;">Detail Timing Paths Informations</a></li>
+</ul>
+</li>
+<li><a href="#message" style=" font-size: 16px;">Message</a></li>
+<li><a href="#summary" style=" font-size: 16px;">Summary</a></li>
+</ul>
+</div><!-- catalog -->
+</div><!-- catalog_wrapper -->
+<div id="content">
+<h1><a name="about">Synthesis Messages</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label">Report Title</td>
+<td>GowinSynthesis Report</td>
+</tr>
+<tr>
+<td class="label">Design File</td>
+<td>Z:\runber\course6_water_led\led_light\src\led_light.v<br>
+</td>
+</tr>
+<tr>
+<td class="label">GowinSynthesis Constraints File</td>
+<td>---</td>
+</tr>
+<tr>
+<td class="label">GowinSynthesis Verision</td>
+<td>GowinSynthesis V1.9.5Beta</td>
+</tr>
+<tr>
+<td class="label">Created Time</td>
+<td>Wed May 13 12:20:01 2020
+</td>
+</tr>
+<tr>
+<td class="label">Legal Announcement</td>
+<td>Copyright (C)2014-2020 Gowin Semiconductor Corporation. ALL rights reserved.</td>
+</tr>
+</table>
+<h1><a name="setting">Design Settings</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label">Top Level Module:</td>
+<td>led_light</td>
+</tr>
+<tr>
+<td class="label">Part Number:</td>
+<td>GW1N-UV4LQ144C6/I5</td>
+</tr>
+</table><br/>
+<h1><a name="resource">Resource</a></h1>
+<h2><a name="usage">Resource Usage Summary</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label"><b>I/OPORT Usage:</b></td>
+<td>10</td>
+</tr>
+<tr>
+<td class="label"><b>I/OBUF Usage:</b></td>
+<td>10</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspIBUF</td>
+<td>2</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspOBUF</td>
+<td>8</td>
+</tr>
+<tr>
+<td class="label"><b>REG Usage:</b></td>
+<td>31</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFSE</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFR</td>
+<td>23</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFRE</td>
+<td>7</td>
+</tr>
+<tr>
+<td class="label"><b>LUT Usage:</b></td>
+<td>9</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT2</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT3</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT4</td>
+<td>7</td>
+</tr>
+<tr>
+<td class="label"><b>ALU Usage:</b></td>
+<td>22</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspALU</td>
+<td>22</td>
+</tr>
+<tr>
+<td class="label"><b>INV Usage:</b></td>
+<td>2</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspINV</td>
+<td>2</td>
+</tr>
+</table><br/>
+<h2><a name="utilization">Resource Utilization Summary</a></h2>
+Target Device: GW1N-4-LQFP144
+<table class="summary_table">
+<tr>
+<td class="label">CFU Logics</td>
+<td>33(11 LUTs, 22 ALUs) / 4608</td>
+<td>1%</td>
+</tr>
+<tr>
+<td class="label">Registers</td>
+<td>31 / 3756</td>
+<td>1%</td>
+</tr>
+<tr>
+<td class="label">BSRAMs</td>
+<td>0 / 10</td>
+<td>0%</td>
+</tr>
+<tr>
+<td class="label">DSP Macros</td>
+<td>0 / (4*2)</td>
+<td>0%</td>
+</tr>
+</table><br/><br/>
+<h1><a name="timing">Timing</a></h1>
+<h2><a name="clock">Clock Summary:</a></h2>
+<table class="summary_table">
+<tr>
+<th>Clock</th>
+<th>Type</th>
+<th>Frequency</th>
+<th>Period</th>
+<th>Rise</th>
+<th>Fall</th>
+<th>Source</th>
+<th>Master</th>
+<th>Object</th>
+</tr>
+<tr>
+<td>DEFAULT_CLK</td>
+<td>Base</td>
+<td>100.0 MHz</td>
+<td>10.000</td>
+<td>0.000</td>
+<td>5.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+</table><br/>
+<h2><a name="timing report">Timing Report:</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label">Top View:</td>
+<td>led_light</td>
+</tr>
+<tr>
+<td class="label">Requested Frequency:</td>
+<td>100.0 MHz</td>
+</tr>
+<tr>
+<td class="label">Paths Requested:</td>
+<td>5</td>
+</tr>
+<tr>
+<td class="label">Constraint File(ignored):</td>
+<td></td>
+</tr>
+</table>
+<b>All time values displayed in nanoseconds(ns).</b><br/><br/>
+<h2><a name="performance">Performance Summary:</a></h2>
+Worst Slack in Design:&nbsp4.236<br/>
+<table class="summary_table">
+<tr>
+<th>Start Clock</th>
+<th>Slack</th>
+<th>Requested Frequency</th>
+<th>Estimated Frequency</th>
+<th>Requested Period</th>
+<th>Estimated Period</th>
+<th>Clock Type</th>
+</tr>
+<tr>
+<td>DEFAULT_CLK</td>
+<td>4.236</td>
+<td>100.0 MHz</td>
+<td>173.5 MHz</td>
+<td>10.000</td>
+<td>5.764</td>
+<td>Base</td>
+</tr>
+</table><br/>
+<h2><a name="detail timing">Detail Timing Paths Information</a></h2>
+<b>Path information for path number&nbsp</b>1&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(critical):</td>
+<td>4.236</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.865</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>11.102</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>led_light_cnt_1_ins160</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>led_light_cnt_9_ins152</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>clk_ibuf108</td>
+<td>IBUF</td>
+<td>I</td>
+<td>In</td>
+<td>-</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk_ibuf108</td>
+<td>IBUF</td>
+<td>O</td>
+<td>Out</td>
+<td>0.982</td>
+<td>0.982</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>31</td>
+</tr>
+<tr>
+<td>led_light_cnt_1_ins160</td>
+<td>DFFR</td>
+<td>CLK</td>
+<td>In</td>
+<td>-</td>
+<td>1.345</td>
+<td>-</td>
+</tr>
+<tr>
+<td>led_light_cnt_1_ins160</td>
+<td>DFFR</td>
+<td>Q</td>
+<td>Out</td>
+<td>0.458</td>
+<td>1.803</td>
+<td>-</td>
+</tr>
+<tr>
+<td>led_light_cnt[1]</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>n142_ins213</td>
+<td>LUT4</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>2.283</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_ins213</td>
+<td>LUT4</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>3.382</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>n142_ins210</td>
+<td>LUT4</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>3.862</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_ins210</td>
+<td>LUT4</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>4.961</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_11</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>n209_ins206</td>
+<td>LUT3</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>5.441</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n209_ins206</td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.061</td>
+<td>6.502</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n209</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>23</td>
+</tr>
+<tr>
+<td>led_light_cnt_9_ins152</td>
+<td>DFFR</td>
+<td>RESET</td>
+<td>In</td>
+<td>-</td>
+<td>6.865</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.865<br/>
+<b>Logic Delay: </b>4.699(68.4%)<br/>
+<b>Route Delay: </b>2.166(31.6%)<br/>
+<br/><br/>
+<b>Path information for path number&nbsp</b>2&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(non-critical):</td>
+<td>4.236</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.865</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>11.102</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>led_light_cnt_1_ins160</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>led_d_1_ins174</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>clk_ibuf108</td>
+<td>IBUF</td>
+<td>I</td>
+<td>In</td>
+<td>-</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk_ibuf108</td>
+<td>IBUF</td>
+<td>O</td>
+<td>Out</td>
+<td>0.982</td>
+<td>0.982</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>31</td>
+</tr>
+<tr>
+<td>led_light_cnt_1_ins160</td>
+<td>DFFR</td>
+<td>CLK</td>
+<td>In</td>
+<td>-</td>
+<td>1.345</td>
+<td>-</td>
+</tr>
+<tr>
+<td>led_light_cnt_1_ins160</td>
+<td>DFFR</td>
+<td>Q</td>
+<td>Out</td>
+<td>0.458</td>
+<td>1.803</td>
+<td>-</td>
+</tr>
+<tr>
+<td>led_light_cnt[1]</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>n142_ins213</td>
+<td>LUT4</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>2.283</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_ins213</td>
+<td>LUT4</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>3.382</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>n142_ins210</td>
+<td>LUT4</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>3.862</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_ins210</td>
+<td>LUT4</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>4.961</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_11</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>n142_ins205</td>
+<td>LUT2</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>5.441</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_ins205</td>
+<td>LUT2</td>
+<td>F</td>
+<td>Out</td>
+<td>1.061</td>
+<td>6.502</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_7</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>8</td>
+</tr>
+<tr>
+<td>led_d_1_ins174</td>
+<td>DFFRE</td>
+<td>CE</td>
+<td>In</td>
+<td>-</td>
+<td>6.865</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.865<br/>
+<b>Logic Delay: </b>4.699(68.4%)<br/>
+<b>Route Delay: </b>2.166(31.6%)<br/>
+<br/><br/>
+<b>Path information for path number&nbsp</b>3&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(non-critical):</td>
+<td>4.236</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.865</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>11.102</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>led_light_cnt_1_ins160</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>led_light_cnt_1_ins160</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>clk_ibuf108</td>
+<td>IBUF</td>
+<td>I</td>
+<td>In</td>
+<td>-</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk_ibuf108</td>
+<td>IBUF</td>
+<td>O</td>
+<td>Out</td>
+<td>0.982</td>
+<td>0.982</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>31</td>
+</tr>
+<tr>
+<td>led_light_cnt_1_ins160</td>
+<td>DFFR</td>
+<td>CLK</td>
+<td>In</td>
+<td>-</td>
+<td>1.345</td>
+<td>-</td>
+</tr>
+<tr>
+<td>led_light_cnt_1_ins160</td>
+<td>DFFR</td>
+<td>Q</td>
+<td>Out</td>
+<td>0.458</td>
+<td>1.803</td>
+<td>-</td>
+</tr>
+<tr>
+<td>led_light_cnt[1]</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>n142_ins213</td>
+<td>LUT4</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>2.283</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_ins213</td>
+<td>LUT4</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>3.382</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>n142_ins210</td>
+<td>LUT4</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>3.862</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_ins210</td>
+<td>LUT4</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>4.961</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_11</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>n209_ins206</td>
+<td>LUT3</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>5.441</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n209_ins206</td>
+<td>LUT3</td>
+<td>F</td>
+<td>Out</td>
+<td>1.061</td>
+<td>6.502</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n209</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>23</td>
+</tr>
+<tr>
+<td>led_light_cnt_1_ins160</td>
+<td>DFFR</td>
+<td>RESET</td>
+<td>In</td>
+<td>-</td>
+<td>6.865</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.865<br/>
+<b>Logic Delay: </b>4.699(68.4%)<br/>
+<b>Route Delay: </b>2.166(31.6%)<br/>
+<br/><br/>
+<b>Path information for path number&nbsp</b>4&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(non-critical):</td>
+<td>4.236</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.865</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>11.102</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>led_light_cnt_1_ins160</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>led_d_2_ins172</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>clk_ibuf108</td>
+<td>IBUF</td>
+<td>I</td>
+<td>In</td>
+<td>-</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk_ibuf108</td>
+<td>IBUF</td>
+<td>O</td>
+<td>Out</td>
+<td>0.982</td>
+<td>0.982</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>31</td>
+</tr>
+<tr>
+<td>led_light_cnt_1_ins160</td>
+<td>DFFR</td>
+<td>CLK</td>
+<td>In</td>
+<td>-</td>
+<td>1.345</td>
+<td>-</td>
+</tr>
+<tr>
+<td>led_light_cnt_1_ins160</td>
+<td>DFFR</td>
+<td>Q</td>
+<td>Out</td>
+<td>0.458</td>
+<td>1.803</td>
+<td>-</td>
+</tr>
+<tr>
+<td>led_light_cnt[1]</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>n142_ins213</td>
+<td>LUT4</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>2.283</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_ins213</td>
+<td>LUT4</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>3.382</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>n142_ins210</td>
+<td>LUT4</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>3.862</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_ins210</td>
+<td>LUT4</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>4.961</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_11</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>n142_ins205</td>
+<td>LUT2</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>5.441</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_ins205</td>
+<td>LUT2</td>
+<td>F</td>
+<td>Out</td>
+<td>1.061</td>
+<td>6.502</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_7</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>8</td>
+</tr>
+<tr>
+<td>led_d_2_ins172</td>
+<td>DFFRE</td>
+<td>CE</td>
+<td>In</td>
+<td>-</td>
+<td>6.865</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.865<br/>
+<b>Logic Delay: </b>4.699(68.4%)<br/>
+<b>Route Delay: </b>2.166(31.6%)<br/>
+<br/><br/>
+<b>Path information for path number&nbsp</b>5&nbsp:&nbsp<br/>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.000</td>
+</tr>
+<tr>
+<td class="label">    Slack(non-critical):</td>
+<td>4.236</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time:</td>
+<td>6.865</td>
+</tr>
+<tr>
+<td class="label">Data Required Time:</td>
+<td>11.102</td>
+</tr>
+<tr>
+<td class="label">Number of Logic Level:</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label">Starting Point:</td>
+<td>led_light_cnt_1_ins160</td>
+</tr>
+<tr>
+<td class="label">Ending Point:</td>
+<td>led_d_7_ins162</td>
+</tr>
+<tr>
+<td class="label">The Start Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+<tr>
+<td class="label">The End Point Is Clocked By:</td>
+<td>DEFAULT_CLK[rising]</td>
+</tr>
+</table><br/><br/>
+<table class="summary_table">
+<tr>
+<th>Instance/Net Name</th>
+<th>Type</th>
+<th>Pin Name</th>
+<th>Pin Dir</th>
+<th>Delay</th>
+<th>Arrival Time</th>
+<th>Fanout</th>
+</tr>
+<tr>
+<td>clk_ibuf108</td>
+<td>IBUF</td>
+<td>I</td>
+<td>In</td>
+<td>-</td>
+<td>0.000</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk_ibuf108</td>
+<td>IBUF</td>
+<td>O</td>
+<td>Out</td>
+<td>0.982</td>
+<td>0.982</td>
+<td>-</td>
+</tr>
+<tr>
+<td>clk</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>31</td>
+</tr>
+<tr>
+<td>led_light_cnt_1_ins160</td>
+<td>DFFR</td>
+<td>CLK</td>
+<td>In</td>
+<td>-</td>
+<td>1.345</td>
+<td>-</td>
+</tr>
+<tr>
+<td>led_light_cnt_1_ins160</td>
+<td>DFFR</td>
+<td>Q</td>
+<td>Out</td>
+<td>0.458</td>
+<td>1.803</td>
+<td>-</td>
+</tr>
+<tr>
+<td>led_light_cnt[1]</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>n142_ins213</td>
+<td>LUT4</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>2.283</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_ins213</td>
+<td>LUT4</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>3.382</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>1</td>
+</tr>
+<tr>
+<td>n142_ins210</td>
+<td>LUT4</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>3.862</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_ins210</td>
+<td>LUT4</td>
+<td>F</td>
+<td>Out</td>
+<td>1.099</td>
+<td>4.961</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_11</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.480</td>
+<td>-</td>
+<td>2</td>
+</tr>
+<tr>
+<td>n142_ins205</td>
+<td>LUT2</td>
+<td>I1</td>
+<td>In</td>
+<td>-</td>
+<td>5.441</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_ins205</td>
+<td>LUT2</td>
+<td>F</td>
+<td>Out</td>
+<td>1.061</td>
+<td>6.502</td>
+<td>-</td>
+</tr>
+<tr>
+<td>n142_7</td>
+<td>Net</td>
+<td>-</td>
+<td>-</td>
+<td>0.363</td>
+<td>-</td>
+<td>8</td>
+</tr>
+<tr>
+<td>led_d_7_ins162</td>
+<td>DFFRE</td>
+<td>CE</td>
+<td>In</td>
+<td>-</td>
+<td>6.865</td>
+<td>-</td>
+</tr>
+</table><br/>
+<b>Total Path Delay: </b>6.865<br/>
+<b>Logic Delay: </b>4.699(68.4%)<br/>
+<b>Route Delay: </b>2.166(31.6%)<br/>
+<br/><br/>
+<h1><a name="message">Message</a></h1>
+<big>Info    (EXT0100) : Run analyzation & elaboration</big><br/>
+<big>Info    (EXT1482) : Analyzing Verilog file 'Z:\runber\course6_water_led\led_light\src\led_light.v'</big><br/>
+<big>Info    (EXT1018) : Compiling module 'led_light'(Z:\runber\course6_water_led\led_light\src\led_light.v:24)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(Z:\runber\course6_water_led\led_light\src\led_light.v:45)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(Z:\runber\course6_water_led\led_light\src\led_light.v:47)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(Z:\runber\course6_water_led\led_light\src\led_light.v:49)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(Z:\runber\course6_water_led\led_light\src\led_light.v:56)</big><br/>
+<big>Warning (EXT2371) : Delay control is not supported for synthesis(Z:\runber\course6_water_led\led_light\src\led_light.v:58)</big><br/>
+<big>Info    (EXT0101) : Current top module is "led_light"</big><br/>
+<big>Info    (CVT0001) : Run conversion</big><br/>
+<big>Info    (DIO0001) : Run device independent optimization</big><br/>
+<big>Info    (DIO0006) : Register and gate optimizing before inferencing</big><br/>
+<big>Info    (DSP0001) : DSP inferencing</big><br/>
+<big>Info    (RAM0001) : RAM inferencing</big><br/>
+<big>Info    (ATO0001) : Adder tree reduction</big><br/>
+<big>Info    (ATO0002) : Rebuild ALU instances from adder tree nodes</big><br/>
+<big>Info    (DIO0001) : Run device independent optimization</big><br/>
+<big>Info    (DIO0007) : Register and gate optimizing before mapping</big><br/>
+<big>Info    (MAP0001) : Run tech-mapping</big><br/>
+<big>Info    (MAP0003) : Run logic optimization</big><br/>
+<big>Info    (DIO0001) : Run device independent optimization</big><br/>
+<big>Info    (SYN0009) : Write post-map netlist to file: Z:\runber\course6_water_led\led_light\impl\gwsynthesis\led_light.vg</big><br/>
+<br/>
+<h1><a name="summary">Summary</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label"><b>Total Warnings:</b></td> 
+<td>5</td>
+</tr>
+<tr>
+<td class="label"><b>Total Informations:</b></td> 
+<td>17</td>
+</tr>
+</table><br/>
+<b>Synthesis completed successfully!</b><br/>
+Process took 0h:0m:2s realtime, 0h:0m:0s cputime
+<br/>
+Memory peak: 83.9MB
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>

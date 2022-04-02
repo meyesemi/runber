@@ -1,0 +1,2 @@
+@W: CG781 :"E:\gowin_cource_prj\seq_det\seq_det\src\seq_det.v":60:12:60:18|Input restart on instance compare is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+

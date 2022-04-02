@@ -1,0 +1,28 @@
+---------------------------------------
+Resource Usage Report for key_led_top 
+
+Mapping to part: gw1n_4lqfp144-6
+Cell usage:
+ALU             43 uses
+DFF             34 uses
+DFFE            14 uses
+DFFR            10 uses
+DFFSE           1 use
+GSR             1 use
+MUX2_LUT5       3 uses
+MUX2_LUT6       1 use
+LUT2            4 uses
+LUT3            7 uses
+LUT4            49 uses
+
+I/O ports: 10
+I/O primitives: 10
+IBUF           2 uses
+OBUF           8 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   59 of 3456 (1%)
+
+@S |Mapping Summary:
+Total  LUTs: 60 (1%)
+

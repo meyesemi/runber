@@ -1,0 +1,10 @@
+-d Z:\runber\course6_water_led\led_light\impl\gwsynthesis\led_light.vg
+-p GW1N-4-LQFP144-6
+-pn GW1N-UV4LQ144C6/I5
+-cst Z:\runber\course6_water_led\led_light\src\led_light.cst
+-cfg Z:\runber\course6_water_led\led_light\impl\pnr\device.cfg
+-sdc Z:\runber\course6_water_led\led_light\src\led_light.sdc
+-bit
+-tr
+-ph
+-timing

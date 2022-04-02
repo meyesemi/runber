@@ -1,0 +1,77 @@
+One matching license found for this product: synplifypro_gowin
+
+Starting:    C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+Hostname:    EYE-06
+Date:        Wed May 13 13:52:02 2020
+Version:     P-2019.09G
+
+Arguments:   -product synplify_pro -batch D:/BaiduNetdiskDownload/Runber_Gowin_Board_sourse/course_prj/led_test_gowin/impl/synthesize/led_test_gowin.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_gowin
+License: synplifypro_gowin node-locked 
+Licensed Vendor: gowin
+
+Running in Vendor Mode
+
+Copied D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin.srr to D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\backup\led_test_gowin.srr
+log file: "D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin.srr"
+Running: rev_1 in foreground
+
+Running led_test_gowin|rev_1
+
+Running Flow: compile (Compile) on led_test_gowin|rev_1
+# Wed May 13 13:52:04 2020
+
+Running Flow: compile_flow (Compile Process) on led_test_gowin|rev_1
+# Wed May 13 13:52:04 2020
+
+Running: compiler (Compile Input) on led_test_gowin|rev_1
+# Wed May 13 13:52:04 2020
+Copied D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\synwork\led_test_gowin_comp.srs to D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin.srs
+
+compiler completed
+# Wed May 13 13:52:14 2020
+
+Return Code: 0
+Run Time:00h:00m:10s
+
+Running: multi_srs_gen (Multi-srs Generator) on led_test_gowin|rev_1
+# Wed May 13 13:52:15 2020
+
+multi_srs_gen completed
+# Wed May 13 13:52:16 2020
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\synwork\led_test_gowin_mult.srs to D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin.srs
+Complete: Compile Process on led_test_gowin|rev_1
+
+Running: premap (Premap) on led_test_gowin|rev_1
+# Wed May 13 13:52:17 2020
+
+premap completed with warnings
+# Wed May 13 13:52:28 2020
+
+Return Code: 1
+Run Time:00h:00m:11s
+Complete: Compile on led_test_gowin|rev_1
+
+Running Flow: map (Map) on led_test_gowin|rev_1
+# Wed May 13 13:52:28 2020
+
+Running: fpga_mapper (Map & Optimize) on led_test_gowin|rev_1
+# Wed May 13 13:52:28 2020
+Copied D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\synwork\led_test_gowin_m.srm to D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin.srm
+
+fpga_mapper completed with warnings
+# Wed May 13 13:52:48 2020
+
+Return Code: 1
+Run Time:00h:00m:20s
+Complete: Map on led_test_gowin|rev_1
+Complete: Logic Synthesis on led_test_gowin|rev_1
+exit status=0
+exit status=0
+License checkin: synplifypro_gowin

@@ -1,0 +1,6 @@
+@W: CL169 :"E:\project_manager\Mini_eye_Board\gowin\course\course14_WATCH\watch\src\seq_control.v":36:0:36:5|Pruning unused register shin_control[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL156 :"E:\project_manager\Mini_eye_Board\gowin\course\course14_WATCH\watch\src\top_watch.v":90:9:90:14|*Input sec_en to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"E:\project_manager\Mini_eye_Board\gowin\course\course14_WATCH\watch\src\top_watch.v":90:9:90:14|*Input sec_en to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"E:\project_manager\Mini_eye_Board\gowin\course\course14_WATCH\watch\src\top_watch.v":90:9:90:14|*Input sec_en to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"E:\project_manager\Mini_eye_Board\gowin\course\course14_WATCH\watch\src\top_watch.v":90:9:90:14|*Input sec_en to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+

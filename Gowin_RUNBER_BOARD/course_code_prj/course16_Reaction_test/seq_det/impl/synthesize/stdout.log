@@ -1,0 +1,76 @@
+One matching license found for this product: synplifypro_gowin
+
+Starting:    C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+Hostname:    EYE-02
+Date:        Fri Jul 10 11:33:15 2020
+Version:     P-2019.03G
+
+Arguments:   -product synplify_pro -batch J:/Source_bac/Gowin_RUNBER_BOARD/course_code_prj/course16_Reaction_test/seq_det/impl/synthesize/seq_det.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_gowin
+License: synplifypro_gowin node-locked 
+Licensed Vendor: gowin
+
+Running in Vendor Mode
+
+log file: "J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\seq_det.srr"
+Running: rev_1 in foreground
+
+Running seq_det|rev_1
+
+Running Flow: compile (Compile) on seq_det|rev_1
+# Fri Jul 10 11:33:15 2020
+
+Running Flow: compile_flow (Compile Process) on seq_det|rev_1
+# Fri Jul 10 11:33:15 2020
+
+Running: compiler (Compile Input) on seq_det|rev_1
+# Fri Jul 10 11:33:15 2020
+Copied J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\synwork\seq_det_comp.srs to J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\seq_det.srs
+
+compiler completed
+# Fri Jul 10 11:33:19 2020
+
+Return Code: 0
+Run Time:00h:00m:04s
+
+Running: multi_srs_gen (Multi-srs Generator) on seq_det|rev_1
+# Fri Jul 10 11:33:19 2020
+
+multi_srs_gen completed
+# Fri Jul 10 11:33:20 2020
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\synwork\seq_det_mult.srs to J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\seq_det.srs
+Complete: Compile Process on seq_det|rev_1
+
+Running: premap (Premap) on seq_det|rev_1
+# Fri Jul 10 11:33:20 2020
+
+premap completed with warnings
+# Fri Jul 10 11:33:22 2020
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on seq_det|rev_1
+
+Running Flow: map (Map) on seq_det|rev_1
+# Fri Jul 10 11:33:22 2020
+
+Running: fpga_mapper (Map & Optimize) on seq_det|rev_1
+# Fri Jul 10 11:33:23 2020
+Copied J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\synwork\seq_det_m.srm to J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\seq_det.srm
+
+fpga_mapper completed with warnings
+# Fri Jul 10 11:33:28 2020
+
+Return Code: 1
+Run Time:00h:00m:06s
+Complete: Map on seq_det|rev_1
+Complete: Logic Synthesis on seq_det|rev_1
+exit status=0
+exit status=0
+License checkin: synplifypro_gowin

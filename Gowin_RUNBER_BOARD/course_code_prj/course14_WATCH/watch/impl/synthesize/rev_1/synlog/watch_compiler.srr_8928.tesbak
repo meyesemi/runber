@@ -1,0 +1,115 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2019q3p1, Build 286R, Built Feb 28 2020 09:59:15
+
+@N|Running in 64-bit mode
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\impl\synthesize\rev_1\synwork\watch_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:04s; Memory used current: 33MB peak: 42MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:04s cputime
+
+Process completed successfully.
+# Fri Apr 24 14:14:30 2020
+
+###########################################################]
+$ Start of Compile
+#Fri Apr 24 14:20:30 2020
+
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2019q3p1, Build 286R, Built Feb 28 2020 09:59:15
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\generic\gw1n.v" (library work)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\top_watch.v" (library work)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\btn_deb.v" (library work)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\seq_control.v" (library work)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\watch_data_gen.v" (library work)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\div_clk.v" (library work)
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module top_watch
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+
+	BT_WIDTH=4'b0011
+	CLK_FRE=26'b00101101110001101100000000
+	CLK_DIV=32'b00000000000000111010100110000000
+   Generated name = btn_deb_3_12000000_240000
+Running optimization stage 1 on btn_deb_3_12000000_240000 .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\watch_data_gen.v":21:7:21:20|Synthesizing module watch_data_gen in library work.
+
+	CLK_FRE=26'b00101101110001101100000000
+   Generated name = watch_data_gen_12000000
+Running optimization stage 1 on watch_data_gen_12000000 .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\div_clk.v":21:7:21:13|Synthesizing module div_clk in library work.
+
+	CLK_FRE=26'b00101101110001101100000000
+	CLK_DIV_10US=32'b00000000000000000000000001111000
+   Generated name = div_clk_12000000_120
+Running optimization stage 1 on div_clk_12000000_120 .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\seq_control.v":21:7:21:17|Synthesizing module seq_control in library work.
+Running optimization stage 1 on seq_control .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\top_watch.v":21:7:21:15|Synthesizing module top_watch in library work.
+@N: CG179 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\top_watch.v":38:18:38:25|Removing redundant assignment.
+Running optimization stage 1 on top_watch .......
+Running optimization stage 2 on top_watch .......
+Running optimization stage 2 on seq_control .......
+@N: CL159 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\src\seq_control.v":23:7:23:9|Input clk is unused.
+Running optimization stage 2 on div_clk_12000000_120 .......
+Running optimization stage 2 on watch_data_gen_12000000 .......
+Running optimization stage 2 on btn_deb_3_12000000_240000 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course14_WATCH\watch\impl\synthesize\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 100MB peak: 101MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 24 14:20:33 2020
+
+###########################################################]

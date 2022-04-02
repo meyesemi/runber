@@ -1,0 +1,17 @@
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>Beta</Version>
+    <Device id="GW1N-4" package="LQFP144" speed="6" partNumber="GW1N-UV4LQ144C6/I5"/>
+    <FileList>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course9_seg1\course9_seg1\SEG_1\src\top_seq.v"/>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course9_seg1\course9_seg1\SEG_1\src\div_clk.v"/>
+        <File type="verilog"  path="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course9_seg1\course9_seg1\SEG_1\src\pll\pll.v"/>
+    </FileList>
+    <OptionList>
+        <Option type="top_module"  value="top_seq"/>
+        <Option type="disable_insert_pad"  value="0"/>
+        <Option type="ram_rw_check"  value="1"/>
+        <Option type="looplimit"  value="2000"/>
+        <Option type="output_file"  value="D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course9_seg1\course9_seg1\SEG_1\impl\gwsynthesis\SEG_1.vg"/>
+    </OptionList>
+</Project>

@@ -1,0 +1,1 @@
+@W: MT529 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\led_test.v":52:0:52:5|Found inferred clock clk_gen|clkout_inferred_clock which controls 28 sequential elements including cnt[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

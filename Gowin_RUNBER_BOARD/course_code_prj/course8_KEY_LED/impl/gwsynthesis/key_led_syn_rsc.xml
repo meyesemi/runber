@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="key_led_top" Register="8">
+    <SubModule name="key_ctl" Register="3" Alu="1" Lut="2">
+        <SubModule name="U_btn_deb" Register="19" Alu="17" Lut="7"/>
+    </SubModule>
+    <SubModule name="u_led" Register="25" Alu="22" Lut="60"/>
+</Module>

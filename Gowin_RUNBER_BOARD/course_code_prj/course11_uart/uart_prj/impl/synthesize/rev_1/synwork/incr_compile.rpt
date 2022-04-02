@@ -1,0 +1,44 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+9        E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\pll\pll.v (2020-01-07 14:31:43, N/A)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 0
+MID:  lib.cell.view
+
+*******************************************************************
+Unmodified files: 9
+FID:  path (timestamp)
+0        C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\generic\gw1n.v (2019-09-26 01:52:32)
+1        C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\hypermods.v (2019-09-26 00:18:26)
+2        C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\scemi_objects.v (2019-09-26 00:18:26)
+3        C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (2019-09-26 00:18:26)
+4        C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\umr_capim.v (2019-09-26 00:18:26)
+5        E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_data_gen.v (2020-01-06 19:41:18)
+6        E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_rx.v (2019-09-12 10:35:08)
+7        E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_top.v (2020-01-07 15:10:44)
+8        E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_tx.v (2020-01-06 20:45:21)
+
+*******************************************************************
+Unchanged modules: 4
+MID:  lib.cell.view
+0        work.uart_data_gen.verilog
+1        work.uart_rx.verilog
+2        work.uart_top.verilog
+3        work.uart_tx.verilog

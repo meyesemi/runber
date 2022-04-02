@@ -1,0 +1,51 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+
+# Written on Fri Jul 10 10:18:10 2020
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                         Requested     Requested     Clock                           Clock                     Clock
+Level     Clock                                         Frequency     Period        Type                            Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       top_freq|clk                                  100.0 MHz     10.000        inferred                        Autoconstr_clkgroup_0     108  
+1 .         div_clk_12000000_120|flag_derived_clock     100.0 MHz     10.000        derived (from top_freq|clk)     Autoconstr_clkgroup_0     14   
+1 .         freq_test|flag_derived_clock                100.0 MHz     10.000        derived (from top_freq|clk)     Autoconstr_clkgroup_0     2    
+===================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                            Clock     Source                        Clock Pin                   Non-clock Pin     Non-clock Pin
+Clock                                       Load      Pin                           Seq Example                 Seq Example       Comb Example 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+top_freq|clk                                108       clk(port)                     div_clk.cnt[8:0].C          -                 -            
+div_clk_12000000_120|flag_derived_clock     14        div_clk.flag.Q[0](dffr)       dig[3:0].C                  -                 -            
+freq_test|flag_derived_clock                2         freq_test.flag.Q[0](dffr)     freq_test.flag_cnt[0].C     -                 -            
+===============================================================================================================================================

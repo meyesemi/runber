@@ -1,0 +1,29 @@
+---------------------------------------
+Resource Usage Report for top_freq 
+
+Mapping to part: gw1n_4blqfp144-6
+Cell usage:
+ALU             82 uses
+DFF             82 uses
+DFFE            7 uses
+DFFR            23 uses
+DFFS            12 uses
+GSR             1 use
+INV             7 uses
+MUX2_LUT5       19 uses
+MUX2_LUT6       9 uses
+LUT2            13 uses
+LUT3            26 uses
+LUT4            95 uses
+
+I/O ports: 14
+I/O primitives: 14
+IBUF           2 uses
+OBUF           12 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   124 of 3456 (3%)
+
+@S |Mapping Summary:
+Total  LUTs: 134 (2%)
+

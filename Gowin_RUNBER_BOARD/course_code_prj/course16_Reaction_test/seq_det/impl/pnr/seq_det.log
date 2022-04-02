@@ -1,0 +1,19 @@
+Info    (PA0001) : "J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\seq_det.vm" | Reading netlist file.
+Info    (PA0004) : Parsing netlist file 'J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\synthesize\rev_1\seq_det.vm' completed.
+Info    (PA0006) : Processing netlist completed.
+Info    (CT0002) : Physical Constraint parsed completed.
+Info    (PR0001) : Placement in progress......
+Info    (PR0005) : Routing in progress......
+Warning (PR1014) : Generic routing resource will be used to clock signal 'clk_c' by the specified constraint. And then it may lead to the excessive delay or skew.
+Info    (PR0002) : Placement and routing completed.
+Info    (TA0001) : Timing analysis completed.
+Info    (FS0001) : Bitstream generation in progress......
+Info    (FS0002) : Bitstream generation completed.
+Info    (PW0001) : Power analysis completed.
+Info    (CM0008) : Generate 'J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\pnr\seq_det.power.html' file completed.
+Info    (CM0008) : Generate 'J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\pnr\seq_det.pin.html' file completed.
+Info    (CM0008) : Generate 'J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\pnr\seq_det.rpt.html' file completed.
+Info    (CM0008) : Generate 'J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\pnr\seq_det.rpt.txt' file completed.
+Info    (CM0008) : Generate 'J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course16_Reaction_test\seq_det\impl\pnr\seq_det.tr.html' file completed.
+Info    (CM0001) : Fri Jul 10 11:33:31 2020
+

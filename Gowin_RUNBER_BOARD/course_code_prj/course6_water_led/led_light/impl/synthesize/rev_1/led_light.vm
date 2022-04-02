@@ -1,0 +1,986 @@
+//
+// Written by Synplify Pro 
+// Product Version "P-2019.09G"
+// Program "Synplify Pro", Mapper "mapgw, Build 1564R"
+// Fri Apr 10 09:08:18 2020
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\c:\gowin\gowin_v1.9.5beta\synplifypro\lib\generic\gw1n.v "
+// file 1 "\c:\gowin\gowin_v1.9.5beta\synplifypro\lib\vlog\hypermods.v "
+// file 2 "\c:\gowin\gowin_v1.9.5beta\synplifypro\lib\vlog\umr_capim.v "
+// file 3 "\c:\gowin\gowin_v1.9.5beta\synplifypro\lib\vlog\scemi_objects.v "
+// file 4 "\c:\gowin\gowin_v1.9.5beta\synplifypro\lib\vlog\scemi_pipes.svh "
+// file 5 "\d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\course6_water_led\led_light\src\led_light.v "
+// file 6 "\c:\gowin\gowin_v1.9.5beta\synplifypro\lib\nlconst.dat "
+
+`timescale 100 ps/100 ps
+module led_light (
+  clk,
+  rstn,
+  led
+)
+;
+input clk ;
+input rstn ;
+output [7:0] led ;
+wire clk ;
+wire rstn ;
+wire [24:0] led_light_cnt;
+wire [7:1] led_status_r;
+wire [24:0] led_light_cnt_r;
+wire [7:0] led_c;
+wire un1_led_light_cnt_1 ;
+wire VCC ;
+wire GND ;
+wire clk_c ;
+wire rstn_c ;
+wire un2_led_light_cnt_cry_0_0_SUM ;
+wire un2_led_light_cnt_cry_1_0_SUM ;
+wire un2_led_light_cnt_cry_2_0_SUM ;
+wire un2_led_light_cnt_cry_3_0_SUM ;
+wire un2_led_light_cnt_cry_4_0_SUM ;
+wire un2_led_light_cnt_cry_5_0_SUM ;
+wire un2_led_light_cnt_cry_6_0_SUM ;
+wire un2_led_light_cnt_cry_7_0_SUM ;
+wire un2_led_light_cnt_cry_8_0_SUM ;
+wire un2_led_light_cnt_cry_9_0_SUM ;
+wire un2_led_light_cnt_cry_10_0_SUM ;
+wire un2_led_light_cnt_cry_11_0_SUM ;
+wire un2_led_light_cnt_cry_12_0_SUM ;
+wire un2_led_light_cnt_cry_13_0_SUM ;
+wire un2_led_light_cnt_cry_14_0_SUM ;
+wire un2_led_light_cnt_cry_15_0_SUM ;
+wire un2_led_light_cnt_cry_16_0_SUM ;
+wire un2_led_light_cnt_cry_17_0_SUM ;
+wire un2_led_light_cnt_cry_18_0_SUM ;
+wire un2_led_light_cnt_cry_19_0_SUM ;
+wire un2_led_light_cnt_cry_20_0_SUM ;
+wire un2_led_light_cnt_cry_21_0_SUM ;
+wire un2_led_light_cnt_cry_22_0_SUM ;
+wire un2_led_light_cnt_cry_23_0_SUM ;
+wire un2_led_light_cnt_s_24_0_SUM ;
+wire un2_led_light_cnt_cry_0 ;
+wire un2_led_light_cnt_cry_1 ;
+wire un2_led_light_cnt_cry_2 ;
+wire un2_led_light_cnt_cry_3 ;
+wire un2_led_light_cnt_cry_4 ;
+wire un2_led_light_cnt_cry_5 ;
+wire un2_led_light_cnt_cry_6 ;
+wire un2_led_light_cnt_cry_7 ;
+wire un2_led_light_cnt_cry_8 ;
+wire un2_led_light_cnt_cry_9 ;
+wire un2_led_light_cnt_cry_10 ;
+wire un2_led_light_cnt_cry_11 ;
+wire un2_led_light_cnt_cry_12 ;
+wire un2_led_light_cnt_cry_13 ;
+wire un2_led_light_cnt_cry_14 ;
+wire un2_led_light_cnt_cry_15 ;
+wire un2_led_light_cnt_cry_16 ;
+wire un2_led_light_cnt_cry_17 ;
+wire un2_led_light_cnt_cry_18 ;
+wire un2_led_light_cnt_cry_19 ;
+wire un2_led_light_cnt_cry_20 ;
+wire un2_led_light_cnt_cry_21 ;
+wire un2_led_light_cnt_cry_22 ;
+wire un2_led_light_cnt_cry_23 ;
+wire un1_led_light_cnt_1_12 ;
+wire un1_led_light_cnt_1_13 ;
+wire un1_led_light_cnt_1_14 ;
+wire un1_led_light_cnt_1_15 ;
+wire un1_led_light_cnt_1_16 ;
+wire un1_led_light_cnt_1_17 ;
+wire un1_led_light_cnt_1_21 ;
+wire un1_led_light_cnt_1_22 ;
+wire un1_led_light_cnt_1_21_x ;
+wire un1_led_light_cnt_1_1 ;
+wire un1_led_light_cnt_1_12_x ;
+wire un1_led_light_cnt_1_14_x ;
+wire un2_led_light_cnt_s_24_0_COUT ;
+wire rstn_c_l ;
+  GSR GSR_INST (
+	.GSRI(VCC)
+);
+  INV rstn_c_l_cZ (
+	.I(rstn_c),
+	.O(rstn_c_l)
+);
+// @5:42
+  LUT4 \led_light_cnt_r_cZ[8]  (
+	.I0(un2_led_light_cnt_cry_8_0_SUM),
+	.I1(rstn_c),
+	.I2(un1_led_light_cnt_1_21),
+	.I3(un1_led_light_cnt_1_22),
+	.F(led_light_cnt_r[8])
+);
+defparam \led_light_cnt_r_cZ[8] .INIT=16'h0888;
+// @5:42
+  LUT4 \led_light_cnt_r_cZ[7]  (
+	.I0(un2_led_light_cnt_cry_7_0_SUM),
+	.I1(rstn_c),
+	.I2(un1_led_light_cnt_1_21),
+	.I3(un1_led_light_cnt_1_22),
+	.F(led_light_cnt_r[7])
+);
+defparam \led_light_cnt_r_cZ[7] .INIT=16'h0888;
+// @5:42
+  LUT4 \led_light_cnt_r_cZ[22]  (
+	.I0(un2_led_light_cnt_cry_22_0_SUM),
+	.I1(rstn_c),
+	.I2(un1_led_light_cnt_1_21),
+	.I3(un1_led_light_cnt_1_22),
+	.F(led_light_cnt_r[22])
+);
+defparam \led_light_cnt_r_cZ[22] .INIT=16'h0888;
+// @5:42
+  LUT4 \led_light_cnt_r_cZ[20]  (
+	.I0(un2_led_light_cnt_cry_20_0_SUM),
+	.I1(rstn_c),
+	.I2(un1_led_light_cnt_1_21),
+	.I3(un1_led_light_cnt_1_22),
+	.F(led_light_cnt_r[20])
+);
+defparam \led_light_cnt_r_cZ[20] .INIT=16'h0888;
+// @5:42
+  LUT4 \led_light_cnt_r_cZ[19]  (
+	.I0(un2_led_light_cnt_cry_19_0_SUM),
+	.I1(rstn_c),
+	.I2(un1_led_light_cnt_1_21),
+	.I3(un1_led_light_cnt_1_22),
+	.F(led_light_cnt_r[19])
+);
+defparam \led_light_cnt_r_cZ[19] .INIT=16'h0888;
+// @5:42
+  LUT4 \led_light_cnt_r_cZ[17]  (
+	.I0(un2_led_light_cnt_cry_17_0_SUM),
+	.I1(rstn_c),
+	.I2(un1_led_light_cnt_1_21),
+	.I3(un1_led_light_cnt_1_22),
+	.F(led_light_cnt_r[17])
+);
+defparam \led_light_cnt_r_cZ[17] .INIT=16'h0888;
+// @5:42
+  LUT4 \led_light_cnt_r_cZ[16]  (
+	.I0(un2_led_light_cnt_cry_16_0_SUM),
+	.I1(rstn_c),
+	.I2(un1_led_light_cnt_1_21),
+	.I3(un1_led_light_cnt_1_22),
+	.F(led_light_cnt_r[16])
+);
+defparam \led_light_cnt_r_cZ[16] .INIT=16'h0888;
+// @5:42
+  LUT4 \led_light_cnt_r_cZ[15]  (
+	.I0(un2_led_light_cnt_cry_15_0_SUM),
+	.I1(rstn_c),
+	.I2(un1_led_light_cnt_1_21),
+	.I3(un1_led_light_cnt_1_22),
+	.F(led_light_cnt_r[15])
+);
+defparam \led_light_cnt_r_cZ[15] .INIT=16'h0888;
+// @5:42
+  LUT4 \led_light_cnt_r_cZ[11]  (
+	.I0(un2_led_light_cnt_cry_11_0_SUM),
+	.I1(rstn_c),
+	.I2(un1_led_light_cnt_1_21),
+	.I3(un1_led_light_cnt_1_22),
+	.F(led_light_cnt_r[11])
+);
+defparam \led_light_cnt_r_cZ[11] .INIT=16'h0888;
+// @5:42
+  LUT4 \led_light_cnt_r_cZ[10]  (
+	.I0(un2_led_light_cnt_cry_10_0_SUM),
+	.I1(rstn_c),
+	.I2(un1_led_light_cnt_1_21),
+	.I3(un1_led_light_cnt_1_22),
+	.F(led_light_cnt_r[10])
+);
+defparam \led_light_cnt_r_cZ[10] .INIT=16'h0888;
+// @5:46
+  LUT4 un1_led_light_cnt_1_21_cZ (
+	.I0(led_light_cnt[3]),
+	.I1(led_light_cnt[4]),
+	.I2(un1_led_light_cnt_1_12),
+	.I3(un1_led_light_cnt_1_17),
+	.F(un1_led_light_cnt_1_21)
+);
+defparam un1_led_light_cnt_1_21_cZ.INIT=16'h8000;
+// @5:46
+  LUT4 un1_led_light_cnt_1_22_cZ (
+	.I0(un1_led_light_cnt_1_13),
+	.I1(un1_led_light_cnt_1_14),
+	.I2(un1_led_light_cnt_1_15),
+	.I3(un1_led_light_cnt_1_16),
+	.F(un1_led_light_cnt_1_22)
+);
+defparam un1_led_light_cnt_1_22_cZ.INIT=16'h8000;
+// @5:53
+  LUT4 \led_status_r_cZ[1]  (
+	.I0(led_c[0]),
+	.I1(led_c[1]),
+	.I2(rstn_c),
+	.I3(un1_led_light_cnt_1),
+	.F(led_status_r[1])
+);
+defparam \led_status_r_cZ[1] .INIT=16'hA0C0;
+// @5:53
+  LUT4 \led_status_r_cZ[2]  (
+	.I0(led_c[1]),
+	.I1(led_c[2]),
+	.I2(rstn_c),
+	.I3(un1_led_light_cnt_1),
+	.F(led_status_r[2])
+);
+defparam \led_status_r_cZ[2] .INIT=16'hA0C0;
+// @5:53
+  LUT4 \led_status_r_cZ[3]  (
+	.I0(led_c[2]),
+	.I1(led_c[3]),
+	.I2(rstn_c),
+	.I3(un1_led_light_cnt_1),
+	.F(led_status_r[3])
+);
+defparam \led_status_r_cZ[3] .INIT=16'hA0C0;
+// @5:53
+  LUT4 \led_status_r_cZ[4]  (
+	.I0(led_c[3]),
+	.I1(led_c[4]),
+	.I2(rstn_c),
+	.I3(un1_led_light_cnt_1),
+	.F(led_status_r[4])
+);
+defparam \led_status_r_cZ[4] .INIT=16'hA0C0;
+// @5:53
+  LUT4 \led_status_r_cZ[5]  (
+	.I0(led_c[4]),
+	.I1(led_c[5]),
+	.I2(rstn_c),
+	.I3(un1_led_light_cnt_1),
+	.F(led_status_r[5])
+);
+defparam \led_status_r_cZ[5] .INIT=16'hA0C0;
+// @5:53
+  LUT4 \led_status_r_cZ[6]  (
+	.I0(led_c[5]),
+	.I1(led_c[6]),
+	.I2(rstn_c),
+	.I3(un1_led_light_cnt_1),
+	.F(led_status_r[6])
+);
+defparam \led_status_r_cZ[6] .INIT=16'hA0C0;
+// @5:53
+  LUT4 \led_status_r_cZ[7]  (
+	.I0(led_c[6]),
+	.I1(led_c[7]),
+	.I2(rstn_c),
+	.I3(un1_led_light_cnt_1),
+	.F(led_status_r[7])
+);
+defparam \led_status_r_cZ[7] .INIT=16'hA0C0;
+// @5:46
+  LUT3 un1_led_light_cnt_1_12_cZ (
+	.I0(led_light_cnt[0]),
+	.I1(led_light_cnt[1]),
+	.I2(led_light_cnt[2]),
+	.F(un1_led_light_cnt_1_12)
+);
+defparam un1_led_light_cnt_1_12_cZ.INIT=8'h80;
+// @5:46
+  LUT4 un1_led_light_cnt_1_13_cZ (
+	.I0(led_light_cnt[14]),
+	.I1(led_light_cnt[18]),
+	.I2(led_light_cnt[21]),
+	.I3(led_light_cnt[23]),
+	.F(un1_led_light_cnt_1_13)
+);
+defparam un1_led_light_cnt_1_13_cZ.INIT=16'h0001;
+// @5:46
+  LUT4 un1_led_light_cnt_1_14_cZ (
+	.I0(led_light_cnt[7]),
+	.I1(led_light_cnt[9]),
+	.I2(led_light_cnt[12]),
+	.I3(led_light_cnt[13]),
+	.F(un1_led_light_cnt_1_14)
+);
+defparam un1_led_light_cnt_1_14_cZ.INIT=16'h0001;
+// @5:46
+  LUT4 un1_led_light_cnt_1_15_cZ (
+	.I0(led_light_cnt[19]),
+	.I1(led_light_cnt[20]),
+	.I2(led_light_cnt[22]),
+	.I3(led_light_cnt[24]),
+	.F(un1_led_light_cnt_1_15)
+);
+defparam un1_led_light_cnt_1_15_cZ.INIT=16'h0080;
+// @5:46
+  LUT4 un1_led_light_cnt_1_16_cZ (
+	.I0(led_light_cnt[11]),
+	.I1(led_light_cnt[15]),
+	.I2(led_light_cnt[16]),
+	.I3(led_light_cnt[17]),
+	.F(un1_led_light_cnt_1_16)
+);
+defparam un1_led_light_cnt_1_16_cZ.INIT=16'h8000;
+// @5:46
+  LUT4 un1_led_light_cnt_1_17_cZ (
+	.I0(led_light_cnt[5]),
+	.I1(led_light_cnt[6]),
+	.I2(led_light_cnt[8]),
+	.I3(led_light_cnt[10]),
+	.F(un1_led_light_cnt_1_17)
+);
+defparam un1_led_light_cnt_1_17_cZ.INIT=16'h8000;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[0]  (
+	.I0(un2_led_light_cnt_cry_0_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[0])
+);
+defparam \led_light_cnt_r_cZ[0] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[1]  (
+	.I0(un2_led_light_cnt_cry_1_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[1])
+);
+defparam \led_light_cnt_r_cZ[1] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[2]  (
+	.I0(un2_led_light_cnt_cry_2_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[2])
+);
+defparam \led_light_cnt_r_cZ[2] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[3]  (
+	.I0(un2_led_light_cnt_cry_3_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[3])
+);
+defparam \led_light_cnt_r_cZ[3] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[4]  (
+	.I0(un2_led_light_cnt_cry_4_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[4])
+);
+defparam \led_light_cnt_r_cZ[4] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[5]  (
+	.I0(un2_led_light_cnt_cry_5_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[5])
+);
+defparam \led_light_cnt_r_cZ[5] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[6]  (
+	.I0(un2_led_light_cnt_cry_6_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[6])
+);
+defparam \led_light_cnt_r_cZ[6] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[9]  (
+	.I0(un2_led_light_cnt_cry_9_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[9])
+);
+defparam \led_light_cnt_r_cZ[9] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[12]  (
+	.I0(un2_led_light_cnt_cry_12_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[12])
+);
+defparam \led_light_cnt_r_cZ[12] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[13]  (
+	.I0(un2_led_light_cnt_cry_13_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[13])
+);
+defparam \led_light_cnt_r_cZ[13] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[14]  (
+	.I0(un2_led_light_cnt_cry_14_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[14])
+);
+defparam \led_light_cnt_r_cZ[14] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[18]  (
+	.I0(un2_led_light_cnt_cry_18_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[18])
+);
+defparam \led_light_cnt_r_cZ[18] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[21]  (
+	.I0(un2_led_light_cnt_cry_21_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[21])
+);
+defparam \led_light_cnt_r_cZ[21] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[23]  (
+	.I0(un2_led_light_cnt_cry_23_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[23])
+);
+defparam \led_light_cnt_r_cZ[23] .INIT=4'h8;
+// @5:42
+  LUT2 \led_light_cnt_r_cZ[24]  (
+	.I0(un2_led_light_cnt_s_24_0_SUM),
+	.I1(rstn_c),
+	.F(led_light_cnt_r[24])
+);
+defparam \led_light_cnt_r_cZ[24] .INIT=4'h8;
+// @5:46
+  LUT4 un1_led_light_cnt_1_cZ (
+	.I0(un1_led_light_cnt_1_21_x),
+	.I1(un1_led_light_cnt_1_1),
+	.I2(un1_led_light_cnt_1_13),
+	.I3(un1_led_light_cnt_1_17),
+	.F(un1_led_light_cnt_1)
+);
+defparam un1_led_light_cnt_1_cZ.INIT=16'h8000;
+// @5:46
+  LUT2 un1_led_light_cnt_1_12_x_cZ (
+	.I0(led_light_cnt[1]),
+	.I1(led_light_cnt[2]),
+	.F(un1_led_light_cnt_1_12_x)
+);
+defparam un1_led_light_cnt_1_12_x_cZ.INIT=4'h8;
+// @5:46
+  LUT4 un1_led_light_cnt_1_21_x_cZ (
+	.I0(un1_led_light_cnt_1_12_x),
+	.I1(led_light_cnt[0]),
+	.I2(led_light_cnt[3]),
+	.I3(led_light_cnt[4]),
+	.F(un1_led_light_cnt_1_21_x)
+);
+defparam un1_led_light_cnt_1_21_x_cZ.INIT=16'h8000;
+// @5:46
+  LUT3 un1_led_light_cnt_1_14_x_cZ (
+	.I0(led_light_cnt[9]),
+	.I1(led_light_cnt[12]),
+	.I2(led_light_cnt[13]),
+	.F(un1_led_light_cnt_1_14_x)
+);
+defparam un1_led_light_cnt_1_14_x_cZ.INIT=8'h01;
+// @5:46
+  LUT4 un1_led_light_cnt_1_22_x (
+	.I0(un1_led_light_cnt_1_14_x),
+	.I1(led_light_cnt[7]),
+	.I2(un1_led_light_cnt_1_15),
+	.I3(un1_led_light_cnt_1_16),
+	.F(un1_led_light_cnt_1_1)
+);
+defparam un1_led_light_cnt_1_22_x.INIT=16'h2000;
+  DFF \led_status[7]  (
+	.Q(led_c[7]),
+	.D(led_status_r[7]),
+	.CLK(clk_c)
+);
+defparam \led_status[7] .INIT=1'b0;
+  DFF \led_status[6]  (
+	.Q(led_c[6]),
+	.D(led_status_r[6]),
+	.CLK(clk_c)
+);
+defparam \led_status[6] .INIT=1'b0;
+  DFF \led_status[5]  (
+	.Q(led_c[5]),
+	.D(led_status_r[5]),
+	.CLK(clk_c)
+);
+defparam \led_status[5] .INIT=1'b0;
+  DFF \led_status[4]  (
+	.Q(led_c[4]),
+	.D(led_status_r[4]),
+	.CLK(clk_c)
+);
+defparam \led_status[4] .INIT=1'b0;
+  DFF \led_status[3]  (
+	.Q(led_c[3]),
+	.D(led_status_r[3]),
+	.CLK(clk_c)
+);
+defparam \led_status[3] .INIT=1'b0;
+  DFF \led_status[2]  (
+	.Q(led_c[2]),
+	.D(led_status_r[2]),
+	.CLK(clk_c)
+);
+defparam \led_status[2] .INIT=1'b0;
+  DFF \led_status[1]  (
+	.Q(led_c[1]),
+	.D(led_status_r[1]),
+	.CLK(clk_c)
+);
+defparam \led_status[1] .INIT=1'b0;
+  DFF \led_light_cnt_Z[10]  (
+	.Q(led_light_cnt[10]),
+	.D(led_light_cnt_r[10]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[10] .INIT=1'b0;
+  DFF \led_light_cnt_Z[9]  (
+	.Q(led_light_cnt[9]),
+	.D(led_light_cnt_r[9]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[9] .INIT=1'b0;
+  DFF \led_light_cnt_Z[8]  (
+	.Q(led_light_cnt[8]),
+	.D(led_light_cnt_r[8]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[8] .INIT=1'b0;
+  DFF \led_light_cnt_Z[7]  (
+	.Q(led_light_cnt[7]),
+	.D(led_light_cnt_r[7]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[7] .INIT=1'b0;
+  DFF \led_light_cnt_Z[6]  (
+	.Q(led_light_cnt[6]),
+	.D(led_light_cnt_r[6]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[6] .INIT=1'b0;
+  DFF \led_light_cnt_Z[5]  (
+	.Q(led_light_cnt[5]),
+	.D(led_light_cnt_r[5]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[5] .INIT=1'b0;
+  DFF \led_light_cnt_Z[4]  (
+	.Q(led_light_cnt[4]),
+	.D(led_light_cnt_r[4]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[4] .INIT=1'b0;
+  DFF \led_light_cnt_Z[3]  (
+	.Q(led_light_cnt[3]),
+	.D(led_light_cnt_r[3]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[3] .INIT=1'b0;
+  DFF \led_light_cnt_Z[2]  (
+	.Q(led_light_cnt[2]),
+	.D(led_light_cnt_r[2]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[2] .INIT=1'b0;
+  DFF \led_light_cnt_Z[1]  (
+	.Q(led_light_cnt[1]),
+	.D(led_light_cnt_r[1]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[1] .INIT=1'b0;
+  DFF \led_light_cnt_Z[0]  (
+	.Q(led_light_cnt[0]),
+	.D(led_light_cnt_r[0]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[0] .INIT=1'b0;
+  DFF \led_light_cnt_Z[24]  (
+	.Q(led_light_cnt[24]),
+	.D(led_light_cnt_r[24]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[24] .INIT=1'b0;
+  DFF \led_light_cnt_Z[23]  (
+	.Q(led_light_cnt[23]),
+	.D(led_light_cnt_r[23]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[23] .INIT=1'b0;
+  DFF \led_light_cnt_Z[22]  (
+	.Q(led_light_cnt[22]),
+	.D(led_light_cnt_r[22]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[22] .INIT=1'b0;
+  DFF \led_light_cnt_Z[21]  (
+	.Q(led_light_cnt[21]),
+	.D(led_light_cnt_r[21]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[21] .INIT=1'b0;
+  DFF \led_light_cnt_Z[20]  (
+	.Q(led_light_cnt[20]),
+	.D(led_light_cnt_r[20]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[20] .INIT=1'b0;
+  DFF \led_light_cnt_Z[19]  (
+	.Q(led_light_cnt[19]),
+	.D(led_light_cnt_r[19]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[19] .INIT=1'b0;
+  DFF \led_light_cnt_Z[18]  (
+	.Q(led_light_cnt[18]),
+	.D(led_light_cnt_r[18]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[18] .INIT=1'b0;
+  DFF \led_light_cnt_Z[17]  (
+	.Q(led_light_cnt[17]),
+	.D(led_light_cnt_r[17]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[17] .INIT=1'b0;
+  DFF \led_light_cnt_Z[16]  (
+	.Q(led_light_cnt[16]),
+	.D(led_light_cnt_r[16]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[16] .INIT=1'b0;
+  DFF \led_light_cnt_Z[15]  (
+	.Q(led_light_cnt[15]),
+	.D(led_light_cnt_r[15]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[15] .INIT=1'b0;
+  DFF \led_light_cnt_Z[14]  (
+	.Q(led_light_cnt[14]),
+	.D(led_light_cnt_r[14]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[14] .INIT=1'b0;
+  DFF \led_light_cnt_Z[13]  (
+	.Q(led_light_cnt[13]),
+	.D(led_light_cnt_r[13]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[13] .INIT=1'b0;
+  DFF \led_light_cnt_Z[12]  (
+	.Q(led_light_cnt[12]),
+	.D(led_light_cnt_r[12]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[12] .INIT=1'b0;
+  DFF \led_light_cnt_Z[11]  (
+	.Q(led_light_cnt[11]),
+	.D(led_light_cnt_r[11]),
+	.CLK(clk_c)
+);
+defparam \led_light_cnt_Z[11] .INIT=1'b0;
+  DFFSE \led_status[0]  (
+	.Q(led_c[0]),
+	.D(led_c[7]),
+	.CLK(clk_c),
+	.SET(rstn_c_l),
+	.CE(un1_led_light_cnt_1)
+);
+defparam \led_status[0] .INIT=1'b1;
+// @5:25
+  IBUF clk_ibuf (
+	.O(clk_c),
+	.I(clk)
+);
+// @5:26
+  IBUF rstn_ibuf (
+	.O(rstn_c),
+	.I(rstn)
+);
+// @5:28
+  OBUF \led_obuf[0]  (
+	.O(led[0]),
+	.I(led_c[0])
+);
+// @5:28
+  OBUF \led_obuf[1]  (
+	.O(led[1]),
+	.I(led_c[1])
+);
+// @5:28
+  OBUF \led_obuf[2]  (
+	.O(led[2]),
+	.I(led_c[2])
+);
+// @5:28
+  OBUF \led_obuf[3]  (
+	.O(led[3]),
+	.I(led_c[3])
+);
+// @5:28
+  OBUF \led_obuf[4]  (
+	.O(led[4]),
+	.I(led_c[4])
+);
+// @5:28
+  OBUF \led_obuf[5]  (
+	.O(led[5]),
+	.I(led_c[5])
+);
+// @5:28
+  OBUF \led_obuf[6]  (
+	.O(led[6]),
+	.I(led_c[6])
+);
+// @5:28
+  OBUF \led_obuf[7]  (
+	.O(led[7]),
+	.I(led_c[7])
+);
+// @5:49
+  ALU un2_led_light_cnt_s_24_0 (
+	.CIN(un2_led_light_cnt_cry_23),
+	.I0(led_light_cnt[24]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_s_24_0_COUT),
+	.SUM(un2_led_light_cnt_s_24_0_SUM)
+);
+defparam un2_led_light_cnt_s_24_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_23_0 (
+	.CIN(un2_led_light_cnt_cry_22),
+	.I0(led_light_cnt[23]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_23),
+	.SUM(un2_led_light_cnt_cry_23_0_SUM)
+);
+defparam un2_led_light_cnt_cry_23_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_22_0 (
+	.CIN(un2_led_light_cnt_cry_21),
+	.I0(led_light_cnt[22]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_22),
+	.SUM(un2_led_light_cnt_cry_22_0_SUM)
+);
+defparam un2_led_light_cnt_cry_22_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_21_0 (
+	.CIN(un2_led_light_cnt_cry_20),
+	.I0(led_light_cnt[21]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_21),
+	.SUM(un2_led_light_cnt_cry_21_0_SUM)
+);
+defparam un2_led_light_cnt_cry_21_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_20_0 (
+	.CIN(un2_led_light_cnt_cry_19),
+	.I0(led_light_cnt[20]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_20),
+	.SUM(un2_led_light_cnt_cry_20_0_SUM)
+);
+defparam un2_led_light_cnt_cry_20_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_19_0 (
+	.CIN(un2_led_light_cnt_cry_18),
+	.I0(led_light_cnt[19]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_19),
+	.SUM(un2_led_light_cnt_cry_19_0_SUM)
+);
+defparam un2_led_light_cnt_cry_19_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_18_0 (
+	.CIN(un2_led_light_cnt_cry_17),
+	.I0(led_light_cnt[18]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_18),
+	.SUM(un2_led_light_cnt_cry_18_0_SUM)
+);
+defparam un2_led_light_cnt_cry_18_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_17_0 (
+	.CIN(un2_led_light_cnt_cry_16),
+	.I0(led_light_cnt[17]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_17),
+	.SUM(un2_led_light_cnt_cry_17_0_SUM)
+);
+defparam un2_led_light_cnt_cry_17_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_16_0 (
+	.CIN(un2_led_light_cnt_cry_15),
+	.I0(led_light_cnt[16]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_16),
+	.SUM(un2_led_light_cnt_cry_16_0_SUM)
+);
+defparam un2_led_light_cnt_cry_16_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_15_0 (
+	.CIN(un2_led_light_cnt_cry_14),
+	.I0(led_light_cnt[15]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_15),
+	.SUM(un2_led_light_cnt_cry_15_0_SUM)
+);
+defparam un2_led_light_cnt_cry_15_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_14_0 (
+	.CIN(un2_led_light_cnt_cry_13),
+	.I0(led_light_cnt[14]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_14),
+	.SUM(un2_led_light_cnt_cry_14_0_SUM)
+);
+defparam un2_led_light_cnt_cry_14_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_13_0 (
+	.CIN(un2_led_light_cnt_cry_12),
+	.I0(led_light_cnt[13]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_13),
+	.SUM(un2_led_light_cnt_cry_13_0_SUM)
+);
+defparam un2_led_light_cnt_cry_13_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_12_0 (
+	.CIN(un2_led_light_cnt_cry_11),
+	.I0(led_light_cnt[12]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_12),
+	.SUM(un2_led_light_cnt_cry_12_0_SUM)
+);
+defparam un2_led_light_cnt_cry_12_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_11_0 (
+	.CIN(un2_led_light_cnt_cry_10),
+	.I0(led_light_cnt[11]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_11),
+	.SUM(un2_led_light_cnt_cry_11_0_SUM)
+);
+defparam un2_led_light_cnt_cry_11_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_10_0 (
+	.CIN(un2_led_light_cnt_cry_9),
+	.I0(led_light_cnt[10]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_10),
+	.SUM(un2_led_light_cnt_cry_10_0_SUM)
+);
+defparam un2_led_light_cnt_cry_10_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_9_0 (
+	.CIN(un2_led_light_cnt_cry_8),
+	.I0(led_light_cnt[9]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_9),
+	.SUM(un2_led_light_cnt_cry_9_0_SUM)
+);
+defparam un2_led_light_cnt_cry_9_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_8_0 (
+	.CIN(un2_led_light_cnt_cry_7),
+	.I0(led_light_cnt[8]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_8),
+	.SUM(un2_led_light_cnt_cry_8_0_SUM)
+);
+defparam un2_led_light_cnt_cry_8_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_7_0 (
+	.CIN(un2_led_light_cnt_cry_6),
+	.I0(led_light_cnt[7]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_7),
+	.SUM(un2_led_light_cnt_cry_7_0_SUM)
+);
+defparam un2_led_light_cnt_cry_7_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_6_0 (
+	.CIN(un2_led_light_cnt_cry_5),
+	.I0(led_light_cnt[6]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_6),
+	.SUM(un2_led_light_cnt_cry_6_0_SUM)
+);
+defparam un2_led_light_cnt_cry_6_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_5_0 (
+	.CIN(un2_led_light_cnt_cry_4),
+	.I0(led_light_cnt[5]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_5),
+	.SUM(un2_led_light_cnt_cry_5_0_SUM)
+);
+defparam un2_led_light_cnt_cry_5_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_4_0 (
+	.CIN(un2_led_light_cnt_cry_3),
+	.I0(led_light_cnt[4]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_4),
+	.SUM(un2_led_light_cnt_cry_4_0_SUM)
+);
+defparam un2_led_light_cnt_cry_4_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_3_0 (
+	.CIN(un2_led_light_cnt_cry_2),
+	.I0(led_light_cnt[3]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_3),
+	.SUM(un2_led_light_cnt_cry_3_0_SUM)
+);
+defparam un2_led_light_cnt_cry_3_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_2_0 (
+	.CIN(un2_led_light_cnt_cry_1),
+	.I0(led_light_cnt[2]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_2),
+	.SUM(un2_led_light_cnt_cry_2_0_SUM)
+);
+defparam un2_led_light_cnt_cry_2_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_1_0 (
+	.CIN(un2_led_light_cnt_cry_0),
+	.I0(led_light_cnt[1]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_1),
+	.SUM(un2_led_light_cnt_cry_1_0_SUM)
+);
+defparam un2_led_light_cnt_cry_1_0.ALU_MODE=0;
+// @5:49
+  ALU un2_led_light_cnt_cry_0_0 (
+	.CIN(VCC),
+	.I0(led_light_cnt[0]),
+	.I1(GND),
+	.I3(GND),
+	.COUT(un2_led_light_cnt_cry_0),
+	.SUM(un2_led_light_cnt_cry_0_0_SUM)
+);
+defparam un2_led_light_cnt_cry_0_0.ALU_MODE=0;
+  GND GND_cZ (
+	.G(GND)
+);
+  VCC VCC_cZ (
+	.V(VCC)
+);
+endmodule /* led_light */
+

@@ -1,0 +1,7 @@
+C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\impl\synthesize\rev_1\synwork\Seq_Det_comp.srs  -osyn  E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\impl\synthesize\rev_1\synwork\Seq_Det_mult.srs  -log  E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\impl\synthesize\rev_1\synlog\Seq_Det_multi_srs_gen.srr 
+relcom:C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\Seq_Det_comp.srs -osyn ..\synwork\Seq_Det_mult.srs -log ..\synlog\Seq_Det_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\Seq_Det_comp.srs|io:i|time:1578973233|size:10042|exec:0|csum:CF4E02AE1F8AF6B2F01B5ACB7DB87857
+file:..\synwork\Seq_Det_mult.srs|io:o|time:1578973235|size:3427|exec:0|csum:
+file:..\synlog\Seq_Det_multi_srs_gen.srr|io:o|time:1578973235|size:1620|exec:0|csum:
+file:C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1569428746|size:8840192|exec:1|csum:53D4B99CD3CB87F879FC8DA558113E33

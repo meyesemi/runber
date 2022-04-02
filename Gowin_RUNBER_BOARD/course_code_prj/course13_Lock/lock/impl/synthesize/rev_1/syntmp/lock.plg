@@ -1,0 +1,22 @@
+@P:  Worst Slack : 1.552
+@P:  div_clk|flag_derived_clock - Estimated Frequency : 118.4 MHz
+@P:  div_clk|flag_derived_clock - Requested Frequency : 100.0 MHz
+@P:  div_clk|flag_derived_clock - Estimated Period : 8.448
+@P:  div_clk|flag_derived_clock - Requested Period : 10.000
+@P:  div_clk|flag_derived_clock - Slack : 11.558
+@P:  lock_top|clk - Estimated Frequency : 118.4 MHz
+@P:  lock_top|clk - Requested Frequency : 100.0 MHz
+@P:  lock_top|clk - Estimated Period : 8.448
+@P:  lock_top|clk - Requested Period : 10.000
+@P:  lock_top|clk - Slack : 1.552
+@P:  System - Estimated Frequency : 866.6 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 1.154
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 8.846
+@P: lock_top Part : gw1n_4lqfp144-6
+@P: lock_top I/O primitives : 27
+@P: lock_top I/O Register bits : 0
+@P: lock_top Register bits (Non I/O) : 81 (2%)
+@P: lock_top Total Luts : 72 of 800 (1%)
+@P:  CPU Time : 0h:00m:07s

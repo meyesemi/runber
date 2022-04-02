@@ -1,0 +1,2 @@
+@W: CS141 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course9_seg1\SEG_1\src\pll\pll.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+

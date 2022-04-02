@@ -1,0 +1,8 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, top_seq_det, 0h:00m:00s,    105 MB
+work, seq_control, 0h:00m:00s,    105 MB
+work, div_clk, 0h:00m:00s,    105 MB
+work, seq_det, 0h:00m:00s,    105 MB
+work, key_control, 0h:00m:00s,    105 MB
+work, btn_deb_1, 0h:00m:00s,    106 MB
+work, btn_deb_3, 0h:00m:00s,    106 MB

@@ -1,0 +1,168 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-01
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2018q4p1, Build 157R, Built Mar 12 2019 09:11:06
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-01
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2018q4p1, Build 157R, Built Mar 12 2019 09:11:06
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\generic\gw1n.v" (library work)
+@I::"D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"F:\Gowin_course\led_test_gowin\led_test_gowin\src\led_test.v" (library work)
+@I::"F:\Gowin_course\led_test_gowin\led_test_gowin\src\gowin_pll\gowin_pll.v" (library work)
+Verilog syntax check successful!
+Selecting top level module led_test
+@N: CG364 :"D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\generic\gw1n.v":1488:7:1488:9|Synthesizing module PLL in library work.
+Running optimization stage 1 on PLL .......
+@N: CG364 :"F:\Gowin_course\led_test_gowin\led_test_gowin\src\gowin_pll\gowin_pll.v":8:7:8:13|Synthesizing module clk_gen in library work.
+Running optimization stage 1 on clk_gen .......
+@N: CG364 :"F:\Gowin_course\led_test_gowin\led_test_gowin\src\led_test.v":25:7:25:14|Synthesizing module led_test in library work.
+Running optimization stage 1 on led_test .......
+Running optimization stage 2 on led_test .......
+Running optimization stage 2 on clk_gen .......
+Running optimization stage 2 on PLL .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\Gowin_course\led_test_gowin\led_test_gowin\impl\synthesize\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Nov  5 16:09:56 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: O-2018.09G-SP1-1-Beta1
+Install: D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-01
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2018q4p1, Build 157R, Built Mar 12 2019 09:11:06
+
+@N|Running in 64-bit mode
+@N: NF107 :"f:\gowin_course\led_test_gowin\led_test_gowin\src\led_test.v":25:7:25:14|Selected library: work cell: led_test view verilog as top level
+@N: NF107 :"f:\gowin_course\led_test_gowin\led_test_gowin\src\led_test.v":25:7:25:14|Selected library: work cell: led_test view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Nov  5 16:09:56 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Nov  5 16:09:56 2019
+
+###########################################################]
+$ Start of Compile
+#Wed May 13 13:52:04 2020
+
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2019q3p1, Build 286R, Built Feb 28 2020 09:59:15
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\generic\gw1n.v" (library work)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\src\led_test.v" (library work)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\src\gowin_pll\gowin_pll.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module led_test
+@N: CG364 :"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\generic\gw1n.v":2313:7:2313:9|Synthesizing module PLL in library work.
+Running optimization stage 1 on PLL .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\src\gowin_pll\gowin_pll.v":8:7:8:13|Synthesizing module clk_gen in library work.
+Running optimization stage 1 on clk_gen .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\src\led_test.v":25:7:25:14|Synthesizing module led_test in library work.
+Running optimization stage 1 on led_test .......
+Running optimization stage 2 on led_test .......
+Running optimization stage 2 on clk_gen .......
+Running optimization stage 2 on PLL .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 101MB peak: 102MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Wed May 13 13:52:09 2020
+
+###########################################################]

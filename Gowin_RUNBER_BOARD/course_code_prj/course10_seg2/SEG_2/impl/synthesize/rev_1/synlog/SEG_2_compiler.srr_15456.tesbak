@@ -1,0 +1,221 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\generic\gw1n.v" (library work)
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\top_seq2.v" (library work)
+@I::"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\btn_deb.v" (library work)
+@I::"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\div_clk.v" (library work)
+@I::"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\key_cnt.v" (library work)
+@I::"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\seq_control.v" (library work)
+@I::"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\pll\pll.v" (library work)
+@W: CS141 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\pll\pll.v":3:7:3:11|Unrecognized synthesis directive title. Verify the correct directive name.
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module top_seq2
+@N: CG364 :"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\generic\gw1n.v":1800:7:1800:9|Synthesizing module PLL in library work.
+Running optimization stage 1 on PLL .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\pll\pll.v":8:7:8:9|Synthesizing module pll in library work.
+Running optimization stage 1 on pll .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+
+	BT_WIDTH=4'b0100
+   Generated name = btn_deb_4
+Running optimization stage 1 on btn_deb_4 .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\key_cnt.v":29:7:29:13|Synthesizing module key_cnt in library work.
+Running optimization stage 1 on key_cnt .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\div_clk.v":21:7:21:13|Synthesizing module div_clk in library work.
+Running optimization stage 1 on div_clk .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\seq_control.v":21:7:21:17|Synthesizing module seq_control in library work.
+Running optimization stage 1 on seq_control .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\top_seq2.v":24:7:24:14|Synthesizing module top_seq2 in library work.
+@W: CG781 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\top_seq2.v":56:8:56:11|Input rstn_key on instance key0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\top_seq2.v":64:8:64:11|Input rstn_key on instance key1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\top_seq2.v":72:8:72:11|Input rstn_key on instance key2 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\top_seq2.v":80:8:80:11|Input rstn_key on instance key3 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Running optimization stage 1 on top_seq2 .......
+Running optimization stage 2 on top_seq2 .......
+Running optimization stage 2 on seq_control .......
+Running optimization stage 2 on div_clk .......
+Running optimization stage 2 on key_cnt .......
+@N: CL159 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\src\key_cnt.v":32:7:32:14|Input rstn_key is unused.
+Running optimization stage 2 on btn_deb_4 .......
+Running optimization stage 2 on pll .......
+Running optimization stage 2 on PLL .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\impl\synthesize\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 106MB peak: 106MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jan  7 14:24:53 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 103MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jan  7 14:24:54 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course10_seg2\SEG_2\impl\synthesize\rev_1\synwork\SEG_2_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 38MB peak: 47MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jan  7 14:24:54 2020
+
+###########################################################]
+$ Start of Compile
+#Wed May 13 11:21:00 2020
+
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2019q3p1, Build 286R, Built Feb 28 2020 09:59:15
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\generic\gw1n.v" (library work)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\top_seq2.v" (library work)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\btn_deb.v" (library work)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\div_clk.v" (library work)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\key_cnt.v" (library work)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\seq_control.v" (library work)
+@I::"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\pll\pll.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module top_seq2
+@N: CG364 :"C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro\lib\generic\gw1n.v":2313:7:2313:9|Synthesizing module PLL in library work.
+Running optimization stage 1 on PLL .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\pll\pll.v":8:7:8:9|Synthesizing module pll in library work.
+Running optimization stage 1 on pll .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+
+	BT_WIDTH=4'b0100
+   Generated name = btn_deb_4
+Running optimization stage 1 on btn_deb_4 .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\key_cnt.v":29:7:29:13|Synthesizing module key_cnt in library work.
+Running optimization stage 1 on key_cnt .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\div_clk.v":21:7:21:13|Synthesizing module div_clk in library work.
+Running optimization stage 1 on div_clk .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\seq_control.v":21:7:21:17|Synthesizing module seq_control in library work.
+Running optimization stage 1 on seq_control .......
+@N: CG364 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\top_seq2.v":24:7:24:14|Synthesizing module top_seq2 in library work.
+@W: CG781 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\top_seq2.v":56:8:56:11|Input rstn_key on instance key0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\top_seq2.v":64:8:64:11|Input rstn_key on instance key1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\top_seq2.v":72:8:72:11|Input rstn_key on instance key2 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\top_seq2.v":80:8:80:11|Input rstn_key on instance key3 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Running optimization stage 1 on top_seq2 .......
+Running optimization stage 2 on top_seq2 .......
+Running optimization stage 2 on seq_control .......
+Running optimization stage 2 on div_clk .......
+Running optimization stage 2 on key_cnt .......
+@N: CL159 :"D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\src\key_cnt.v":32:7:32:14|Input rstn_key is unused.
+Running optimization stage 2 on btn_deb_4 .......
+Running optimization stage 2 on pll .......
+Running optimization stage 2 on PLL .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course10_seg2\SEG_2\impl\synthesize\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 102MB peak: 103MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Wed May 13 11:21:07 2020
+
+###########################################################]

@@ -1,0 +1,4 @@
+@W: FA239 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\course9_seg1\course9_seg1\seg_1\src\top_seq.v":69:1:69:4|ROM smg_1[6:0] (in view: work.top_seq(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\course9_seg1\course9_seg1\seg_1\src\top_seq.v":69:1:69:4|ROM smg_1[6:0] (in view: work.top_seq(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: MT246 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\course9_seg1\course9_seg1\seg_1\src\pll\pll.v":21:4:21:11|Blackbox PLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock pll|clkout_inferred_clock with period 10.00ns. Please declare a user-defined clock on net your_instance_name.clk_12m.

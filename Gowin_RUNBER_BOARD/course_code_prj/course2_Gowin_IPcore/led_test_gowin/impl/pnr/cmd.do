@@ -1,0 +1,10 @@
+-d D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin.vm
+-p GW1N-4-LQFP144-6
+-pn GW1N-UV4LQ144C6/I5
+-cst D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\src\led_test.cst
+-cfg D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\pnr\device.cfg
+-sdc D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\src\led_test_gowin.sdc
+-bit
+-tr
+-ph
+-timing

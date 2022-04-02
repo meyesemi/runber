@@ -1,0 +1,40 @@
+#OPTIONS:"|-layerid|0|-orig_srs|E:\\project_manager\\Mini_eye_Board\\gowin\\course\\course12_Seq_Det\\Seq_Det\\impl\\synthesize\\rev_1\\synwork\\Seq_Det_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-nram|-divnmod|-nostructver|-gowin|-infer_seqShift|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-I|E:\\project_manager\\Mini_eye_Board\\gowin\\course\\course12_Seq_Det\\Seq_Det\\impl\\synthesize\\|-I|C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib\\generic\\gw1n.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\bin64\\c_ver.exe":1569428574
+#CUR:"C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib\\generic\\gw1n.v":1569433952
+#CUR:"C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib\\vlog\\hypermods.v":1569428306
+#CUR:"C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib\\vlog\\umr_capim.v":1569428306
+#CUR:"C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1569428306
+#CUR:"C:\\Gowin\\Gowin_V1.9.2.02Beta\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1569428306
+#CUR:"E:\\project_manager\\Mini_eye_Board\\gowin\\course\\course12_Seq_Det\\Seq_Det\\src\\top_seq_det.v":1578972968
+#CUR:"E:\\project_manager\\Mini_eye_Board\\gowin\\course\\course12_Seq_Det\\Seq_Det\\src\\btn_deb.v":1578972987
+#CUR:"E:\\project_manager\\Mini_eye_Board\\gowin\\course\\course12_Seq_Det\\Seq_Det\\src\\div_clk.v":1578973020
+#CUR:"E:\\project_manager\\Mini_eye_Board\\gowin\\course\\course12_Seq_Det\\Seq_Det\\src\\key_control.v":1578973056
+#CUR:"E:\\project_manager\\Mini_eye_Board\\gowin\\course\\course12_Seq_Det\\Seq_Det\\src\\seq_control.v":1578973101
+#CUR:"E:\\project_manager\\Mini_eye_Board\\gowin\\course\\course12_Seq_Det\\Seq_Det\\src\\seq_det.v":1568874890
+0			"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\top_seq_det.v" verilog
+1			"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\btn_deb.v" verilog
+2			"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\div_clk.v" verilog
+3			"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\key_control.v" verilog
+4			"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\seq_control.v" verilog
+5			"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\seq_det.v" verilog
+#Dependency Lists(Uses List)
+0 4 2 5 3
+1 -1
+2 -1
+3 1
+4 -1
+5 -1
+#Dependency Lists(Users Of)
+0 -1
+1 3
+2 0
+3 0
+4 0
+5 0
+#Design Unit to File Association
+module work btn_deb 1
+module work top_seq_det 0
+module work seq_control 4
+module work div_clk 2
+module work seq_det 5
+module work key_control 3

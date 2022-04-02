@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top_seq_det" Register="17" Alu="1" Lut="16">
+    <SubModule name="key_control" Register="12" Lut="8">
+        <SubModule name="u_btn_deb_key1" Register="21" Alu="17" Lut="7"/>
+        <SubModule name="u_btn_deb_key8" Register="18" Alu="17" Lut="6"/>
+    </SubModule>
+    <SubModule name="seq_det" Register="10" Lut="19"/>
+    <SubModule name="div_clk" Register="8" Alu="6" Lut="5"/>
+</Module>

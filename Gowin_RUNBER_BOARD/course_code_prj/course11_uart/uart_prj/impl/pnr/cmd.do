@@ -1,0 +1,10 @@
+-d D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\impl\gwsynthesis\uart_gowin_prj.vg
+-p GW1N-4-LQFP144-6
+-pn GW1N-UV4LQ144C6/I5
+-cst D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\uart_gowin_prj.cst
+-cfg D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\impl\pnr\device.cfg
+-sdc D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course11_uart\uart_prj\src\timing.sdc
+-bit
+-tr
+-ph
+-timing

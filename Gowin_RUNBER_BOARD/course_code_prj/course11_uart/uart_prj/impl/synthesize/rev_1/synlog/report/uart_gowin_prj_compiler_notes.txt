@@ -1,0 +1,18 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\generic\gw1n.v":1846:7:1846:10|Synthesizing module BUFG in library work.
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_data_gen.v":23:7:23:19|Synthesizing module uart_data_gen in library work.
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_tx.v":24:7:24:13|Synthesizing module uart_tx in library work.
+@N: CG179 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_tx.v":101:33:101:42|Removing redundant assignment.
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_rx.v":25:7:25:13|Synthesizing module uart_rx in library work.
+@N: CG179 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_rx.v":97:30:97:39|Removing redundant assignment.
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_top.v":24:7:24:14|Synthesizing module uart_top in library work.
+@N: CL201 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_rx.v":104:4:104:9|Trying to extract state machine for register rx_state.
+@N: CL159 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_rx.v":34:24:34:27|Input rstn is unused.
+@N: CL201 :"E:\project_manager\Mini_eye_Board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_tx.v":109:4:109:9|Trying to extract state machine for register tx_state.
+@N|Running in 64-bit mode
+@N: NF107 :"e:\project_manager\mini_eye_board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_top.v":24:7:24:14|Selected library: work cell: uart_top view verilog as top level
+@N: NF107 :"e:\project_manager\mini_eye_board\gowin\course\course_prj\course11_uart\uart_prj\src\uart_top.v":24:7:24:14|Selected library: work cell: uart_top view verilog as top level
+

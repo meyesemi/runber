@@ -1,0 +1,4 @@
+Info    (PA0001) : "J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\impl\synthesize\rev_1\FRE.vm" | Reading netlist file.
+Error   (PA2000) : "J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\impl\synthesize\rev_1\FRE.vm" #line(1) | syntax error near token '%'.
+Info    (PA0003) : Parsing netlist file 'J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\impl\synthesize\rev_1\FRE.vm' completed with errors.
+Info    (PA0005) : Processing netlist completed with errors.

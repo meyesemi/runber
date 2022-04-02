@@ -1,0 +1,122 @@
+# Wed May 13 13:52:18 2020
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G
+Install: C:\Gowin\Gowin_V1.9.5Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: EYE-06
+
+Implementation : rev_1
+Synopsys Generic Technology Pre-mapping, Version mapgw, Build 1564R, Built Mar  4 2020 10:56:38
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 131MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin_scck.rpt 
+See clock summary report "D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 142MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 142MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 154MB)
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 233MB peak: 233MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 234MB peak: 234MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 234MB peak: 234MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 234MB peak: 234MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 234MB peak: 234MB)
+
+
+
+Clock Summary
+******************
+
+          Start                             Requested     Requested     Clock        Clock                     Clock
+Level     Clock                             Frequency     Period        Type         Group                     Load 
+--------------------------------------------------------------------------------------------------------------------
+0 -       clk_gen|clkout_inferred_clock     175.4 MHz     5.701         inferred     Autoconstr_clkgroup_0     28   
+====================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                  Clock     Source                               Clock Pin            Non-clock Pin     Non-clock Pin
+Clock                             Load      Pin                                  Seq Example          Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------------------------------------------
+clk_gen|clkout_inferred_clock     28        clk_50m_gen.pll_inst.CLKOUT(PLL)     time_cnt[25:0].C     -                 -            
+=====================================================================================================================================
+
+@W: MT529 :"d:\baidunetdiskdownload\runber_gowin_board_sourse\course_prj\led_test_gowin\src\led_test.v":52:0:52:5|Found inferred clock clk_gen|clkout_inferred_clock which controls 28 sequential elements including cnt[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 28 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+================================= Non-Gated/Non-Generated Clocks ==================================
+Clock Tree ID     Driving Element                 Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------------------
+@KP:ckid0_0       clk_50m_gen.pll_inst.CLKOUT     PLL                    28         cnt[1:0]       
+===================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\led_test_gowin\impl\synthesize\rev_1\led_test_gowin.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:04s; Memory used current: 235MB peak: 235MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:04s; Memory used current: 235MB peak: 235MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:05s; Memory used current: 235MB peak: 235MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:05s; Memory used current: 157MB peak: 237MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:05s cputime
+# Wed May 13 13:52:27 2020
+
+###########################################################]

@@ -1,0 +1,9 @@
+-d D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\impl\gwsynthesis\key_led.vg
+-p GW1N-4-LQFP144-6
+-pn GW1N-UV4LQ144C6/I5
+-cst D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\src\key_led_top.cst
+-cfg D:\BaiduNetdiskDownload\Runber_Gowin_Board_sourse\course_prj\course8_KEY_LED\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing

@@ -1,0 +1,2 @@
+@W: CG1340 :"J:\Source_bac\Gowin_RUNBER_BOARD\course_code_prj\course15_FRE\FRE\src\freq_test.v":41:27:41:39|Index into variable clk_gen could be out of range ; a simulation mismatch is possible.
+

@@ -1,0 +1,144 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\generic\gw1n.v" (library work)
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\top_seq_det.v" (library work)
+@I::"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\btn_deb.v" (library work)
+@I::"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\div_clk.v" (library work)
+@I::"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\key_control.v" (library work)
+@I::"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\seq_control.v" (library work)
+@I::"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\seq_det.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module top_seq_det
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+
+	BT_WIDTH=4'b0011
+   Generated name = btn_deb_3
+Running optimization stage 1 on btn_deb_3 .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\btn_deb.v":23:7:23:13|Synthesizing module btn_deb in library work.
+
+	BT_WIDTH=4'b0001
+   Generated name = btn_deb_1
+Running optimization stage 1 on btn_deb_1 .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\key_control.v":21:7:21:17|Synthesizing module key_control in library work.
+@N: CG179 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\key_control.v":76:20:76:29|Removing redundant assignment.
+@N: CG179 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\key_control.v":92:21:92:32|Removing redundant assignment.
+@N: CG179 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\key_control.v":102:21:102:32|Removing redundant assignment.
+@N: CG179 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\key_control.v":112:21:112:32|Removing redundant assignment.
+Running optimization stage 1 on key_control .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\seq_det.v":21:7:21:13|Synthesizing module seq_det in library work.
+Running optimization stage 1 on seq_det .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\div_clk.v":21:7:21:13|Synthesizing module div_clk in library work.
+Running optimization stage 1 on div_clk .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\seq_control.v":21:7:21:17|Synthesizing module seq_control in library work.
+Running optimization stage 1 on seq_control .......
+@N: CG364 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\top_seq_det.v":21:7:21:17|Synthesizing module top_seq_det in library work.
+Running optimization stage 1 on top_seq_det .......
+Running optimization stage 2 on top_seq_det .......
+Running optimization stage 2 on seq_control .......
+Running optimization stage 2 on div_clk .......
+Running optimization stage 2 on seq_det .......
+@N: CL189 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\seq_det.v":80:0:80:5|Register bit data[3] is always 0.
+@W: CL260 :"E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\src\seq_det.v":80:0:80:5|Pruning register bit 3 of data[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on key_control .......
+Running optimization stage 2 on btn_deb_1 .......
+Running optimization stage 2 on btn_deb_3 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\impl\synthesize\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 106MB peak: 106MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jan 14 11:40:33 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+@N: NF107 :"e:\project_manager\mini_eye_board\gowin\course\course12_seq_det\seq_det\src\top_seq_det.v":21:7:21:17|Selected library: work cell: top_seq_det view verilog as top level
+@N: NF107 :"e:\project_manager\mini_eye_board\gowin\course\course12_seq_det\seq_det\src\top_seq_det.v":21:7:21:17|Selected library: work cell: top_seq_det view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 103MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jan 14 11:40:33 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: E:\project_manager\Mini_eye_Board\gowin\course\course12_Seq_Det\Seq_Det\impl\synthesize\rev_1\synwork\Seq_Det_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 38MB peak: 47MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jan 14 11:40:33 2020
+
+###########################################################]
